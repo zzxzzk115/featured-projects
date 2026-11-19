@@ -1,0 +1,23 @@
+# love2d-pocketchip: see schema/project.schema.json
+id: love2d-pocketchip
+order: 24
+category: retro
+tags: [PocketCHIP, LÖVE]
+title:
+  en: LÖVE 11.3 on PocketCHIP
+  zh: PocketCHIP 上的 LÖVE 11.3
+description:
+  en: Building and installing LÖVE 11.3 on PocketCHIP, so LÖVE games run on it.
+  zh: 在 PocketCHIP 上编译安装 LÖVE 11.3，让 LÖVE 游戏能在上面运行。
+image:
+  src: images/cover.webp
+links:
+- label:
+    en: Article
+    zh: 文章
+  href:
+    en: https://zzxzzk115.github.io/blog/2020/04/10/pocketchip-love2d/
+    zh: https://zzxzzk115.github.io/blog/zh/2020/04/10/pocketchip-love2d/
+blog:
+  columns:
+    porting: 8

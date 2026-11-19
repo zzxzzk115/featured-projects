@@ -1,0 +1,34 @@
+# online-tools: see schema/project.schema.json
+id: online-tools
+order: 12
+category: fun
+tags: [JavaScript, Image metrics, Web]
+repo: zzxzzk115/online-tools
+title:
+  en: Image Comparison Tools
+description:
+  en: Browser tools for SSIM, PSNR and MSE measurements, absolute error maps and heatmaps, with English and Chinese interfaces.
+  zh: 在浏览器里计算 SSIM、PSNR、MSE，生成绝对误差图和热力图的工具，中英双语界面。
+image:
+  src: images/online-tools.webp
+  alt:
+    en: 本地运行的图像指标工具：批量评估三张自制测试图像。
+links:
+- label:
+    en: Source
+    zh: 源码
+  href: https://github.com/zzxzzk115/online-tools
+  icon: brands:github
+- label:
+    en: Open tools
+    zh: 打开工具
+  href: https://zzxzzk115.github.io/online-tools/
+  icon: solid:arrow-up-right-from-square
+homepage:
+  path: /projects/online-tools/
+  modes: [academic, casual]
+  home: false
+blog:
+  about: true
+  columns:
+    software: 5

@@ -1,0 +1,41 @@
+# vrendergraph: see schema/project.schema.json
+id: vrendergraph
+order: 21
+category: library
+tags: [C++, FrameGraph, JSON, Tools]
+repo: zzxzzk115/vrendergraph
+title:
+  en: vrendergraph
+description:
+  en: A JSON render-pipeline description and runtime FrameGraph builder, with resource slots, schema versioning and editor
+    helpers.
+  zh: 用 JSON 描述渲染管线并在运行时构建 FrameGraph，支持资源槽、schema 版本管理和编辑器辅助。
+image:
+  src: images/vrendergraph-editor.png
+  alt:
+    en: The vrendergraph editor example connecting depth, G-buffer, SSAO, lighting, tone mapping and presentation passes.
+  fit: contain
+links:
+- label:
+    en: Source
+    zh: 源码
+  href: https://github.com/zzxzzk115/vrendergraph
+  icon: brands:github
+- label:
+    en: Runtime integration
+    zh: 运行时集成
+  href: https://github.com/zzxzzk115/vrendergraph/blob/master/docs/RUNTIME.md
+  icon: solid:book-open
+overview:
+  en:
+    purpose: Describe render-pipeline passes and connections as data that a host application can load and edit.
+    contribution: I built a JSON schema and runtime builder, with versioned resource references and helpers for editor integration.
+    outcome: The repository provides runtime and editor examples, including a node-based view of a deferred pipeline.
+homepage:
+  path: /projects/vrendergraph/
+  modes: [academic, casual]
+  home: false
+blog:
+  about: true
+  columns:
+    graphics: 7

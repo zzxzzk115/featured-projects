@@ -1,0 +1,42 @@
+# Validate the catalog on every push and pull request; after a push to main, ask the sites to rebuild.
+name: Catalog
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml jsonschema
+      - name: Validate projects and check catalog.json is up to date
+        run: python scripts/build.py --check
+
+  rebuild-sites:
+    # Needs a fine-grained token with "Contents: read and write" on the two site repos, saved as the
+    # repository secret SITES_DISPATCH_TOKEN. Without it this job is skipped and the sites pick up the
+    # catalog on their next build.
+    needs: validate
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger homepage and blog deploys
+        env:
+          TOKEN: ${{ secrets.SITES_DISPATCH_TOKEN }}
+        run: |
+          if [ -z "$TOKEN" ]; then echo "SITES_DISPATCH_TOKEN not set; skipping"; exit 0; fi
+          for repo in zzxzzk115/zzxzzk115.github.io zzxzzk115/blog; do
+            curl -fsS -X POST -H "Authorization: Bearer $TOKEN" -H "Accept: application/vnd.github+json" \
+              "https://api.github.com/repos/$repo/dispatches" -d '{"event_type":"featured-projects-updated"}'
+            echo "dispatched $repo"
+          done

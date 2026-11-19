@@ -1,0 +1,24 @@
+# freemind-bithack: see schema/project.schema.json
+id: freemind-bithack
+order: 26
+category: fun
+tags: [Hugo, CSS, JavaScript]
+repo: zzxzzk115/hugo-theme-freemind-bithack
+title:
+  en: freemind.bithack Hugo theme
+  zh: freemind.bithack Hugo 主题
+description:
+  en: 'The dark, terminal-style Hugo theme this blog runs on: a port of hexo-theme-freemind.bithack with pixel fonts, search,
+    reader mode and bilingual support. No Node needed.'
+  zh: 本博客使用的暗色终端风 Hugo 主题：移植自 hexo-theme-freemind.bithack，带像素字体、搜索、纯享阅读和中英双语，无需 Node。
+image:
+  src: images/cover.webp
+links:
+- label:
+    en: Source
+    zh: 源码
+  href: https://github.com/zzxzzk115/hugo-theme-freemind-bithack
+  icon: brands:github
+blog:
+  columns:
+    software: 9

@@ -1,0 +1,29 @@
+# retroarch-pocketchip: see schema/project.schema.json
+id: retroarch-pocketchip
+order: 25
+category: retro
+tags: [PocketCHIP, RetroArch]
+repo: zzxzzk115/RetroArch
+title:
+  en: RetroArch on PocketCHIP
+  zh: PocketCHIP 上的 RetroArch
+description:
+  en: RetroArch built for PocketCHIP, with the install steps written up.
+  zh: 为 PocketCHIP 编译的 RetroArch 万能模拟器，附安装步骤。
+image:
+  src: images/cover.webp
+links:
+- label:
+    en: Article
+    zh: 文章
+  href:
+    en: https://zzxzzk115.github.io/blog/2020/04/14/pocketchip-retroarch/
+    zh: https://zzxzzk115.github.io/blog/zh/2020/04/14/pocketchip-retroarch/
+- label:
+    en: Source
+    zh: 源码
+  href: https://github.com/zzxzzk115/RetroArch/tree/pocketchip
+  icon: brands:github
+blog:
+  columns:
+    porting: 9

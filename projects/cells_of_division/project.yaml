@@ -1,0 +1,34 @@
+# cells_of_division: see schema/project.schema.json
+id: cells_of_division
+order: 3
+category: indie
+tags: [Indie, Steam]
+title:
+  en: Cells of Division
+description:
+  en: A top-down bullet hell roguelike on Steam — fight alongside clones of your past runs inside the immune system. Free
+    demo out now! Co-founder of High Path Games; programming lead.
+  zh: Steam 上的俯视角弹幕 Roguelike：在免疫系统里与「过去几局的自己」并肩作战，免费试玩已上线。我是 High Path Games 联合创始人、程序负责人。
+image:
+  src: images/cells-of-division.jpg
+  fit: contain
+links:
+- label:
+    en: Free demo on Steam
+    zh: Steam 免费试玩
+  href: https://store.steampowered.com/app/3879680/Cells_of_Division/
+  icon: brands:steam
+overview:
+  en:
+    purpose: Create a bullet hell roguelike where clones of past runs fight alongside the player inside the immune system.
+    contribution: As a High Path Games co-founder and programming lead, I design the program architecture, develop core subsystems
+      and lead the programming team.
+    outcome: A free Steam demo is available. The game is in development for Windows, macOS and Linux.
+homepage:
+  path: /projects/cells_of_division/
+  modes: [casual]
+  home:
+    casual:
+      order: 2
+blog:
+  about: true

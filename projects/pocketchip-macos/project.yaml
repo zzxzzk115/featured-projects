@@ -1,0 +1,37 @@
+# pocketchip-macos: see schema/project.schema.json
+id: pocketchip-macos
+order: 11
+category: retro
+tags: [PocketCHIP, Mini vMac, Emulation]
+repo: zzxzzk115/Pocketchip-MacOS-Emulator
+title:
+  en: Classic Mac OS on PocketCHIP
+description:
+  en: A custom Mini vMac build and handheld setup for running classic Mac OS System 7.5 on PocketCHIP.
+  zh: 定制的 Mini vMac 构建和掌机配置，让 PocketCHIP 跑起经典 Mac OS System 7.5。
+status:
+  en: Handheld port
+  zh: 掌机移植
+image:
+  src: images/pocketchip-macos.webp
+links:
+- label:
+    en: Source
+    zh: 源码
+  href: https://github.com/zzxzzk115/Pocketchip-MacOS-Emulator
+  icon: brands:github
+overview:
+  en:
+    purpose: Run classic Mac OS System 7.5 on a PocketCHIP handheld.
+    contribution: I adapted and built Mini vMac for PocketCHIP; Mini vMac supplies the underlying emulation.
+    outcome: The repository provides a handheld executable and setup instructions. Users supply their own disk image.
+homepage:
+  path: /projects/pocketchip-macos/
+  modes: [casual]
+  home:
+    casual:
+      order: 5
+blog:
+  about: true
+  columns:
+    porting: 1

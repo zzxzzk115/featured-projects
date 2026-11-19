@@ -1,0 +1,31 @@
+# vasset: see schema/project.schema.json
+id: vasset
+order: 10
+category: library
+tags: [C++, Assets, xmake, WebAssembly]
+repo: zzxzzk115/vasset
+title:
+  en: vasset
+description:
+  en: An asset import and packaging pipeline with UUID-based registries, custom mesh and texture formats, VPK archives and
+    a command-line tool.
+  zh: 资源导入与打包管线：基于 UUID 的注册表、自定义网格和纹理格式、VPK 归档以及命令行工具。
+image:
+  src: images/vasset.svg
+  alt:
+    en: Import source assets, cook registry entries, and package them for runtime loading.
+  fit: contain
+links:
+- label:
+    en: Source
+    zh: 源码
+  href: https://github.com/zzxzzk115/vasset
+  icon: brands:github
+homepage:
+  path: /projects/vasset/
+  modes: [academic, casual]
+  home: false
+blog:
+  about: true
+  columns:
+    graphics: 9

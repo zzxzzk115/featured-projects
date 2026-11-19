@@ -1,0 +1,30 @@
+# bixuetang: see schema/project.schema.json
+id: bixuetang
+order: 19
+category: fun
+tags: [TypeScript, Education, Web]
+repo: zzxzzk115/bixuetang
+title:
+  en: Bixuetang · 必学堂
+description:
+  en: A Chinese-language self-study app for open courses, with prerequisite-based learning paths, progress tracking, video
+    notes and spaced repetition.
+  zh: 面向中文学习者的公开课自学应用：按先修关系规划学习路径，记录进度，支持视频笔记和间隔重复。
+image:
+  src: images/bixuetang.webp
+  alt:
+    en: 本地空数据库中的演示学员：智能启程路线与公开课闯关地图。
+links:
+- label:
+    en: Source
+    zh: 源码
+  href: https://github.com/zzxzzk115/bixuetang
+  icon: brands:github
+homepage:
+  path: /projects/bixuetang/
+  modes: [casual]
+  home: false
+blog:
+  about: true
+  columns:
+    software: 3

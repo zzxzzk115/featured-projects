@@ -1,0 +1,30 @@
+# vraytracer: see schema/project.schema.json
+id: vraytracer
+order: 16
+category: work
+tags: [C++, Ray tracing, ImGui]
+repo: zzxzzk115/VRaytracer
+title:
+  en: VRaytracer
+description:
+  en: An earlier C++ ray tracer with an ImGui interface, multithreaded rendering and configurable scenes.
+  zh: 早期的 C++ 光线追踪器，带 ImGui 界面、多线程渲染和可配置场景。
+status:
+  en: Earlier graphics project
+  zh: 早期图形项目
+image:
+  src: images/vraytracer.webp
+links:
+- label:
+    en: Source
+    zh: 源码
+  href: https://github.com/zzxzzk115/VRaytracer
+  icon: brands:github
+homepage:
+  path: /projects/vraytracer/
+  modes: [academic, casual]
+  home: false
+blog:
+  about: true
+  columns:
+    graphics: 11

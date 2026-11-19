@@ -1,0 +1,30 @@
+# vsoft-renderer: see schema/project.schema.json
+id: vsoft-renderer
+order: 17
+category: work
+tags: [C++, Software rendering, Shading]
+repo: zzxzzk115/VSoftRenderer
+title:
+  en: VSoftRenderer
+description:
+  en: A small CPU software renderer with programmable C++ shaders, Gouraud shading and textured Phong shading.
+  zh: 小型 CPU 软渲染器，支持可编程 C++ 着色器、Gouraud 着色和带纹理的 Phong 着色。
+status:
+  en: Earlier graphics project
+  zh: 早期图形项目
+image:
+  src: images/vsoft-renderer.webp
+links:
+- label:
+    en: Source
+    zh: 源码
+  href: https://github.com/zzxzzk115/VSoftRenderer
+  icon: brands:github
+homepage:
+  path: /projects/vsoft-renderer/
+  modes: [academic, casual]
+  home: false
+blog:
+  about: true
+  columns:
+    graphics: 10

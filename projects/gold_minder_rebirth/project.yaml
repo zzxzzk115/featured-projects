@@ -1,0 +1,38 @@
+# gold_minder_rebirth: see schema/project.schema.json
+id: gold_minder_rebirth
+order: 3
+category: retro
+tags: [LÖVE, Handhelds]
+repo: zzxzzk115/GoldMiner-Rebirth
+title:
+  en: Gold Miner Rebirth
+description:
+  en: A faithful remake of the classic Flash game, built with LÖVE2D for GameShell, Trimui, and other retro gaming handhelds.
+  zh: 经典 Flash 游戏黄金矿工的忠实重制，用 LÖVE2D 制作，可在 GameShell、Trimui 等复古掌机上运行。
+image:
+  src: images/gold-miner-gameshell-project.png
+links:
+- label:
+    en: Play on itch.io
+    zh: 在 itch.io 上玩
+  href: https://lazy-v.itch.io/goldminer-rebirth
+  icon: brands:itch-io
+- label:
+    en: Source
+    zh: 源码
+  href: https://github.com/zzxzzk115/GoldMiner-Rebirth
+  icon: brands:github
+overview:
+  en:
+    purpose: Bring the classic Flash Gold Miner game to the retro handhelds I collect.
+    contribution: I recreated the game with LÖVE2D and extracted the original SWF’s ActionScript and assets to preserve its
+      appearance and feel.
+    outcome: The remake has GameShell and Trimui ports, plus a browser-playable version on itch.io.
+homepage:
+  path: /projects/gold_minder_rebirth/
+  modes: [casual]
+  home:
+    casual:
+      order: 4
+blog:
+  about: true

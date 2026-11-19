@@ -1,0 +1,30 @@
+# j2me-asset-hunter: see schema/project.schema.json
+id: j2me-asset-hunter
+order: 18
+category: fun
+tags: [C++, J2ME, Game tools]
+repo: zzxzzk115/j2me-asset-hunter
+title:
+  en: J2ME Asset Hunter
+description:
+  en: A command-line utility for extracting game assets from J2ME JAR files.
+  zh: 从 J2ME JAR 文件中提取游戏资源的命令行工具。
+image:
+  src: images/j2me-asset-hunter.svg
+  alt:
+    en: Recover images and MIDI from J2ME archives, with FluidSynth audio conversion.
+  fit: contain
+links:
+- label:
+    en: Source
+    zh: 源码
+  href: https://github.com/zzxzzk115/j2me-asset-hunter
+  icon: brands:github
+homepage:
+  path: /projects/j2me-asset-hunter/
+  modes: [casual]
+  home: false
+blog:
+  about: true
+  columns:
+    software: 7

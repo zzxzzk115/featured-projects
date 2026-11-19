@@ -1,0 +1,30 @@
+# pegasusg-h700: see schema/project.schema.json
+id: pegasusg-h700
+order: 22
+category: retro
+tags: [H700, SDL2, C++]
+repo: zzxzzk115/PegasusG-by-ROC
+title:
+  en: PegasusG by ROC (H700 handhelds)
+  zh: PegasusG by ROC（H700 掌机）
+description:
+  en: 'Features for the H700 build of this GBA frontend, merged upstream: system and quick-settings menus, offline Chinese/pinyin
+    search with a controller keyboard, native-resolution layouts, separate frontend/system volume, standby modes and Docker
+    builds.'
+  zh: 为这款 GBA 前端的 H700 版加的功能，已合并进上游：系统与快捷设置菜单、离线中文/拼音搜索和手柄键盘、按原生分辨率的布局、前端与系统音量分开、待机模式，以及 Docker 构建。
+image:
+  src: images/cover.webp
+links:
+- label:
+    en: Pull request
+    zh: 合并请求
+  href: https://github.com/LPF970915/PegasusG-by-ROC/pull/1
+  icon: brands:github
+- label:
+    en: Source
+    zh: 源码
+  href: https://github.com/zzxzzk115/PegasusG-by-ROC
+  icon: brands:github
+blog:
+  columns:
+    porting: 6

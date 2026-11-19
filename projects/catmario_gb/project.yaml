@@ -1,0 +1,31 @@
+# catmario_gb: see schema/project.schema.json
+id: catmario_gb
+order: 4
+category: retro
+tags: [Game Boy, GB Studio]
+repo: zzxzzk115/CatmarioGB
+title:
+  en: Catmario GB
+description:
+  en: The troll platformer CatMario, rebuilt for the Game Boy with GB Studio — playable on itch.io or a compatible Game Boy
+    emulator.
+  zh: 用 GB Studio 为 Game Boy 重做的整蛊平台游戏猫里奥，可在 itch.io 或兼容的 Game Boy 模拟器上玩。
+image:
+  src: images/catmario-project.png
+links:
+- label:
+    en: Play on itch.io
+    zh: 在 itch.io 上玩
+  href: https://lazy-v.itch.io/catmario-gb
+  icon: brands:itch-io
+- label:
+    en: Source
+    zh: 源码
+  href: https://github.com/zzxzzk115/CatmarioGB
+  icon: brands:github
+homepage:
+  path: /projects/catmario_gb/
+  modes: [casual]
+  home: false
+blog:
+  about: true

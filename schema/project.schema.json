@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/zzxzzk115/featured-projects/schema/project.schema.json",
+  "title": "Project",
+  "description": "One project in the featured-projects catalog (projects/<id>/project.yaml). Text that readers see has an English value and an optional Chinese one.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "order", "category", "title", "description"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9_-]+$", "description": "Must match the folder name." },
+    "order": { "type": "number", "description": "Sort key in full lists (lower first)." },
+    "category": { "enum": ["work", "library", "fun", "indie", "retro"], "description": "work: graphics & XR, library, fun: tools & apps, indie: games, retro: retro & emulation." },
+    "tags": { "type": "array", "items": { "type": "string" }, "default": [] },
+    "repo": { "type": "string", "pattern": "^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$", "description": "GitHub owner/name, for star counts." },
+    "title": { "$ref": "#/$defs/text" },
+    "description": { "$ref": "#/$defs/text", "description": "One or two sentences for cards." },
+    "status": { "$ref": "#/$defs/text" },
+    "url": { "$ref": "#/$defs/href", "description": "Where the card points when the project has no homepage page (defaults to the first link)." },
+    "image": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["src"],
+      "properties": {
+        "src": { "type": "string", "pattern": "^images/[^/]+$", "description": "A file in this project's images/ folder." },
+        "alt": { "$ref": "#/$defs/text" },
+        "fit": { "enum": ["cover", "contain"], "default": "cover" }
+      }
+    },
+    "links": {
+      "type": "array",
+      "default": [],
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["label", "href"],
+        "properties": {
+          "label": { "$ref": "#/$defs/text" },
+          "href": { "$ref": "#/$defs/href" },
+          "icon": { "type": "string", "pattern": "^(brands|solid):[a-z0-9-]+$", "description": "Font Awesome name, e.g. brands:github." }
+        }
+      }
+    },
+    "overview": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["en"],
+      "properties": { "en": { "$ref": "#/$defs/overview" }, "zh": { "$ref": "#/$defs/overview" } }
+    },
+    "homepage": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Present: the project is on the personal homepage, with a detail page from body.en.md.",
+      "required": ["path"],
+      "properties": {
+        "path": { "type": "string", "pattern": "^/[\\w/-]+/$", "description": "Page path, e.g. /projects/vri/." },
+        "modes": { "type": "array", "items": { "enum": ["academic", "casual"] }, "default": ["academic", "casual"] },
+        "home": {
+          "description": "Featured on the home page: false, or the order per mode.",
+          "oneOf": [
+            { "type": "boolean" },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": { "academic": { "$ref": "#/$defs/placement" }, "casual": { "$ref": "#/$defs/placement" } }
+            }
+          ]
+        },
+        "comments": { "type": "boolean", "default": false }
+      }
+    },
+    "blog": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "about": { "type": "boolean", "description": "In the full project list on the blog's About page." },
+        "columns": {
+          "type": "object",
+          "description": "Blog column galleries it appears in, with its position there.",
+          "propertyNames": { "enum": ["porting", "software", "graphics", "game-dev"] },
+          "additionalProperties": { "type": "integer", "minimum": 1 }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "text": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["en"],
+      "properties": { "en": { "type": "string", "minLength": 1 }, "zh": { "type": "string", "minLength": 1 } }
+    },
+    "href": {
+      "oneOf": [
+        { "type": "string", "minLength": 1 },
+        { "type": "object", "additionalProperties": false, "required": ["en"], "properties": { "en": { "type": "string" }, "zh": { "type": "string" } } }
+      ]
+    },
+    "overview": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["purpose", "contribution", "outcome"],
+      "properties": { "purpose": { "type": "string" }, "contribution": { "type": "string" }, "outcome": { "type": "string" } }
+    },
+    "placement": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": { "order": { "type": "number" }, "hero": { "type": "boolean" } }
+    }
+  }
+}

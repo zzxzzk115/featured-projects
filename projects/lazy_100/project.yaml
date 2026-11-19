@@ -1,0 +1,46 @@
+# lazy_100: see schema/project.schema.json
+id: lazy_100
+order: 1
+category: retro
+tags: [C++, Lua, Retro]
+repo: zzxzzk115/Lazy-100
+title:
+  en: Lazy-100
+description:
+  en: A Lua fantasy console with code, sprite, map, sound and music editors, built on VRI for desktop and browser play.
+  zh: Lua 幻想主机，自带代码、精灵、地图、音效与音乐编辑器，基于 VRI 构建，可在桌面和浏览器里玩。
+image:
+  src: images/lazy-100-poster.webp
+  fit: contain
+links:
+- label:
+    en: Play Breakout
+    zh: 玩打砖块
+  href: https://zzxzzk115.github.io/Lazy-100/?cart=breakout
+  icon: solid:gamepad
+- label:
+    en: Browse cartridges
+    zh: 浏览游戏卡带
+  href: https://zzxzzk115.github.io/Lazy-100/carts/
+  icon: solid:gamepad
+- label:
+    en: Source
+    zh: 源码
+  href: https://github.com/zzxzzk115/Lazy-100
+  icon: brands:github
+overview:
+  en:
+    purpose: Build a fantasy console for making and playing small games, while exercising VRI in a complete application.
+    contribution: I built the console and its code, sprite, map, sound and music editors, with Lua scripting and a separate
+      VM for PICO-8 carts.
+    outcome: The console runs on desktop and in the browser. A browser build is available to try, with editor polish and further
+      creative tools on the wishlist.
+homepage:
+  path: /projects/lazy_100/
+  modes: [casual]
+  home:
+    casual:
+      order: 1
+      hero: true
+blog:
+  about: true

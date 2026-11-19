@@ -1,0 +1,30 @@
+# bbk-gameshell: see schema/project.schema.json
+id: bbk-gameshell
+order: 14
+category: retro
+tags: [GameShell, JavaScript, Porting]
+repo: zzxzzk115/BBKGames_GameShell
+title:
+  en: BBK Games on GameShell
+description:
+  en: GameShell adaptations of classic BBK games, based on bbk.emu, with handheld launchers and controls.
+  zh: 基于 bbk.emu 把经典步步高游戏适配到 GameShell，带掌机启动器和按键操作。
+status:
+  en: Handheld adaptation
+  zh: 掌机适配
+image:
+  src: images/bbk-gameshell.webp
+links:
+- label:
+    en: Source
+    zh: 源码
+  href: https://github.com/zzxzzk115/BBKGames_GameShell
+  icon: brands:github
+homepage:
+  path: /projects/bbk-gameshell/
+  modes: [casual]
+  home: false
+blog:
+  about: true
+  columns:
+    porting: 2

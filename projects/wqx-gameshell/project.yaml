@@ -1,0 +1,33 @@
+# wqx-gameshell: see schema/project.schema.json
+id: wqx-gameshell
+order: 15
+category: retro
+tags: [GameShell, JavaScript, NW.js]
+repo: zzxzzk115/WqxEmulator-GameShell
+title:
+  en: WQX NC1020 on GameShell
+description:
+  en: A GameShell adaptation of the WQX NC1020 emulator, using jswqx and NW.js with handheld launcher integration.
+  zh: 把文曲星 NC1020 模拟器适配到 GameShell，基于 jswqx 和 NW.js，集成到掌机启动器。
+status:
+  en: Handheld adaptation
+  zh: 掌机适配
+image:
+  src: images/wqx-gameshell.webp
+  alt:
+    en: NC1020 emulator calendar and clock running from this repository in a local browser.
+  fit: contain
+links:
+- label:
+    en: Source
+    zh: 源码
+  href: https://github.com/zzxzzk115/WqxEmulator-GameShell
+  icon: brands:github
+homepage:
+  path: /projects/wqx-gameshell/
+  modes: [casual]
+  home: false
+blog:
+  about: true
+  columns:
+    porting: 3

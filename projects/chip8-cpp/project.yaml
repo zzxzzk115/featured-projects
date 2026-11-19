@@ -1,0 +1,38 @@
+# chip8-cpp: see schema/project.schema.json
+id: chip8-cpp
+order: 20
+category: retro
+tags: [C++23, SDL2, Emulation]
+repo: zzxzzk115/chip8-cpp
+title:
+  en: chip8-cpp
+description:
+  en: A C++23 CHIP-8 interpreter with SDL2 graphics, input and sound — the beginning of my emulator development journey.
+  zh: C++23 编写的 CHIP-8 解释器，用 SDL2 处理画面、输入和声音，是我模拟器开发之路的起点。
+status:
+  en: Earlier emulator project
+  zh: 早期模拟器项目
+image:
+  src: images/chip8-showcase.png
+  alt:
+    en: The CHIP-8 interpreter displaying the IBM logo test ROM.
+  fit: contain
+links:
+- label:
+    en: Source
+    zh: 源码
+  href: https://github.com/zzxzzk115/chip8-cpp
+  icon: brands:github
+overview:
+  en:
+    purpose: Learn how an interpreter turns machine instructions into graphics, input and sound.
+    contribution: I implemented a CHIP-8 interpreter in C++ with SDL2 handling the display, input and audio.
+    outcome: The repository includes a ROM-loading application, an IBM logo demonstration and CMake build instructions.
+homepage:
+  path: /projects/chip8-cpp/
+  modes: [casual]
+  home: false
+blog:
+  about: true
+  columns:
+    software: 8

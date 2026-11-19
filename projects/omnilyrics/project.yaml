@@ -1,0 +1,44 @@
+# omnilyrics: see schema/project.schema.json
+id: omnilyrics
+order: 4
+category: fun
+tags: [.NET, Avalonia]
+repo: zzxzzk115/OmniLyrics
+title:
+  en: OmniLyrics
+description:
+  en: Cross-platform desktop, terminal and status-bar lyrics with GUI, CLI/TUI, bilingual karaoke, .NET 10 and Avalonia.
+  zh: 跨平台的桌面、终端和状态栏歌词工具：图形界面、CLI/TUI、双语卡拉 OK，基于 .NET 10 和 Avalonia。
+status:
+  en: Desktop releases available
+  zh: 已发布桌面版
+image:
+  src: images/omnilyrics-current.webp
+links:
+- label:
+    en: Source
+    zh: 源码
+  href: https://github.com/zzxzzk115/OmniLyrics
+  icon: brands:github
+- label:
+    en: Downloads
+    zh: 下载
+  href: https://github.com/zzxzzk115/OmniLyrics/releases
+  icon: solid:download
+overview:
+  en:
+    purpose: Have lyrics available in a desktop window, terminal or status bar across the systems I use.
+    contribution: I built shared .NET functionality for an Avalonia GUI, CLI and TUI, including bilingual karaoke and platform
+      playback integrations.
+    outcome: Desktop and CLI/TUI releases are available. The documented 0.4.2 release includes signed and notarized macOS
+      GUI applications.
+homepage:
+  path: /projects/omnilyrics/
+  modes: [casual]
+  home:
+    casual:
+      order: 3
+blog:
+  about: true
+  columns:
+    software: 1

@@ -1,0 +1,43 @@
+# light-propagation-volumes: see schema/project.schema.json
+id: light-propagation-volumes
+order: 2
+category: work
+tags: [C++, Global illumination, OpenGL, MSc]
+repo: zzxzzk115/Light-Propagation-Volumes
+title:
+  en: Light Propagation Volumes
+description:
+  en: My MSc dissertation renderer, implementing Light Propagation Volumes alongside cascaded shadows, ambient occlusion and
+    screen-space reflections.
+  zh: 我的硕士毕业设计渲染器，实现了光传播体积（Light Propagation Volumes），以及级联阴影、环境光遮蔽和屏幕空间反射。
+status:
+  en: MSc dissertation project
+  zh: 硕士毕业设计
+image:
+  src: images/lpv.webp
+links:
+- label:
+    en: Source
+    zh: 源码
+  href: https://github.com/zzxzzk115/Light-Propagation-Volumes
+  icon: brands:github
+- label:
+    en: Dissertation (PDF)
+    zh: 学位论文（PDF）
+  href: /assets/pdf/LPV-MSc-Dissertation.pdf
+  icon: solid:file-pdf
+overview:
+  en:
+    purpose: Explore real-time global illumination with Light Propagation Volumes for my MSc dissertation.
+    contribution: I implemented an LPV renderer on VGFW, alongside cascaded shadows, ambient occlusion and screen-space reflections.
+    outcome: The renderer and MSc dissertation document the implementation, rendering results and measured pass timings.
+homepage:
+  path: /projects/light-propagation-volumes/
+  modes: [academic, casual]
+  home:
+    academic:
+      order: 2
+blog:
+  about: true
+  columns:
+    graphics: 5

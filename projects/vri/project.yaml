@@ -1,0 +1,52 @@
+# vri: see schema/project.schema.json
+id: vri
+order: 3
+category: work
+tags: [C++23, RHI, Vulkan, OpenXR]
+repo: zzxzzk115/VRI
+title:
+  en: VRI
+description:
+  en: A cross-platform render hardware interface with a C ABI and a C++23 wrapper for Vulkan, D3D12, Metal, WebGPU and OpenGL-family
+    backends.
+  zh: 跨平台渲染硬件接口（RHI），提供 C ABI 和 C++23 封装，后端包括 Vulkan、D3D12、Metal、WebGPU 和 OpenGL 系列。
+status:
+  en: In development
+  zh: 开发中
+image:
+  src: images/vri.webp
+  alt:
+    en: Vulkan path tracer rendering the FlightHelmet glTF model at 128 samples and four bounces.
+links:
+- label:
+    en: Path tracer · WebGPU
+    zh: 路径追踪 · WebGPU
+  href: https://zzxzzk115.github.io/VRI/examples/example-pathtracer.html?backend=webgpu
+  icon: solid:play
+- label:
+    en: Browser examples
+    zh: 浏览器示例
+  href: https://zzxzzk115.github.io/VRI/examples/
+  icon: solid:arrow-up-right-from-square
+- label:
+    en: Source
+    zh: 源码
+  href: https://github.com/zzxzzk115/VRI
+  icon: brands:github
+overview:
+  en:
+    purpose: Give graphics applications a common explicit rendering interface across multiple backends.
+    contribution: I develop the C ABI, header-only C++23 wrapper and backend implementations, with capability queries for
+      optional features.
+    outcome: Browser examples are available, and Lazy-100 uses VRI. Backend feature coverage is documented in the capability
+      matrix and remains in development.
+homepage:
+  path: /projects/vri/
+  modes: [academic, casual]
+  home:
+    academic:
+      order: 3
+blog:
+  about: true
+  columns:
+    graphics: 3

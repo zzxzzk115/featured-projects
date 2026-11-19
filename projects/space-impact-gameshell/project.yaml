@@ -1,0 +1,23 @@
+# space-impact-gameshell: see schema/project.schema.json
+id: space-impact-gameshell
+order: 20
+category: retro
+tags: [GameShell, C, Port]
+repo: zzxzzk115/Space-Impact-II-GameShell
+title:
+  en: Space Impact II on GameShell
+  zh: GameShell 上的太空冲击 II
+description:
+  en: A GameShell port of a pixel-perfect clone of Nokia's Space Impact II, with handheld controls and a launcher installer.
+  zh: 把诺基亚经典《太空冲击 II》的像素级复刻移植到 GameShell，适配掌机按键并带启动器安装脚本。
+image:
+  src: images/cover.webp
+links:
+- label:
+    en: Source
+    zh: 源码
+  href: https://github.com/zzxzzk115/Space-Impact-II-GameShell
+  icon: brands:github
+blog:
+  columns:
+    porting: 4

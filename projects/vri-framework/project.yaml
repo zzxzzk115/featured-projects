@@ -1,0 +1,33 @@
+# vri-framework: see schema/project.schema.json
+id: vri-framework
+order: 5
+category: work
+tags: [C++23, VRI, Framegraph, OpenXR]
+repo: zzxzzk115/VRI-Framework
+title:
+  en: VRI-Framework
+description:
+  en: 'Reusable C++23 rendering building blocks over VRI: RAII resources, framegraphs, profiling, multi-queue submission and
+    OpenXR utilities.'
+  zh: 构建在 VRI 之上的可复用 C++23 渲染组件：RAII 资源、FrameGraph、性能分析、多队列提交和 OpenXR 工具。
+status:
+  en: Public · in development
+  zh: 已公开 · 开发中
+image:
+  src: images/vri-framework.webp
+  alt:
+    en: GPU rendering of the hornedlizard 3D Gaussian splatting (3DGS) scene, loaded from an SPZ file (786,233 splats).
+links:
+- label:
+    en: Source
+    zh: 源码
+  href: https://github.com/zzxzzk115/VRI-Framework
+  icon: brands:github
+homepage:
+  path: /projects/vri-framework/
+  modes: [academic, casual]
+  home: false
+blog:
+  about: true
+  columns:
+    graphics: 4

@@ -1,0 +1,38 @@
+# nw-unity: see schema/project.schema.json
+id: nw-unity
+order: 22
+category: fun
+tags: [Python, Unity WebGL, NW.js, GameShell]
+repo: zzxzzk115/NW-Unity
+title:
+  en: NW-Unity
+description:
+  en: A Python command-line tool that packages Unity WebGL output into NW.js applications, including a GameShell packaging
+    mode.
+  zh: 把 Unity WebGL 导出打包成 NW.js 应用的 Python 命令行工具，包括 GameShell 打包模式。
+status:
+  en: Earlier tool project
+  zh: 早期工具项目
+image:
+  src: images/nw-unity-gameshell.jpg
+  alt:
+    en: The Hello, NW-Unity sample running on a GameShell handheld.
+links:
+- label:
+    en: Source
+    zh: 源码
+  href: https://github.com/zzxzzk115/NW-Unity
+  icon: brands:github
+overview:
+  en:
+    purpose: Package a Unity WebGL export for use in a desktop application or on a GameShell handheld.
+    contribution: I built a Python CLI that prepares the NW.js application folder and exposes window and platform settings.
+    outcome: The repository documents the nwunity package and includes Windows and GameShell sample captures.
+homepage:
+  path: /projects/nw-unity/
+  modes: [casual]
+  home: false
+blog:
+  about: true
+  columns:
+    software: 6

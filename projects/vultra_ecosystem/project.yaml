@@ -1,0 +1,41 @@
+# vultra_ecosystem: see schema/project.schema.json
+id: vultra_ecosystem
+order: 1
+category: work
+tags: [C++, Vulkan, OpenXR]
+repo: zzxzzk115/libvultra
+title:
+  en: Vultra Ecosystem
+description:
+  en: Graphics and engine projects for research and games, with current libvultra development on the VRI-based dev-VRI branch.
+  zh: 面向科研和游戏的图形与引擎项目集合；libvultra 目前在基于 VRI 的 dev-VRI 分支上开发。
+status:
+  en: 'Current development: dev-VRI · early stage'
+  zh: 当前开发：dev-VRI · 早期阶段
+image:
+  src: images/vultra-dev-vri.webp
+links:
+- label:
+    en: Current branch
+    zh: 当前分支
+  href: https://github.com/zzxzzk115/libvultra/tree/dev-VRI
+  icon: brands:github
+overview:
+  en:
+    purpose: A reusable graphics framework and set of tools for my rendering research and game experiments.
+    contribution: I maintain libvultra and the related rendering, shader and asset libraries, separating reusable components
+      into their own repositories.
+    outcome: The active dev-VRI branch includes a glTF viewer and research workbench. It is early development, currently targeting
+      Vulkan on Windows and Linux.
+homepage:
+  path: /projects/vultra_ecosystem/
+  modes: [academic, casual]
+  home:
+    academic:
+      order: 1
+    casual:
+      order: 8
+blog:
+  about: true
+  columns:
+    graphics: 2

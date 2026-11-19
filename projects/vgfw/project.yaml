@@ -1,0 +1,27 @@
+# vgfw: see schema/project.schema.json
+id: vgfw
+order: 8
+category: work
+tags: [C++, OpenGL, Framegraph]
+repo: zzxzzk115/vgfw
+title:
+  en: VGFW
+description:
+  en: A header-only OpenGL framework for graphics prototypes, with model loading, a framegraph and Tracy profiling.
+  zh: 用于图形原型开发的 header-only OpenGL 框架，带模型加载、FrameGraph 和 Tracy 性能分析。
+image:
+  src: images/vgfw.webp
+links:
+- label:
+    en: Source
+    zh: 源码
+  href: https://github.com/zzxzzk115/vgfw
+  icon: brands:github
+homepage:
+  path: /projects/vgfw/
+  modes: [academic, casual]
+  home: false
+blog:
+  about: true
+  columns:
+    graphics: 6

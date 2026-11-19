@@ -1,0 +1,30 @@
+# vshadersystem: see schema/project.schema.json
+id: vshadersystem
+order: 9
+category: library
+tags: [C++, Slang, Shaders, Tools]
+repo: zzxzzk115/vshadersystem
+title:
+  en: vshadersystem
+description:
+  en: A Slang-based shader compilation pipeline with material reflection, keyword variants and portable runtime shader libraries.
+  zh: 基于 Slang 的着色器编译管线：材质反射、关键字变体，以及可移植的运行时着色器库。
+image:
+  src: images/vshadersystem.svg
+  alt:
+    en: Expand Slang keyword variants, compile shader stages, and bundle bytecode with reflection.
+  fit: contain
+links:
+- label:
+    en: Source
+    zh: 源码
+  href: https://github.com/zzxzzk115/vshadersystem
+  icon: brands:github
+homepage:
+  path: /projects/vshadersystem/
+  modes: [academic, casual]
+  home: false
+blog:
+  about: true
+  columns:
+    graphics: 8

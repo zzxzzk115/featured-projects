@@ -1,0 +1,23 @@
+# godot-gameshell: see schema/project.schema.json
+id: godot-gameshell
+order: 23
+category: retro
+tags: [GameShell, Godot]
+title:
+  en: Godot games on GameShell
+  zh: 在 GameShell 上运行 Godot 游戏
+description:
+  en: Getting Godot games running on the GameShell handheld, written up step by step.
+  zh: 让 Godot 导出的游戏跑在 GameShell 掌机上，附完整步骤。
+image:
+  src: images/cover.webp
+links:
+- label:
+    en: Article
+    zh: 文章
+  href:
+    en: https://zzxzzk115.github.io/blog/2021/09/20/run-godot-game-on-gameshell/
+    zh: https://zzxzzk115.github.io/blog/zh/2021/09/20/run-godot-game-on-gameshell/
+blog:
+  columns:
+    porting: 7

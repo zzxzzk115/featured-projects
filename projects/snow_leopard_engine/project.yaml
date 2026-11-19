@@ -1,0 +1,27 @@
+# snow_leopard_engine: see schema/project.schema.json
+id: snow_leopard_engine
+order: 4
+category: work
+tags: [C++, OpenGL]
+repo: SnowLeopardEngine/SnowLeopardEngine
+title:
+  en: Snow Leopard Engine
+description:
+  en: A C++ / OpenGL 4.6 game engine built by a 7-person MSc team at Leeds — where the Vultra story began.
+  zh: 利兹大学 7 人硕士团队打造的 C++ / OpenGL 4.6 游戏引擎，也是 Vultra 故事的起点。
+image:
+  src: images/snow-leopard-engine.jpg
+links:
+- label:
+    en: Source
+    zh: 源码
+  href: https://github.com/SnowLeopardEngine/SnowLeopardEngine
+  icon: brands:github
+homepage:
+  path: /projects/snow_leopard_engine/
+  modes: [academic, casual]
+  home: false
+blog:
+  about: true
+  columns:
+    graphics: 1

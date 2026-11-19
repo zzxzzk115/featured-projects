@@ -1,0 +1,29 @@
+# lowres-nx-handhelds: see schema/project.schema.json
+id: lowres-nx-handhelds
+order: 21
+category: retro
+tags: [GameShell, PocketCHIP, C]
+repo: zzxzzk115/lowres-nx-GameShell
+title:
+  en: LowRes NX on GameShell & PocketCHIP
+  zh: GameShell 与 PocketCHIP 上的 LowRes NX
+description:
+  en: 'Custom builds of the LowRes NX fantasy console: the GameShell build fixes the display resolution and adds a launcher
+    entry; a PocketCHIP build too.'
+  zh: 幻想主机 LowRes NX 的定制构建：GameShell 版修好了显示分辨率并接入掌机启动器，另有 PocketCHIP 版。
+image:
+  src: images/cover.webp
+links:
+- label:
+    en: GameShell build
+    zh: GameShell 版
+  href: https://github.com/zzxzzk115/lowres-nx-GameShell
+  icon: brands:github
+- label:
+    en: PocketCHIP build
+    zh: PocketCHIP 版
+  href: https://github.com/zzxzzk115/lowres-nx-CHIP
+  icon: brands:github
+blog:
+  columns:
+    porting: 5

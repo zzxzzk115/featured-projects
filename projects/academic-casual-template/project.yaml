@@ -1,0 +1,40 @@
+# academic-casual-template: see schema/project.schema.json
+id: academic-casual-template
+order: 23
+category: fun
+tags: [Astro, Vue, TypeScript, Templates]
+repo: zzxzzk115/academic-casual-template
+title:
+  en: Academic & Casual Homepage Template
+description:
+  en: The reusable Astro and Vue template behind this site, with Academic and Casual presentations and separate content repositories.
+  zh: 我个人主页背后的可复用 Astro + Vue 模板，提供学术和休闲两种展示，内容放在独立仓库。
+image:
+  src: images/academic-casual-template.png
+  alt:
+    en: The template's historical Albert Einstein example with its profile sidebar and research sections.
+links:
+- label:
+    en: Source
+    zh: 源码
+  href: https://github.com/zzxzzk115/academic-casual-template
+  icon: brands:github
+- label:
+    en: Content guide
+    zh: 内容指南
+  href: https://github.com/zzxzzk115/academic-casual-template/blob/eff77bad83aaca2dd8f50c2b9e4775ff51def8b1/docs/content.md
+  icon: solid:book-open
+overview:
+  en:
+    purpose: Maintain a research homepage and a personal portfolio from shared content and reusable presentation code.
+    contribution: I built the Astro and Vue template, content schemas, responsive layouts, build tooling and deployment workflows.
+    outcome: This site uses the template from a separate pinned repository; a historical Einstein profile supplies independent
+      example content.
+homepage:
+  path: /projects/academic-casual-template/
+  modes: [casual]
+  home: false
+blog:
+  about: true
+  columns:
+    software: 10

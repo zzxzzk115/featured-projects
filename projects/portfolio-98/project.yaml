@@ -1,0 +1,38 @@
+# portfolio-98: see schema/project.schema.json
+id: portfolio-98
+order: 24
+category: fun
+tags: [Next.js, TypeScript, Retro UI]
+repo: zzxzzk115/portfolio-98
+title:
+  en: Portfolio-98
+description:
+  en: A Windows 98-inspired interactive portfolio, with desktop windows, a mobile Pocket PC-style shell and embedded games.
+  zh: Windows 98 风格的交互式作品集：桌面窗口、移动端 Pocket PC 风格外壳，还内嵌了游戏。
+image:
+  src: images/portfolio-98.png
+  alt:
+    en: Portfolio-98 showing its desktop icons, About Me window, widgets and taskbar.
+links:
+- label:
+    en: Explore desktop
+    zh: 进入桌面
+  href: https://zzxzzk115.github.io/portfolio-98/
+  icon: solid:arrow-up-right-from-square
+- label:
+    en: Source
+    zh: 源码
+  href: https://github.com/zzxzzk115/portfolio-98
+  icon: brands:github
+overview:
+  en:
+    purpose: Present a personal portfolio as an interactive retro desktop that also adapts to a phone screen.
+    contribution: I built the Next.js desktop and Pocket PC-style mobile shells, application registry and Markdown-driven
+      content integration.
+    outcome: A browser demo includes desktop applications, virtual files, games, wallpapers and interface easter eggs.
+homepage:
+  path: /projects/portfolio-98/
+  modes: [casual]
+  home: false
+blog:
+  about: true
