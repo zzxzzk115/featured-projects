@@ -1,7 +1,7 @@
 # freemind-bithack: see schema/project.schema.json
 id: freemind-bithack
 order: 26
-category: fun
+category: tools
 tags: [Hugo, CSS, JavaScript]
 repo: zzxzzk115/hugo-theme-freemind-bithack
 title:

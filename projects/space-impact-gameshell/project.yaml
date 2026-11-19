@@ -1,7 +1,7 @@
 # space-impact-gameshell: see schema/project.schema.json
 id: space-impact-gameshell
 order: 20
-category: retro
+category: games
 tags: [GameShell, C, Port]
 repo: zzxzzk115/Space-Impact-II-GameShell
 title:

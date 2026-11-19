@@ -1,7 +1,7 @@
 # academic-casual-template: see schema/project.schema.json
 id: academic-casual-template
 order: 23
-category: fun
+category: tools
 tags: [Astro, Vue, TypeScript, Templates]
 repo: zzxzzk115/academic-casual-template
 title:
@@ -34,6 +34,7 @@ homepage:
   path: /projects/academic-casual-template/
   modes: [casual]
   home: false
+  tag: fun
 blog:
   about: true
   columns:

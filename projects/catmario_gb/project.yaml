@@ -1,7 +1,7 @@
 # catmario_gb: see schema/project.schema.json
 id: catmario_gb
 order: 4
-category: retro
+category: games
 tags: [Game Boy, GB Studio]
 repo: zzxzzk115/CatmarioGB
 title:
@@ -27,5 +27,6 @@ homepage:
   path: /projects/catmario_gb/
   modes: [casual]
   home: false
+  tag: fun
 blog:
   about: true

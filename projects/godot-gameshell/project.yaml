@@ -1,7 +1,7 @@
 # godot-gameshell: see schema/project.schema.json
 id: godot-gameshell
 order: 23
-category: retro
+category: games
 tags: [GameShell, Godot]
 title:
   en: Godot games on GameShell

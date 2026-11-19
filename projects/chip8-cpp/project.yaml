@@ -1,7 +1,7 @@
 # chip8-cpp: see schema/project.schema.json
 id: chip8-cpp
 order: 20
-category: retro
+category: games
 tags: [C++23, SDL2, Emulation]
 repo: zzxzzk115/chip8-cpp
 title:
@@ -32,6 +32,7 @@ homepage:
   path: /projects/chip8-cpp/
   modes: [casual]
   home: false
+  tag: fun
 blog:
   about: true
   columns:

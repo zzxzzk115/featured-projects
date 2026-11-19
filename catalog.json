@@ -4,7 +4,7 @@
   {
    "id": "lazy_100",
    "order": 1,
-   "category": "retro",
+   "category": "games",
    "tags": [
     "C++",
     "Lua",
@@ -65,7 +65,8 @@
       "order": 1,
       "hero": true
      }
-    }
+    },
+    "tag": "fun"
    },
    "blog": {
     "about": true
@@ -77,7 +78,7 @@
   {
    "id": "vultra_ecosystem",
    "order": 1,
-   "category": "work",
+   "category": "graphics",
    "tags": [
     "C++",
     "Vulkan",
@@ -128,7 +129,8 @@
      "casual": {
       "order": 8
      }
-    }
+    },
+    "tag": "work"
    },
    "blog": {
     "about": true,
@@ -143,7 +145,7 @@
   {
    "id": "light-propagation-volumes",
    "order": 2,
-   "category": "work",
+   "category": "graphics",
    "tags": [
     "C++",
     "Global illumination",
@@ -200,7 +202,8 @@
      "academic": {
       "order": 2
      }
-    }
+    },
+    "tag": "work"
    },
    "blog": {
     "about": true,
@@ -215,7 +218,7 @@
   {
    "id": "cells_of_division",
    "order": 3,
-   "category": "indie",
+   "category": "games",
    "tags": [
     "Indie",
     "Steam"
@@ -257,7 +260,8 @@
      "casual": {
       "order": 2
      }
-    }
+    },
+    "tag": "fun"
    },
    "blog": {
     "about": true
@@ -269,7 +273,7 @@
   {
    "id": "gold_minder_rebirth",
    "order": 3,
-   "category": "retro",
+   "category": "games",
    "tags": [
     "LÖVE",
     "Handhelds"
@@ -319,7 +323,8 @@
      "casual": {
       "order": 4
      }
-    }
+    },
+    "tag": "fun"
    },
    "blog": {
     "about": true
@@ -331,7 +336,7 @@
   {
    "id": "vri",
    "order": 3,
-   "category": "work",
+   "category": "graphics",
    "tags": [
     "C++23",
     "RHI",
@@ -399,7 +404,8 @@
      "academic": {
       "order": 3
      }
-    }
+    },
+    "tag": "work"
    },
    "blog": {
     "about": true,
@@ -414,7 +420,7 @@
   {
    "id": "catmario_gb",
    "order": 4,
-   "category": "retro",
+   "category": "games",
    "tags": [
     "Game Boy",
     "GB Studio"
@@ -453,7 +459,8 @@
     "modes": [
      "casual"
     ],
-    "home": false
+    "home": false,
+    "tag": "fun"
    },
    "blog": {
     "about": true
@@ -465,7 +472,7 @@
   {
    "id": "omnilyrics",
    "order": 4,
-   "category": "fun",
+   "category": "tools",
    "tags": [
     ".NET",
     "Avalonia"
@@ -519,7 +526,8 @@
      "casual": {
       "order": 3
      }
-    }
+    },
+    "tag": "fun"
    },
    "blog": {
     "about": true,
@@ -534,7 +542,7 @@
   {
    "id": "snow_leopard_engine",
    "order": 4,
-   "category": "work",
+   "category": "graphics",
    "tags": [
     "C++",
     "OpenGL"
@@ -566,7 +574,8 @@
      "academic",
      "casual"
     ],
-    "home": false
+    "home": false,
+    "tag": "work"
    },
    "blog": {
     "about": true,
@@ -581,7 +590,7 @@
   {
    "id": "vri-framework",
    "order": 5,
-   "category": "work",
+   "category": "graphics",
    "tags": [
     "C++23",
     "VRI",
@@ -622,7 +631,8 @@
      "academic",
      "casual"
     ],
-    "home": false
+    "home": false,
+    "tag": "work"
    },
    "blog": {
     "about": true,
@@ -637,7 +647,7 @@
   {
    "id": "vplot",
    "order": 6,
-   "category": "library",
+   "category": "tools",
    "tags": [
     "C++23",
     "Plotting",
@@ -697,7 +707,8 @@
      "casual": {
       "order": 7
      }
-    }
+    },
+    "tag": "work"
    },
    "blog": {
     "about": true,
@@ -712,7 +723,7 @@
   {
    "id": "mchose-control-linux",
    "order": 7,
-   "category": "fun",
+   "category": "tools",
    "tags": [
     "Rust",
     "Linux",
@@ -756,7 +767,8 @@
      "casual": {
       "order": 6
      }
-    }
+    },
+    "tag": "fun"
    },
    "blog": {
     "about": true,
@@ -771,7 +783,7 @@
   {
    "id": "vgfw",
    "order": 8,
-   "category": "work",
+   "category": "graphics",
    "tags": [
     "C++",
     "OpenGL",
@@ -804,7 +816,8 @@
      "academic",
      "casual"
     ],
-    "home": false
+    "home": false,
+    "tag": "work"
    },
    "blog": {
     "about": true,
@@ -819,7 +832,7 @@
   {
    "id": "vshadersystem",
    "order": 9,
-   "category": "library",
+   "category": "tools",
    "tags": [
     "C++",
     "Slang",
@@ -857,7 +870,8 @@
      "academic",
      "casual"
     ],
-    "home": false
+    "home": false,
+    "tag": "work"
    },
    "blog": {
     "about": true,
@@ -872,7 +886,7 @@
   {
    "id": "vasset",
    "order": 10,
-   "category": "library",
+   "category": "tools",
    "tags": [
     "C++",
     "Assets",
@@ -910,7 +924,8 @@
      "academic",
      "casual"
     ],
-    "home": false
+    "home": false,
+    "tag": "work"
    },
    "blog": {
     "about": true,
@@ -925,7 +940,7 @@
   {
    "id": "pocketchip-macos",
    "order": 11,
-   "category": "retro",
+   "category": "games",
    "tags": [
     "PocketCHIP",
     "Mini vMac",
@@ -972,7 +987,8 @@
      "casual": {
       "order": 5
      }
-    }
+    },
+    "tag": "fun"
    },
    "blog": {
     "about": true,
@@ -987,7 +1003,7 @@
   {
    "id": "online-tools",
    "order": 12,
-   "category": "fun",
+   "category": "tools",
    "tags": [
     "JavaScript",
     "Image metrics",
@@ -1031,7 +1047,8 @@
      "academic",
      "casual"
     ],
-    "home": false
+    "home": false,
+    "tag": "work"
    },
    "blog": {
     "about": true,
@@ -1046,7 +1063,7 @@
   {
    "id": "bbk-gameshell",
    "order": 14,
-   "category": "retro",
+   "category": "games",
    "tags": [
     "GameShell",
     "JavaScript",
@@ -1082,7 +1099,8 @@
     "modes": [
      "casual"
     ],
-    "home": false
+    "home": false,
+    "tag": "fun"
    },
    "blog": {
     "about": true,
@@ -1097,7 +1115,7 @@
   {
    "id": "wqx-gameshell",
    "order": 15,
-   "category": "retro",
+   "category": "games",
    "tags": [
     "GameShell",
     "JavaScript",
@@ -1137,7 +1155,8 @@
     "modes": [
      "casual"
     ],
-    "home": false
+    "home": false,
+    "tag": "fun"
    },
    "blog": {
     "about": true,
@@ -1152,7 +1171,7 @@
   {
    "id": "vraytracer",
    "order": 16,
-   "category": "work",
+   "category": "graphics",
    "tags": [
     "C++",
     "Ray tracing",
@@ -1189,7 +1208,8 @@
      "academic",
      "casual"
     ],
-    "home": false
+    "home": false,
+    "tag": "work"
    },
    "blog": {
     "about": true,
@@ -1204,7 +1224,7 @@
   {
    "id": "vsoft-renderer",
    "order": 17,
-   "category": "work",
+   "category": "graphics",
    "tags": [
     "C++",
     "Software rendering",
@@ -1241,7 +1261,8 @@
      "academic",
      "casual"
     ],
-    "home": false
+    "home": false,
+    "tag": "work"
    },
    "blog": {
     "about": true,
@@ -1256,7 +1277,7 @@
   {
    "id": "j2me-asset-hunter",
    "order": 18,
-   "category": "fun",
+   "category": "tools",
    "tags": [
     "C++",
     "J2ME",
@@ -1292,7 +1313,8 @@
     "modes": [
      "casual"
     ],
-    "home": false
+    "home": false,
+    "tag": "fun"
    },
    "blog": {
     "about": true,
@@ -1307,7 +1329,7 @@
   {
    "id": "bixuetang",
    "order": 19,
-   "category": "fun",
+   "category": "tools",
    "tags": [
     "TypeScript",
     "Education",
@@ -1342,7 +1364,8 @@
     "modes": [
      "casual"
     ],
-    "home": false
+    "home": false,
+    "tag": "fun"
    },
    "blog": {
     "about": true,
@@ -1357,7 +1380,7 @@
   {
    "id": "chip8-cpp",
    "order": 20,
-   "category": "retro",
+   "category": "games",
    "tags": [
     "C++23",
     "SDL2",
@@ -1404,7 +1427,8 @@
     "modes": [
      "casual"
     ],
-    "home": false
+    "home": false,
+    "tag": "fun"
    },
    "blog": {
     "about": true,
@@ -1419,7 +1443,7 @@
   {
    "id": "space-impact-gameshell",
    "order": 20,
-   "category": "retro",
+   "category": "games",
    "tags": [
     "GameShell",
     "C",
@@ -1456,7 +1480,7 @@
   {
    "id": "lowres-nx-handhelds",
    "order": 21,
-   "category": "retro",
+   "category": "games",
    "tags": [
     "GameShell",
     "PocketCHIP",
@@ -1501,7 +1525,7 @@
   {
    "id": "vrendergraph",
    "order": 21,
-   "category": "library",
+   "category": "tools",
    "tags": [
     "C++",
     "FrameGraph",
@@ -1554,7 +1578,8 @@
      "academic",
      "casual"
     ],
-    "home": false
+    "home": false,
+    "tag": "work"
    },
    "blog": {
     "about": true,
@@ -1569,7 +1594,7 @@
   {
    "id": "nw-unity",
    "order": 22,
-   "category": "fun",
+   "category": "tools",
    "tags": [
     "Python",
     "Unity WebGL",
@@ -1616,7 +1641,8 @@
     "modes": [
      "casual"
     ],
-    "home": false
+    "home": false,
+    "tag": "fun"
    },
    "blog": {
     "about": true,
@@ -1631,7 +1657,7 @@
   {
    "id": "pegasusg-h700",
    "order": 22,
-   "category": "retro",
+   "category": "games",
    "tags": [
     "H700",
     "SDL2",
@@ -1676,7 +1702,7 @@
   {
    "id": "academic-casual-template",
    "order": 23,
-   "category": "fun",
+   "category": "tools",
    "tags": [
     "Astro",
     "Vue",
@@ -1727,7 +1753,8 @@
     "modes": [
      "casual"
     ],
-    "home": false
+    "home": false,
+    "tag": "fun"
    },
    "blog": {
     "about": true,
@@ -1742,7 +1769,7 @@
   {
    "id": "godot-gameshell",
    "order": 23,
-   "category": "retro",
+   "category": "games",
    "tags": [
     "GameShell",
     "Godot"
@@ -1779,7 +1806,7 @@
   {
    "id": "love2d-pocketchip",
    "order": 24,
-   "category": "retro",
+   "category": "games",
    "tags": [
     "PocketCHIP",
     "LÖVE"
@@ -1816,7 +1843,7 @@
   {
    "id": "portfolio-98",
    "order": 24,
-   "category": "fun",
+   "category": "tools",
    "tags": [
     "Next.js",
     "TypeScript",
@@ -1866,7 +1893,8 @@
     "modes": [
      "casual"
     ],
-    "home": false
+    "home": false,
+    "tag": "fun"
    },
    "blog": {
     "about": true
@@ -1878,7 +1906,7 @@
   {
    "id": "retroarch-pocketchip",
    "order": 25,
-   "category": "retro",
+   "category": "games",
    "tags": [
     "PocketCHIP",
     "RetroArch"
@@ -1924,7 +1952,7 @@
   {
    "id": "freemind-bithack",
    "order": 26,
-   "category": "fun",
+   "category": "tools",
    "tags": [
     "Hugo",
     "CSS",

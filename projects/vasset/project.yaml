@@ -1,7 +1,7 @@
 # vasset: see schema/project.schema.json
 id: vasset
 order: 10
-category: library
+category: tools
 tags: [C++, Assets, xmake, WebAssembly]
 repo: zzxzzk115/vasset
 title:
@@ -25,6 +25,7 @@ homepage:
   path: /projects/vasset/
   modes: [academic, casual]
   home: false
+  tag: work
 blog:
   about: true
   columns:

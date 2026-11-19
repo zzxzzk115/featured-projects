@@ -1,7 +1,7 @@
 # vplot: see schema/project.schema.json
 id: vplot
 order: 6
-category: library
+category: tools
 tags: [C++23, Plotting, C ABI, WebAssembly]
 repo: zzxzzk115/vplot
 title:
@@ -40,6 +40,7 @@ homepage:
       order: 4
     casual:
       order: 7
+  tag: work
 blog:
   about: true
   columns:

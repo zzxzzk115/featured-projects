@@ -1,7 +1,7 @@
 # pocketchip-macos: see schema/project.schema.json
 id: pocketchip-macos
 order: 11
-category: retro
+category: games
 tags: [PocketCHIP, Mini vMac, Emulation]
 repo: zzxzzk115/Pocketchip-MacOS-Emulator
 title:
@@ -31,6 +31,7 @@ homepage:
   home:
     casual:
       order: 5
+  tag: fun
 blog:
   about: true
   columns:

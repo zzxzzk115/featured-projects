@@ -1,7 +1,7 @@
 # lazy_100: see schema/project.schema.json
 id: lazy_100
 order: 1
-category: retro
+category: games
 tags: [C++, Lua, Retro]
 repo: zzxzzk115/Lazy-100
 title:
@@ -42,5 +42,6 @@ homepage:
     casual:
       order: 1
       hero: true
+  tag: fun
 blog:
   about: true

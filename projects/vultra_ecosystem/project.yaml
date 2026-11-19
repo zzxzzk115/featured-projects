@@ -1,7 +1,7 @@
 # vultra_ecosystem: see schema/project.schema.json
 id: vultra_ecosystem
 order: 1
-category: work
+category: graphics
 tags: [C++, Vulkan, OpenXR]
 repo: zzxzzk115/libvultra
 title:
@@ -35,6 +35,7 @@ homepage:
       order: 1
     casual:
       order: 8
+  tag: work
 blog:
   about: true
   columns:

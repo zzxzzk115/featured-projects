@@ -1,7 +1,7 @@
 # pegasusg-h700: see schema/project.schema.json
 id: pegasusg-h700
 order: 22
-category: retro
+category: games
 tags: [H700, SDL2, C++]
 repo: zzxzzk115/PegasusG-by-ROC
 title:

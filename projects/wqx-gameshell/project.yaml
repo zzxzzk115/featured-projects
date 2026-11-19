@@ -1,7 +1,7 @@
 # wqx-gameshell: see schema/project.schema.json
 id: wqx-gameshell
 order: 15
-category: retro
+category: games
 tags: [GameShell, JavaScript, NW.js]
 repo: zzxzzk115/WqxEmulator-GameShell
 title:
@@ -27,6 +27,7 @@ homepage:
   path: /projects/wqx-gameshell/
   modes: [casual]
   home: false
+  tag: fun
 blog:
   about: true
   columns:

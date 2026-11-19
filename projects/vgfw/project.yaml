@@ -1,7 +1,7 @@
 # vgfw: see schema/project.schema.json
 id: vgfw
 order: 8
-category: work
+category: graphics
 tags: [C++, OpenGL, Framegraph]
 repo: zzxzzk115/vgfw
 title:
@@ -21,6 +21,7 @@ homepage:
   path: /projects/vgfw/
   modes: [academic, casual]
   home: false
+  tag: work
 blog:
   about: true
   columns:

@@ -1,7 +1,7 @@
 # bbk-gameshell: see schema/project.schema.json
 id: bbk-gameshell
 order: 14
-category: retro
+category: games
 tags: [GameShell, JavaScript, Porting]
 repo: zzxzzk115/BBKGames_GameShell
 title:
@@ -24,6 +24,7 @@ homepage:
   path: /projects/bbk-gameshell/
   modes: [casual]
   home: false
+  tag: fun
 blog:
   about: true
   columns:

@@ -1,7 +1,7 @@
 # cells_of_division: see schema/project.schema.json
 id: cells_of_division
 order: 3
-category: indie
+category: games
 tags: [Indie, Steam]
 title:
   en: Cells of Division
@@ -30,5 +30,6 @@ homepage:
   home:
     casual:
       order: 2
+  tag: fun
 blog:
   about: true

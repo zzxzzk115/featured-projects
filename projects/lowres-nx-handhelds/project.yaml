@@ -1,7 +1,7 @@
 # lowres-nx-handhelds: see schema/project.schema.json
 id: lowres-nx-handhelds
 order: 21
-category: retro
+category: games
 tags: [GameShell, PocketCHIP, C]
 repo: zzxzzk115/lowres-nx-GameShell
 title:

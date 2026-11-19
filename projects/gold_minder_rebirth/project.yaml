@@ -1,7 +1,7 @@
 # gold_minder_rebirth: see schema/project.schema.json
 id: gold_minder_rebirth
 order: 3
-category: retro
+category: games
 tags: [LÖVE, Handhelds]
 repo: zzxzzk115/GoldMiner-Rebirth
 title:
@@ -34,5 +34,6 @@ homepage:
   home:
     casual:
       order: 4
+  tag: fun
 blog:
   about: true

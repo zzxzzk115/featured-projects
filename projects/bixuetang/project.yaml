@@ -1,7 +1,7 @@
 # bixuetang: see schema/project.schema.json
 id: bixuetang
 order: 19
-category: fun
+category: tools
 tags: [TypeScript, Education, Web]
 repo: zzxzzk115/bixuetang
 title:
@@ -24,6 +24,7 @@ homepage:
   path: /projects/bixuetang/
   modes: [casual]
   home: false
+  tag: fun
 blog:
   about: true
   columns:

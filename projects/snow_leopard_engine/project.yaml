@@ -1,7 +1,7 @@
 # snow_leopard_engine: see schema/project.schema.json
 id: snow_leopard_engine
 order: 4
-category: work
+category: graphics
 tags: [C++, OpenGL]
 repo: SnowLeopardEngine/SnowLeopardEngine
 title:
@@ -22,6 +22,7 @@ homepage:
   path: /projects/snow_leopard_engine/
   modes: [academic, casual]
   home: false
+  tag: work
 blog:
   about: true
   columns:

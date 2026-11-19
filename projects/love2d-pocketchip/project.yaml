@@ -1,7 +1,7 @@
 # love2d-pocketchip: see schema/project.schema.json
 id: love2d-pocketchip
 order: 24
-category: retro
+category: games
 tags: [PocketCHIP, LÖVE]
 title:
   en: LÖVE 11.3 on PocketCHIP

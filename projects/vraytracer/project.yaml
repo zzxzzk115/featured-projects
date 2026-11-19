@@ -1,7 +1,7 @@
 # vraytracer: see schema/project.schema.json
 id: vraytracer
 order: 16
-category: work
+category: graphics
 tags: [C++, Ray tracing, ImGui]
 repo: zzxzzk115/VRaytracer
 title:
@@ -24,6 +24,7 @@ homepage:
   path: /projects/vraytracer/
   modes: [academic, casual]
   home: false
+  tag: work
 blog:
   about: true
   columns:

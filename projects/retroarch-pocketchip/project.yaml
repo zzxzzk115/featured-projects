@@ -1,7 +1,7 @@
 # retroarch-pocketchip: see schema/project.schema.json
 id: retroarch-pocketchip
 order: 25
-category: retro
+category: games
 tags: [PocketCHIP, RetroArch]
 repo: zzxzzk115/RetroArch
 title:

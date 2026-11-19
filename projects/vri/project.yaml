@@ -1,7 +1,7 @@
 # vri: see schema/project.schema.json
 id: vri
 order: 3
-category: work
+category: graphics
 tags: [C++23, RHI, Vulkan, OpenXR]
 repo: zzxzzk115/VRI
 title:
@@ -46,6 +46,7 @@ homepage:
   home:
     academic:
       order: 3
+  tag: work
 blog:
   about: true
   columns:

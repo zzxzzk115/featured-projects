@@ -1,7 +1,7 @@
 # vsoft-renderer: see schema/project.schema.json
 id: vsoft-renderer
 order: 17
-category: work
+category: graphics
 tags: [C++, Software rendering, Shading]
 repo: zzxzzk115/VSoftRenderer
 title:
@@ -24,6 +24,7 @@ homepage:
   path: /projects/vsoft-renderer/
   modes: [academic, casual]
   home: false
+  tag: work
 blog:
   about: true
   columns:

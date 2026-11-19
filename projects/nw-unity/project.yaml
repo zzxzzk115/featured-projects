@@ -1,7 +1,7 @@
 # nw-unity: see schema/project.schema.json
 id: nw-unity
 order: 22
-category: fun
+category: tools
 tags: [Python, Unity WebGL, NW.js, GameShell]
 repo: zzxzzk115/NW-Unity
 title:
@@ -32,6 +32,7 @@ homepage:
   path: /projects/nw-unity/
   modes: [casual]
   home: false
+  tag: fun
 blog:
   about: true
   columns:

@@ -9,7 +9,7 @@
   "properties": {
     "id": { "type": "string", "pattern": "^[a-z0-9_-]+$", "description": "Must match the folder name." },
     "order": { "type": "number", "description": "Sort key in full lists (lower first)." },
-    "category": { "enum": ["work", "library", "fun", "indie", "retro"], "description": "work: graphics & XR, library, fun: tools & apps, indie: games, retro: retro & emulation." },
+    "category": { "enum": ["games", "graphics", "tools"], "description": "What the project is: games: games & handhelds (games, ports, emulators), graphics: graphics & XR, tools: tools & apps (libraries included). Work or hobby is homepage.tag." },
     "tags": { "type": "array", "items": { "type": "string" }, "default": [] },
     "repo": { "type": "string", "pattern": "^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$", "description": "GitHub owner/name, for star counts." },
     "title": { "$ref": "#/$defs/text" },
@@ -50,7 +50,7 @@
       "type": "object",
       "additionalProperties": false,
       "description": "Present: the project is on the personal homepage, with a detail page from body.en.md.",
-      "required": ["path"],
+      "required": ["path", "tag"],
       "properties": {
         "path": { "type": "string", "pattern": "^/[\\w/-]+/$", "description": "Page path, e.g. /projects/vri/." },
         "modes": { "type": "array", "items": { "enum": ["academic", "casual"] }, "default": ["academic", "casual"] },
@@ -65,6 +65,7 @@
             }
           ]
         },
+        "tag": { "enum": ["work", "fun"], "description": "The homepage's filter: work-related or a hobby project." },
         "comments": { "type": "boolean", "default": false }
       }
     },

@@ -1,7 +1,7 @@
 # portfolio-98: see schema/project.schema.json
 id: portfolio-98
 order: 24
-category: fun
+category: tools
 tags: [Next.js, TypeScript, Retro UI]
 repo: zzxzzk115/portfolio-98
 title:
@@ -34,5 +34,6 @@ homepage:
   path: /projects/portfolio-98/
   modes: [casual]
   home: false
+  tag: fun
 blog:
   about: true

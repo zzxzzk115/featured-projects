@@ -1,7 +1,7 @@
 # light-propagation-volumes: see schema/project.schema.json
 id: light-propagation-volumes
 order: 2
-category: work
+category: graphics
 tags: [C++, Global illumination, OpenGL, MSc]
 repo: zzxzzk115/Light-Propagation-Volumes
 title:
@@ -37,6 +37,7 @@ homepage:
   home:
     academic:
       order: 2
+  tag: work
 blog:
   about: true
   columns:

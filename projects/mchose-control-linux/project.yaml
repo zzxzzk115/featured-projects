@@ -1,7 +1,7 @@
 # mchose-control-linux: see schema/project.schema.json
 id: mchose-control-linux
 order: 7
-category: fun
+category: tools
 tags: [Rust, Linux, KDE, Desktop]
 repo: zzxzzk115/mchose-control-linux
 title:
@@ -30,6 +30,7 @@ homepage:
   home:
     casual:
       order: 6
+  tag: fun
 blog:
   about: true
   columns:

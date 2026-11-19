@@ -1,7 +1,7 @@
 # online-tools: see schema/project.schema.json
 id: online-tools
 order: 12
-category: fun
+category: tools
 tags: [JavaScript, Image metrics, Web]
 repo: zzxzzk115/online-tools
 title:
@@ -28,6 +28,7 @@ homepage:
   path: /projects/online-tools/
   modes: [academic, casual]
   home: false
+  tag: work
 blog:
   about: true
   columns:

@@ -1,7 +1,7 @@
 # vrendergraph: see schema/project.schema.json
 id: vrendergraph
 order: 21
-category: library
+category: tools
 tags: [C++, FrameGraph, JSON, Tools]
 repo: zzxzzk115/vrendergraph
 title:
@@ -35,6 +35,7 @@ homepage:
   path: /projects/vrendergraph/
   modes: [academic, casual]
   home: false
+  tag: work
 blog:
   about: true
   columns:

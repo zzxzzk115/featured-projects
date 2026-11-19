@@ -1,7 +1,7 @@
 # vri-framework: see schema/project.schema.json
 id: vri-framework
 order: 5
-category: work
+category: graphics
 tags: [C++23, VRI, Framegraph, OpenXR]
 repo: zzxzzk115/VRI-Framework
 title:
@@ -27,6 +27,7 @@ homepage:
   path: /projects/vri-framework/
   modes: [academic, casual]
   home: false
+  tag: work
 blog:
   about: true
   columns:

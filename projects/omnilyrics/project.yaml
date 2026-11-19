@@ -1,7 +1,7 @@
 # omnilyrics: see schema/project.schema.json
 id: omnilyrics
 order: 4
-category: fun
+category: tools
 tags: [.NET, Avalonia]
 repo: zzxzzk115/OmniLyrics
 title:
@@ -38,6 +38,7 @@ homepage:
   home:
     casual:
       order: 3
+  tag: fun
 blog:
   about: true
   columns:
