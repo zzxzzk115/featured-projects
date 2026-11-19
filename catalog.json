@@ -544,8 +544,8 @@
     "en": "Snow Leopard Engine"
    },
    "description": {
-    "en": "A C++ / OpenGL 4.6 game engine built by a 7-person MSc team at Leeds — where the Vultra story began.",
-    "zh": "利兹大学 7 人硕士团队打造的 C++ / OpenGL 4.6 游戏引擎，也是 Vultra 故事的起点。"
+    "en": "Our COMP5530M student group project at the University of Leeds (2023/24) — a C++ / OpenGL 4.6 game engine seven MSc students built from scratch. I led the team; it is where the Vultra story began.",
+    "zh": "利兹大学 COMP5530M 课程的学生小组项目（2023/24）：7 名硕士生从零搭建的 C++ / OpenGL 4.6 游戏引擎，我担任组长，也是 Vultra 故事的起点。"
    },
    "image": {
     "src": "projects/snow_leopard_engine/images/snow-leopard-engine.jpg"
