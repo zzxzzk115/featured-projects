@@ -1,8 +1,8 @@
 """Validate projects/*/project.yaml and write catalog.json, the file the sites read.
 
     pip install pyyaml jsonschema
-    python scripts/build.py           # validate and write catalog.json
-    python scripts/build.py --check   # validate and fail if catalog.json is out of date (CI)
+    python scripts/build.py           # validate and write catalog.json (CI runs this and commits the result)
+    python scripts/build.py --check   # validate and fail if catalog.json is out of date
 
 catalog.json: {"schemaVersion": 1, "projects": [...]} sorted by order then id. Each project is its project.yaml
 with image paths made repo-relative ("projects/<id>/images/x.webp"), plus "body": {"en": "...", "zh": "..."} from
