@@ -1,5 +1,5 @@
-# Validate the projects on every push and pull request. On main, regenerate catalog.json, commit it if it changed,
-# then ask the sites to rebuild. Nothing needs to be installed locally: edit project.yaml files and push.
+# Validate the projects on every push and pull request. On main, regenerate catalog.json and commit it if it changed.
+# Nothing needs to be installed locally: edit project.yaml files and push. The homepage and the blog rebuild daily.
 name: Catalog
 
 on:
@@ -36,17 +36,3 @@ jobs:
           git commit -m "Update catalog.json" -- catalog.json
           git push
           echo "changed=true" >> "$GITHUB_OUTPUT"
-      - name: Ask the homepage and the blog to rebuild
-        # Needs a fine-grained token with "Contents: read and write" on the two site repos, saved as the repository
-        # secret SITES_DISPATCH_TOKEN. Without it this step does nothing; the sites pick the catalog up on their next
-        # build (the blog also rebuilds weekly).
-        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
-        env:
-          TOKEN: ${{ secrets.SITES_DISPATCH_TOKEN }}
-        run: |
-          if [ -z "$TOKEN" ]; then echo "SITES_DISPATCH_TOKEN not set; skipping"; exit 0; fi
-          for repo in zzxzzk115/zzxzzk115.github.io zzxzzk115/blog; do
-            curl -fsS -X POST -H "Authorization: Bearer $TOKEN" -H "Accept: application/vnd.github+json" \
-              "https://api.github.com/repos/$repo/dispatches" -d '{"event_type":"featured-projects-updated"}'
-            echo "dispatched $repo"
-          done

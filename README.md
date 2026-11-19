@@ -52,9 +52,7 @@ Edit or add `projects/<id>/` and push: GitHub Actions validates every `project.y
 `catalog.json` and commits it, so nothing has to be installed locally. Pull requests are validated the same way.
 (To check before pushing: `pip install pyyaml jsonschema && python scripts/build.py`.)
 
-After a change on `main`, CI asks both sites to rebuild when the `SITES_DISPATCH_TOKEN` secret is set (a fine-grained
-token with Contents read/write on `zzxzzk115/zzxzzk115.github.io` and `zzxzzk115/blog`); otherwise they pick the
-change up on their next build.
+The homepage and the blog rebuild every day, so a change shows up on both within a day (or on their next deploy).
 
 ## How the sites read it
 
