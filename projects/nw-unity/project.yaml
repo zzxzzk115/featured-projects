@@ -17,6 +17,7 @@ image:
   src: images/nw-unity-gameshell.jpg
   alt:
     en: The Hello, NW-Unity sample running on a GameShell handheld.
+    zh: Hello, NW-Unity 示例在 GameShell 掌机上运行。
 links:
 - label:
     en: Source
@@ -28,6 +29,10 @@ overview:
     purpose: Package a Unity WebGL export for use in a desktop application or on a GameShell handheld.
     contribution: I built a Python CLI that prepares the NW.js application folder and exposes window and platform settings.
     outcome: The repository documents the nwunity package and includes Windows and GameShell sample captures.
+  zh:
+    purpose: 把 Unity WebGL 导出打包起来，做成桌面应用或者放到 GameShell 掌机上跑。
+    contribution: 我写了一个 Python CLI，负责准备 NW.js 应用目录，并提供窗口和平台相关的设置。
+    outcome: 仓库里有 nwunity 包的文档，还附了 Windows 和 GameShell 上的示例截图和照片。
 homepage:
   path: /projects/nw-unity/
   modes: [casual]

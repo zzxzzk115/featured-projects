@@ -8,7 +8,7 @@ title:
   en: vplot
 description:
   en: C++23 plotting through a C ABI, with PNG, SVG and PDF export, ImGui integration and a WebAssembly demo.
-  zh: 通过 C ABI 提供的 C++23 绘图库，支持导出 PNG、SVG 和 PDF，集成 ImGui，并有 WebAssembly 演示。
+  zh: 用 C++23 写、通过 C ABI 调用的绘图库，能导出 PNG、SVG 和 PDF，可以嵌进 ImGui，还有 WebAssembly 演示。
 status:
   en: Early development · API evolving
   zh: 早期开发 · API 仍在变化
@@ -32,6 +32,10 @@ overview:
       Dear ImGui integration.
     outcome: A WebAssembly demo is available, with PNG, SVG and PDF output. The API is still evolving and plotting coverage
       varies by method.
+  zh:
+    purpose: 不依赖 Python 运行时，也能在 C++ 程序里导出图表、嵌入绘图。
+    contribution: 我把 Matplotlib 的 C++ 渲染核心改造成独立的 C++23 库，提供 C ABI、图表导出和 Dear ImGui 集成。
+    outcome: 已经有 WebAssembly 演示，支持输出 PNG、SVG 和 PDF。API 还在变，不同绘图方法的完成度也不一样。
 homepage:
   path: /projects/vplot/
   modes: [academic, casual]

@@ -32,6 +32,10 @@ overview:
       playback integrations.
     outcome: Desktop and CLI/TUI releases are available. The documented 0.4.2 release includes signed and notarized macOS
       GUI applications.
+  zh:
+    purpose: 在我用的几个系统上，都能在桌面窗口、终端或状态栏里看歌词。
+    contribution: 我写了一套 .NET 共享功能，给 Avalonia GUI、CLI 和 TUI 共用，包括双语卡拉 OK 和各平台的播放集成。
+    outcome: 桌面版和 CLI/TUI 版都已发布。文档里的 0.4.2 版提供了签名并经过公证的 macOS GUI 应用。
 homepage:
   path: /projects/omnilyrics/
   modes: [casual]

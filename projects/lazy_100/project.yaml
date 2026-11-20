@@ -35,6 +35,10 @@ overview:
       VM for PICO-8 carts.
     outcome: The console runs on desktop and in the browser. A browser build is available to try, with editor polish and further
       creative tools on the wishlist.
+  zh:
+    purpose: 做一台能写小游戏、也能玩小游戏的幻想主机，顺便让 VRI 在一个完整的应用里接受检验。
+    contribution: 主机本身和代码、精灵、地图、音效、音乐编辑器都是我写的，脚本用 Lua，PICO-8 卡带另有一个独立的 VM 来跑。
+    outcome: 主机能在桌面和浏览器上运行，浏览器版已经可以试玩；打磨编辑器和更多创作工具还在愿望清单上。
 homepage:
   path: /projects/lazy_100/
   modes: [casual]

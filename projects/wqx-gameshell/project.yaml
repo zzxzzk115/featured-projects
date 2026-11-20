@@ -16,6 +16,7 @@ image:
   src: images/wqx-gameshell.webp
   alt:
     en: NC1020 emulator calendar and clock running from this repository in a local browser.
+    zh: 用这个仓库在本地浏览器里跑起来的 NC1020 模拟器，显示日历和时钟。
   fit: contain
 links:
 - label:

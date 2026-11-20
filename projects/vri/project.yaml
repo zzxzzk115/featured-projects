@@ -17,6 +17,7 @@ image:
   src: images/vri.webp
   alt:
     en: Vulkan path tracer rendering the FlightHelmet glTF model at 128 samples and four bounces.
+    zh: Vulkan 路径追踪器渲染的 FlightHelmet glTF 模型，128 个采样，4 次弹射。
 links:
 - label:
     en: Path tracer · WebGPU
@@ -40,6 +41,10 @@ overview:
       optional features.
     outcome: Browser examples are available, and Lazy-100 uses VRI. Backend feature coverage is documented in the capability
       matrix and remains in development.
+  zh:
+    purpose: 让图形应用在多个后端之上用同一套显式渲染接口。
+    contribution: C ABI、header-only 的 C++23 封装和各个后端实现都是我写的，可选功能通过 capability 查询来获取。
+    outcome: 已经有可以在浏览器里跑的示例，Lazy-100 也用上了 VRI。各后端的功能覆盖情况写在 capability 矩阵里，整体仍在开发中。
 homepage:
   path: /projects/vri/
   modes: [academic, casual]

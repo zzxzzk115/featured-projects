@@ -25,6 +25,10 @@ overview:
     purpose: Run classic Mac OS System 7.5 on a PocketCHIP handheld.
     contribution: I adapted and built Mini vMac for PocketCHIP; Mini vMac supplies the underlying emulation.
     outcome: The repository provides a handheld executable and setup instructions. Users supply their own disk image.
+  zh:
+    purpose: 在 PocketCHIP 掌机上跑经典 Mac OS System 7.5。
+    contribution: 我把 Mini vMac 适配并编译到了 PocketCHIP 上；底层的模拟由 Mini vMac 负责。
+    outcome: 仓库提供掌机上用的可执行文件和配置说明，磁盘镜像需要用户自己准备。
 homepage:
   path: /projects/pocketchip-macos/
   modes: [casual]

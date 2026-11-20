@@ -28,6 +28,10 @@ overview:
     contribution: I recreated the game with LÖVE2D and extracted the original SWF’s ActionScript and assets to preserve its
       appearance and feel.
     outcome: The remake has GameShell and Trimui ports, plus a browser-playable version on itch.io.
+  zh:
+    purpose: 把经典的 Flash 游戏黄金矿工搬到我收藏的复古掌机上。
+    contribution: 我用 LÖVE2D 重做了这个游戏，还从原版 SWF 里提取出 ActionScript 和素材，尽量保留原来的样子和手感。
+    outcome: 重制版有 GameShell 和 Trimui 移植版，itch.io 上还有能直接在浏览器里玩的版本。
 homepage:
   path: /projects/gold_minder_rebirth/
   modes: [casual]

@@ -16,6 +16,7 @@ image:
   src: images/chip8-showcase.png
   alt:
     en: The CHIP-8 interpreter displaying the IBM logo test ROM.
+    zh: CHIP-8 解释器正在显示 IBM logo 测试 ROM。
   fit: contain
 links:
 - label:
@@ -28,6 +29,10 @@ overview:
     purpose: Learn how an interpreter turns machine instructions into graphics, input and sound.
     contribution: I implemented a CHIP-8 interpreter in C++ with SDL2 handling the display, input and audio.
     outcome: The repository includes a ROM-loading application, an IBM logo demonstration and CMake build instructions.
+  zh:
+    purpose: 搞清楚解释器是怎么把机器指令变成画面、输入和声音的。
+    contribution: 我用 C++ 写了一个 CHIP-8 解释器，显示、输入和音频交给 SDL2。
+    outcome: 仓库里有加载 ROM 的程序、IBM logo 演示，以及 CMake 构建说明。
 homepage:
   path: /projects/chip8-cpp/
   modes: [casual]

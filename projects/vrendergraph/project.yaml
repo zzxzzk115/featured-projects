@@ -14,6 +14,7 @@ image:
   src: images/vrendergraph-editor.png
   alt:
     en: The vrendergraph editor example connecting depth, G-buffer, SSAO, lighting, tone mapping and presentation passes.
+    zh: vrendergraph 编辑器示例，把深度、G-buffer、SSAO、光照、色调映射和呈现这几个 pass 连了起来。
   fit: contain
 links:
 - label:
@@ -31,6 +32,10 @@ overview:
     purpose: Describe render-pipeline passes and connections as data that a host application can load and edit.
     contribution: I built a JSON schema and runtime builder, with versioned resource references and helpers for editor integration.
     outcome: The repository provides runtime and editor examples, including a node-based view of a deferred pipeline.
+  zh:
+    purpose: 把渲染管线的 pass 和它们之间的连接写成数据，让宿主程序可以加载和编辑。
+    contribution: 我设计了 JSON schema，写了运行时构建器，资源引用带版本，还提供了方便接入编辑器的辅助工具。
+    outcome: 仓库里有运行时和编辑器的示例，包括一个延迟渲染管线的节点视图。
 homepage:
   path: /projects/vrendergraph/
   modes: [academic, casual]

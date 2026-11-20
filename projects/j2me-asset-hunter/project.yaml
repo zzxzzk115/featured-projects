@@ -13,6 +13,7 @@ image:
   src: images/j2me-asset-hunter.svg
   alt:
     en: Recover images and MIDI from J2ME archives, with FluidSynth audio conversion.
+    zh: 从 J2ME 归档里找回图片和 MIDI，并用 FluidSynth 转换音频。
   fit: contain
 links:
 - label:

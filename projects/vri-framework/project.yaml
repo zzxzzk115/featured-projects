@@ -17,6 +17,7 @@ image:
   src: images/vri-framework.webp
   alt:
     en: GPU rendering of the hornedlizard 3D Gaussian splatting (3DGS) scene, loaded from an SPZ file (786,233 splats).
+    zh: GPU 渲染的 hornedlizard 3D Gaussian Splatting（3DGS）场景，从 SPZ 文件加载，共 786,233 个 splat。
 links:
 - label:
     en: Source

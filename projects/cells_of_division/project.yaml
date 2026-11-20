@@ -24,6 +24,10 @@ overview:
     contribution: As a High Path Games co-founder and programming lead, I design the program architecture, develop core subsystems
       and lead the programming team.
     outcome: Released on Steam on 10 November 2026 for Windows, macOS and Linux.
+  zh:
+    purpose: 做一款弹幕 roguelike，让过去几局的克隆体在免疫系统里和玩家并肩作战。
+    contribution: 我是 High Path Games 的联合创始人和程序负责人，负责设计程序架构、开发核心子系统，并带领程序团队。
+    outcome: 2026 年 11 月 10 日在 Steam 发售，支持 Windows、macOS 和 Linux。
 homepage:
   path: /projects/cells_of_division/
   modes: [casual]

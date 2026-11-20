@@ -53,6 +53,11 @@
      "purpose": "Build a fantasy console for making and playing small games, while exercising VRI in a complete application.",
      "contribution": "I built the console and its code, sprite, map, sound and music editors, with Lua scripting and a separate VM for PICO-8 carts.",
      "outcome": "The console runs on desktop and in the browser. A browser build is available to try, with editor polish and further creative tools on the wishlist."
+    },
+    "zh": {
+     "purpose": "做一台能写小游戏、也能玩小游戏的幻想主机，顺便让 VRI 在一个完整的应用里接受检验。",
+     "contribution": "主机本身和代码、精灵、地图、音效、音乐编辑器都是我写的，脚本用 Lua，PICO-8 卡带另有一个独立的 VM 来跑。",
+     "outcome": "主机能在桌面和浏览器上运行，浏览器版已经可以试玩；打磨编辑器和更多创作工具还在愿望清单上。"
     }
    },
    "homepage": {
@@ -72,7 +77,8 @@
     "about": true
    },
    "body": {
-    "en": "## Try it in your browser\n\n[Play Breakout](https://zzxzzk115.github.io/Lazy-100/?cart=breakout) to jump straight into a cartridge, or [browse the catalog](https://zzxzzk115.github.io/Lazy-100/carts/) to choose Breakout, Lazy Bird or Snake. The console runs in the page; no download or installation is required.\n\nThe [console homepage](https://zzxzzk115.github.io/Lazy-100/) also exposes cartridge selection. The same application contains the shell and code, sprite, map, sound and music editors, so the playable games are examples of the console's own creation tools.\n\n![Lazy-100 showcase](projects/lazy_100/images/lazy-100.gif)\n\n## Why This Exists\n\nTwo reasons. First, the serious one: Lazy-100 exercises [VRI](/projects/vri/) in a full application, bringing rendering, input, audio, editors and web deployment together. Second, the honest one: I have always loved retro games, and building a fantasy console in the spirit of PICO-8 / TIC-80 / BASIC8 is its own reward.\n\n(The name? **Lazy_V** is my online handle; **100** just sounds nice.)\n\n## What It Is\n\n- A **320×240** indexed-color screen with a 256-color palette, 16×16 sprites, and 4-channel audio.\n- A complete **in-console editor suite**: shell, code, sprite, map, sfx, and music editors — you make games _inside_ the console.\n- Scripting in **Lua 5.4** (via sol2), with a bold twist: a **dual-VM architecture** that routes PICO-8 carts to a vendored z8lua VM, so supported PICO-8 cartridges execute in a separate PICO-8-compatible VM. Compatibility varies by cartridge.\n- Carts are `.lz100` text files or shareable **`.lz100.png`** images with the cart embedded in the picture.\n- Built on [VRI](/projects/vultra_ecosystem/#vri) for rendering, SDL3, and miniaudio; runs on desktop and in the browser.\n\n## Looking Ahead\n\nEditor polish and more advanced creative tools are on the wishlist — including [strudel](https://strudel.cc/)-style live-coded music making. A companion catalog repo, [Lazy-100-games](https://github.com/zzxzzk115/Lazy-100-games), collects carts.\n"
+    "en": "## Try it in your browser\n\n[Play Breakout](https://zzxzzk115.github.io/Lazy-100/?cart=breakout) to jump straight into a cartridge, or [browse the catalog](https://zzxzzk115.github.io/Lazy-100/carts/) to choose Breakout, Lazy Bird or Snake. The console runs in the page; no download or installation is required.\n\nThe [console homepage](https://zzxzzk115.github.io/Lazy-100/) also exposes cartridge selection. The same application contains the shell and code, sprite, map, sound and music editors, so the playable games are examples of the console's own creation tools.\n\n![Lazy-100 showcase](projects/lazy_100/images/lazy-100.gif)\n\n## Why This Exists\n\nTwo reasons. First, the serious one: Lazy-100 exercises [VRI](/projects/vri/) in a full application, bringing rendering, input, audio, editors and web deployment together. Second, the honest one: I have always loved retro games, and building a fantasy console in the spirit of PICO-8 / TIC-80 / BASIC8 is its own reward.\n\n(The name? **Lazy_V** is my online handle; **100** just sounds nice.)\n\n## What It Is\n\n- A **320×240** indexed-color screen with a 256-color palette, 16×16 sprites, and 4-channel audio.\n- A complete **in-console editor suite**: shell, code, sprite, map, sfx, and music editors — you make games _inside_ the console.\n- Scripting in **Lua 5.4** (via sol2), with a bold twist: a **dual-VM architecture** that routes PICO-8 carts to a vendored z8lua VM, so supported PICO-8 cartridges execute in a separate PICO-8-compatible VM. Compatibility varies by cartridge.\n- Carts are `.lz100` text files or shareable **`.lz100.png`** images with the cart embedded in the picture.\n- Built on [VRI](/projects/vultra_ecosystem/#vri) for rendering, SDL3, and miniaudio; runs on desktop and in the browser.\n\n## Looking Ahead\n\nEditor polish and more advanced creative tools are on the wishlist — including [strudel](https://strudel.cc/)-style live-coded music making. A companion catalog repo, [Lazy-100-games](https://github.com/zzxzzk115/Lazy-100-games), collects carts.\n",
+    "zh": "## 在浏览器里试试\n\n[玩打砖块](https://zzxzzk115.github.io/Lazy-100/?cart=breakout) 可以直接进入一张卡带，也可以 [浏览卡带目录](https://zzxzzk115.github.io/Lazy-100/carts/)，从 Breakout、Lazy Bird 和 Snake 里挑一个。主机就跑在网页里，不用下载也不用安装。\n\n[主机首页](https://zzxzzk115.github.io/Lazy-100/) 也能选卡带。同一个程序里就有 shell 和代码、精灵、地图、音效、音乐编辑器，所以这些能玩的游戏，本身也是主机自带创作工具的示例。\n\n![Lazy-100 展示](projects/lazy_100/images/lazy-100.gif)\n\n## 为什么做它\n\n两个原因。先说正经的：Lazy-100 让 [VRI](/projects/vri/) 在一个完整的应用里接受检验，渲染、输入、音频、编辑器和网页部署全都凑到了一起。再说实话：我一直很喜欢复古游戏，照着 PICO-8 / TIC-80 / BASIC8 的路子做一台幻想主机，这件事本身就很开心。\n\n（名字怎么来的？**Lazy_V** 是我的网名，**100** 只是听着顺耳。）\n\n## 它是什么\n\n- **320×240** 的索引色屏幕，256 色调色板，16×16 的精灵，4 声道音频。\n- 一整套 **主机内的编辑器**：shell、代码、精灵、地图、音效和音乐编辑器，游戏就在主机 _里面_ 做。\n- 用 **Lua 5.4** 写脚本（通过 sol2），还有个大胆的设计：**双 VM 架构**，把 PICO-8 卡带交给内置的 z8lua VM，这样支持的 PICO-8 卡带会在一个独立的、兼容 PICO-8 的 VM 里运行。兼容程度因卡带而异。\n- 卡带可以是 `.lz100` 文本文件，也可以是方便分享的 **`.lz100.png`** 图片，卡带内容就嵌在图片里。\n- 渲染基于 [VRI](/projects/vultra_ecosystem/#vri)，再加上 SDL3 和 miniaudio；桌面和浏览器都能跑。\n\n## 接下来\n\n打磨编辑器、加更高级的创作工具都在愿望清单上，其中包括 [strudel](https://strudel.cc/) 那样边写代码边做音乐的玩法。另外还有一个配套的目录仓库 [Lazy-100-games](https://github.com/zzxzzk115/Lazy-100-games)，用来收集卡带。\n"
    }
   },
   {
@@ -90,7 +96,7 @@
    },
    "description": {
     "en": "Graphics and engine projects for research and games, with current libvultra development on the VRI-based dev-VRI branch.",
-    "zh": "面向科研和游戏的图形与引擎项目集合；libvultra 目前在基于 VRI 的 dev-VRI 分支上开发。"
+    "zh": "我为科研和游戏做的一组图形与引擎项目；libvultra 目前在基于 VRI 的 dev-VRI 分支上开发。"
    },
    "status": {
     "en": "Current development: dev-VRI · early stage",
@@ -114,6 +120,11 @@
      "purpose": "A reusable graphics framework and set of tools for my rendering research and game experiments.",
      "contribution": "I maintain libvultra and the related rendering, shader and asset libraries, separating reusable components into their own repositories.",
      "outcome": "The active dev-VRI branch includes a glTF viewer and research workbench. It is early development, currently targeting Vulkan on Windows and Linux."
+    },
+    "zh": {
+     "purpose": "一套可复用的图形框架和工具，用来做我的渲染研究和游戏实验。",
+     "contribution": "我维护 libvultra 以及相关的渲染、shader 和资源库，把能复用的组件拆到各自的仓库里。",
+     "outcome": "正在开发的 dev-VRI 分支里有一个 glTF 查看器和一个科研工作台。目前还在早期开发阶段，目前面向的是 Windows 和 Linux 上的 Vulkan。"
     }
    },
    "homepage": {
@@ -139,7 +150,8 @@
     }
    },
    "body": {
-    "en": "Vultra is a collection of graphics and engine projects that I maintain for research and game development. Current libvultra work takes place on **`dev-VRI`**. **`dev-next` was an experiment**, and its prototypes are separate from the current development branch.\n\n## Origins\n\nThe work grew out of [Snow Leopard Engine](/projects/snow_leopard_engine/), an OpenGL group project from my MSc at Leeds, and the rendering tools I later needed for my PhD. I split reusable components into separate repositories so they could also be used by small applications and research prototypes.\n\n## Design Principles\n\n- Explicit rendering APIs and readable C++ / Slang code.\n- Optional capabilities: a direct GPU program should not need an editor, ECS, importer or scripting host.\n- Reusable tools and libraries with clear ownership.\n- Offline asset and shader processing where it is useful, alongside runtime inspection and experiments.\n\n## Why Not an Existing Solution?\n\nI wanted a framework suited to my own graphics and VR experiments: explicit resource and synchronization control, portable shaders, OpenXR support, and small examples that can be read and changed directly. These requirements led to VRI and the related libraries.\n\n## Architecture\n\nThe current libvultra branch uses VRI directly. VRI-Framework is a separate reusable library over the same RHI; it is not an intermediate dependency required by libvultra.\n\n```mermaid\nflowchart TB\n    VRI[\"VRI · render hardware interface\"] --> libvultra[\"libvultra · dev-VRI\"]\n    VRI --> VRF[\"VRI-Framework · reusable capabilities\"]\n    VRI --> Lazy[\"Lazy-100 · fantasy console\"]\n    vtask[\"vtask · task scheduling\"] --> libvultra\n```\n\nThe shader, asset, filesystem and JSON render-graph projects below are standalone parts of the wider ecosystem. Their presence here does not imply that every one is a dependency of the current engine branch.\n\n## libvultra — Graphics Framework {#libvultra}\n\n| Branch | Role |\n| --- | --- |\n| [`dev-VRI`](https://github.com/zzxzzk115/libvultra/tree/dev-VRI) | Current development: a C++23 graphics framework built directly on VRI. |\n| [`dev-next`](https://github.com/zzxzzk115/libvultra/tree/dev-next) | Experimental engine architecture and prototypes. |\n| [`master`](https://github.com/zzxzzk115/libvultra/tree/master) | Earlier Vulkan-based implementation, with its own examples and documentation. |\n\nThe current development branch targets **Windows x64 and Linux x86_64 with Vulkan**. It includes explicit RenderGraph construction in C++ and JSON, Slang compilation and reload, scene import, raster rendering, offline experiments and a research workbench. Editor interfaces, native/Lua/C# scripting and XR examples are optional capabilities.\n\n![Damaged Helmet rendered by the dev-VRI branch](projects/vultra_ecosystem/images/vultra-dev-vri.webp)\n\nThis is early development. Static geometry and an opaque OpenPBR material subset are the current documented scope. Broader backend support, gameplay authoring and delivery work should be read against the branch's [roadmap](https://github.com/zzxzzk115/libvultra/blob/dev-VRI/docs/roadmap.md), rather than inferred from the RHI's capabilities.\n\n[Earlier libvultra examples](https://zzxzzk115.github.io/libvultra/) remain available. The screenshot above is from the current branch's glTF viewer; its sample assets retain the attribution recorded in that repository.\n\n## VRI — Render Hardware Interface {#vri}\n\n[VRI project page](/projects/vri/) · [Source](https://github.com/zzxzzk115/VRI) · [Browser examples](https://zzxzzk115.github.io/VRI/)\n\nVRI provides an explicit rendering API through a C ABI and a C++23 wrapper. Backends cover Vulkan, D3D12, Metal, WebGPU and OpenGL-family APIs. Optional features are reported through capabilities; support varies by backend. Software Vulkan implementations support headless and GPU-less use.\n\nVRI's backend coverage is broader than the current libvultra branch's supported target set. [Lazy-100](/projects/lazy_100/) is another application built on VRI.\n\n## VRI-Framework — Reusable Rendering Capabilities {#vri-framework}\n\n[VRI-Framework project page](/projects/vri-framework/) · [Public repository](https://github.com/zzxzzk115/VRI-Framework)\n\nVRI-Framework supplies C++23 building blocks including RAII resources, presentation, a framegraph, GPU profiling, multi-queue submission and OpenXR lifecycle helpers. Applications compose these into their own renderer. The library has an example application loop and a host-driven render module.\n\nIt remains a separate project. Current libvultra `dev-VRI` uses VRI directly and acknowledges specific VRI-Framework asset conventions in its own documentation.\n\n## vshadersystem — Shader Compilation {#vshadersystem}\n\n[Project page](/projects/vshadersystem/) · [Source](https://github.com/zzxzzk115/vshadersystem)\n\nThe standalone Slang pipeline adds material reflection, keyword variants and precompiled shader libraries. Version 1.0 replaced the old INI-style GLSL DSL. Slang emits SPIR-V and WGSL directly; runtime consumers load the compiled files without a Slang dependency.\n\n## vasset — Asset Pipeline {#vasset}\n\n[Project page](/projects/vasset/) · [Source](https://github.com/zzxzzk115/vasset)\n\nvasset imports meshes, textures and materials into engine formats, tracks assets with UUIDs and packages them into VPK archives. It includes a desktop CLI, virtual-filesystem integration and a WebAssembly import example.\n\n## vrendergraph — JSON Pipeline Descriptions {#vrendergraph}\n\n[Project page](/projects/vrendergraph/) · [Source](https://github.com/zzxzzk115/vrendergraph)\n\nA standalone JSON render-pipeline schema and runtime builder, including resource descriptions, passes and optional editor metadata. It was used in the earlier data-driven pipeline experiments. Current `dev-VRI` documents its own RenderGraph interfaces and JSON construction separately.\n\n## webgpu-sdk — WebGPU Build and Distribution {#webgpu-sdk}\n\n[Source](https://github.com/zzxzzk115/webgpu-sdk)\n\nA reusable C/C++ SDK bundle for desktop and WebAssembly consumers. It packages third-party WebGPU implementations and build dependencies, including wgpu-native, Dawn and Emscripten integrations, with `glfw3webgpu` as a separate helper target. The repository provides platform build and prebuilt-release workflows, and credits WebGPU-distribution as an upstream influence.\n\nIts role is dependency packaging and build integration. The WebGPU implementations remain those of the bundled upstream projects.\n\n## vbase — Foundation Utilities {#vbase}\n\n[Source](https://github.com/zzxzzk115/vbase)\n\nShared utilities include IDs, result/error types, binary readers and writers, module and service registries, signals and events. The library is intended for reuse outside a single engine.\n\n## vfilesystem — Filesystem Abstraction {#vfilesystem}\n\n[Source](https://github.com/zzxzzk115/vfilesystem)\n\nFilesystem interfaces, normalized paths, physical and memory backends, and a virtual-filesystem mount table. Higher-level asset loading and VPK packaging live in vasset.\n\nThe library is built on vbase and leaves synchronization to the host application. It does not provide asynchronous IO or task scheduling; its [README](https://github.com/zzxzzk115/vfilesystem#scope) documents these boundaries and platform-specific asset/writable filesystem handling.\n\n## vtask — Task Scheduling {#vtask}\n\n[Source](https://github.com/zzxzzk115/vtask)\n\nA work-in-progress task-management library built on enkiTS. The current libvultra development branch uses it for parallel loading and import jobs. enkiTS supplies the underlying scheduler; vtask provides the ecosystem's task-management layer.\n\n## Where It's Going\n\nMy current work is on the `dev-VRI` graphics framework and research workflow. The branch's examples and roadmap are the reference for what is implemented, experimental or still planned.\n"
+    "en": "Vultra is a collection of graphics and engine projects that I maintain for research and game development. Current libvultra work takes place on **`dev-VRI`**. **`dev-next` was an experiment**, and its prototypes are separate from the current development branch.\n\n## Origins\n\nThe work grew out of [Snow Leopard Engine](/projects/snow_leopard_engine/), an OpenGL group project from my MSc at Leeds, and the rendering tools I later needed for my PhD. I split reusable components into separate repositories so they could also be used by small applications and research prototypes.\n\n## Design Principles\n\n- Explicit rendering APIs and readable C++ / Slang code.\n- Optional capabilities: a direct GPU program should not need an editor, ECS, importer or scripting host.\n- Reusable tools and libraries with clear ownership.\n- Offline asset and shader processing where it is useful, alongside runtime inspection and experiments.\n\n## Why Not an Existing Solution?\n\nI wanted a framework suited to my own graphics and VR experiments: explicit resource and synchronization control, portable shaders, OpenXR support, and small examples that can be read and changed directly. These requirements led to VRI and the related libraries.\n\n## Architecture\n\nThe current libvultra branch uses VRI directly. VRI-Framework is a separate reusable library over the same RHI; it is not an intermediate dependency required by libvultra.\n\n```mermaid\nflowchart TB\n    VRI[\"VRI · render hardware interface\"] --> libvultra[\"libvultra · dev-VRI\"]\n    VRI --> VRF[\"VRI-Framework · reusable capabilities\"]\n    VRI --> Lazy[\"Lazy-100 · fantasy console\"]\n    vtask[\"vtask · task scheduling\"] --> libvultra\n```\n\nThe shader, asset, filesystem and JSON render-graph projects below are standalone parts of the wider ecosystem. Their presence here does not imply that every one is a dependency of the current engine branch.\n\n## libvultra — Graphics Framework {#libvultra}\n\n| Branch | Role |\n| --- | --- |\n| [`dev-VRI`](https://github.com/zzxzzk115/libvultra/tree/dev-VRI) | Current development: a C++23 graphics framework built directly on VRI. |\n| [`dev-next`](https://github.com/zzxzzk115/libvultra/tree/dev-next) | Experimental engine architecture and prototypes. |\n| [`master`](https://github.com/zzxzzk115/libvultra/tree/master) | Earlier Vulkan-based implementation, with its own examples and documentation. |\n\nThe current development branch targets **Windows x64 and Linux x86_64 with Vulkan**. It includes explicit RenderGraph construction in C++ and JSON, Slang compilation and reload, scene import, raster rendering, offline experiments and a research workbench. Editor interfaces, native/Lua/C# scripting and XR examples are optional capabilities.\n\n![Damaged Helmet rendered by the dev-VRI branch](projects/vultra_ecosystem/images/vultra-dev-vri.webp)\n\nThis is early development. Static geometry and an opaque OpenPBR material subset are the current documented scope. Broader backend support, gameplay authoring and delivery work should be read against the branch's [roadmap](https://github.com/zzxzzk115/libvultra/blob/dev-VRI/docs/roadmap.md), rather than inferred from the RHI's capabilities.\n\n[Earlier libvultra examples](https://zzxzzk115.github.io/libvultra/) remain available. The screenshot above is from the current branch's glTF viewer; its sample assets retain the attribution recorded in that repository.\n\n## VRI — Render Hardware Interface {#vri}\n\n[VRI project page](/projects/vri/) · [Source](https://github.com/zzxzzk115/VRI) · [Browser examples](https://zzxzzk115.github.io/VRI/)\n\nVRI provides an explicit rendering API through a C ABI and a C++23 wrapper. Backends cover Vulkan, D3D12, Metal, WebGPU and OpenGL-family APIs. Optional features are reported through capabilities; support varies by backend. Software Vulkan implementations support headless and GPU-less use.\n\nVRI's backend coverage is broader than the current libvultra branch's supported target set. [Lazy-100](/projects/lazy_100/) is another application built on VRI.\n\n## VRI-Framework — Reusable Rendering Capabilities {#vri-framework}\n\n[VRI-Framework project page](/projects/vri-framework/) · [Public repository](https://github.com/zzxzzk115/VRI-Framework)\n\nVRI-Framework supplies C++23 building blocks including RAII resources, presentation, a framegraph, GPU profiling, multi-queue submission and OpenXR lifecycle helpers. Applications compose these into their own renderer. The library has an example application loop and a host-driven render module.\n\nIt remains a separate project. Current libvultra `dev-VRI` uses VRI directly and acknowledges specific VRI-Framework asset conventions in its own documentation.\n\n## vshadersystem — Shader Compilation {#vshadersystem}\n\n[Project page](/projects/vshadersystem/) · [Source](https://github.com/zzxzzk115/vshadersystem)\n\nThe standalone Slang pipeline adds material reflection, keyword variants and precompiled shader libraries. Version 1.0 replaced the old INI-style GLSL DSL. Slang emits SPIR-V and WGSL directly; runtime consumers load the compiled files without a Slang dependency.\n\n## vasset — Asset Pipeline {#vasset}\n\n[Project page](/projects/vasset/) · [Source](https://github.com/zzxzzk115/vasset)\n\nvasset imports meshes, textures and materials into engine formats, tracks assets with UUIDs and packages them into VPK archives. It includes a desktop CLI, virtual-filesystem integration and a WebAssembly import example.\n\n## vrendergraph — JSON Pipeline Descriptions {#vrendergraph}\n\n[Project page](/projects/vrendergraph/) · [Source](https://github.com/zzxzzk115/vrendergraph)\n\nA standalone JSON render-pipeline schema and runtime builder, including resource descriptions, passes and optional editor metadata. It was used in the earlier data-driven pipeline experiments. Current `dev-VRI` documents its own RenderGraph interfaces and JSON construction separately.\n\n## webgpu-sdk — WebGPU Build and Distribution {#webgpu-sdk}\n\n[Source](https://github.com/zzxzzk115/webgpu-sdk)\n\nA reusable C/C++ SDK bundle for desktop and WebAssembly consumers. It packages third-party WebGPU implementations and build dependencies, including wgpu-native, Dawn and Emscripten integrations, with `glfw3webgpu` as a separate helper target. The repository provides platform build and prebuilt-release workflows, and credits WebGPU-distribution as an upstream influence.\n\nIts role is dependency packaging and build integration. The WebGPU implementations remain those of the bundled upstream projects.\n\n## vbase — Foundation Utilities {#vbase}\n\n[Source](https://github.com/zzxzzk115/vbase)\n\nShared utilities include IDs, result/error types, binary readers and writers, module and service registries, signals and events. The library is intended for reuse outside a single engine.\n\n## vfilesystem — Filesystem Abstraction {#vfilesystem}\n\n[Source](https://github.com/zzxzzk115/vfilesystem)\n\nFilesystem interfaces, normalized paths, physical and memory backends, and a virtual-filesystem mount table. Higher-level asset loading and VPK packaging live in vasset.\n\nThe library is built on vbase and leaves synchronization to the host application. It does not provide asynchronous IO or task scheduling; its [README](https://github.com/zzxzzk115/vfilesystem#scope) documents these boundaries and platform-specific asset/writable filesystem handling.\n\n## vtask — Task Scheduling {#vtask}\n\n[Source](https://github.com/zzxzzk115/vtask)\n\nA work-in-progress task-management library built on enkiTS. The current libvultra development branch uses it for parallel loading and import jobs. enkiTS supplies the underlying scheduler; vtask provides the ecosystem's task-management layer.\n\n## Where It's Going\n\nMy current work is on the `dev-VRI` graphics framework and research workflow. The branch's examples and roadmap are the reference for what is implemented, experimental or still planned.\n",
+    "zh": "Vultra 是我为科研和游戏开发维护的一组图形与引擎项目。libvultra 现在的开发都在 **`dev-VRI`** 分支上。**`dev-next` 只是一次实验**，那里的原型和当前的开发分支是分开的。\n\n## 起源\n\n这些项目最早来自 [Snow Leopard Engine](/projects/snow_leopard_engine/)，那是我在利兹大学读硕士时做的一个 OpenGL 小组项目；后来读博需要各种渲染工具，就一路做了下来。我把能复用的部分拆成了独立的仓库，这样小程序和科研原型也能直接拿来用。\n\n## 设计原则\n\n- 渲染 API 要显式，C++ / Slang 代码要好读。\n- 功能按需取用：一个直接跑 GPU 的小程序，不应该非得带上编辑器、ECS、导入器或脚本宿主。\n- 工具和库都能复用，并且各自职责清楚。\n- 该离线处理的资源和 shader 就离线处理，同时也保留运行时的查看和实验能力。\n\n## 为什么不用现成的方案？\n\n我想要一套适合自己做图形和 VR 实验的框架：资源和同步能显式控制，shader 能跨平台，支持 OpenXR，还要有一些可以直接读、直接改的小示例。正是这些需求，才有了 VRI 和相关的这些库。\n\n## 架构\n\n当前的 libvultra 分支直接用 VRI。VRI-Framework 是基于同一套 RHI 的另一个可复用库，并不是 libvultra 必须依赖的中间层。\n\n```mermaid\nflowchart TB\n    VRI[\"VRI · render hardware interface\"] --> libvultra[\"libvultra · dev-VRI\"]\n    VRI --> VRF[\"VRI-Framework · reusable capabilities\"]\n    VRI --> Lazy[\"Lazy-100 · fantasy console\"]\n    vtask[\"vtask · task scheduling\"] --> libvultra\n```\n\n下面的 shader、资源、文件系统和 JSON 渲染图这几个项目，都是整个生态里独立的部分。列在这里，不代表它们都是当前引擎分支的依赖。\n\n## libvultra：图形框架 {#libvultra}\n\n| 分支 | 定位 |\n| --- | --- |\n| [`dev-VRI`](https://github.com/zzxzzk115/libvultra/tree/dev-VRI) | 当前开发分支：直接基于 VRI 的 C++23 图形框架。 |\n| [`dev-next`](https://github.com/zzxzzk115/libvultra/tree/dev-next) | 实验性的引擎架构和原型。 |\n| [`master`](https://github.com/zzxzzk115/libvultra/tree/master) | 早期基于 Vulkan 的实现，有自己的示例和文档。 |\n\n当前开发分支的目标平台是 **Windows x64 和 Linux x86_64，图形 API 用 Vulkan**。它支持用 C++ 和 JSON 显式搭建 RenderGraph，支持 Slang 编译和热重载，还有场景导入、光栅化渲染、离线实验和一个科研工作台。编辑器界面、native/Lua/C# 脚本和 XR 示例都是可选功能。\n\n![dev-VRI 分支渲染的 Damaged Helmet](projects/vultra_ecosystem/images/vultra-dev-vri.webp)\n\n目前还处在早期开发阶段，文档里写明的范围是静态几何体和 OpenPBR 材质中不透明的那一部分。至于更多后端、玩法制作和发布打包这些，请以这个分支的 [roadmap](https://github.com/zzxzzk115/libvultra/blob/dev-VRI/docs/roadmap.md) 为准，别从 RHI 支持什么去推断。\n\n[libvultra 早期的示例](https://zzxzzk115.github.io/libvultra/) 还能看。上面的截图来自当前分支的 glTF 查看器，示例资源的署名信息保留在那个仓库里。\n\n## VRI：渲染硬件接口 {#vri}\n\n[VRI 项目页](/projects/vri/) · [源码](https://github.com/zzxzzk115/VRI) · [浏览器示例](https://zzxzzk115.github.io/VRI/)\n\nVRI 通过 C ABI 和一层 C++23 封装提供显式的渲染 API，后端有 Vulkan、D3D12、Metal、WebGPU 和 OpenGL 系列。可选功能通过 capability 查询告诉应用，不同后端支持的程度不一样。用软件实现的 Vulkan，还可以在 headless、没有 GPU 的环境下跑。\n\nVRI 支持的后端比当前 libvultra 分支支持的目标平台要多。[Lazy-100](/projects/lazy_100/) 是另一个基于 VRI 的应用。\n\n## VRI-Framework：可复用的渲染能力 {#vri-framework}\n\n[VRI-Framework 项目页](/projects/vri-framework/) · [公开仓库](https://github.com/zzxzzk115/VRI-Framework)\n\nVRI-Framework 提供一些 C++23 的基础组件，包括 RAII 资源、presentation、FrameGraph、GPU 性能分析、多队列提交，以及 OpenXR 生命周期相关的辅助工具。应用可以用它们拼出自己的渲染器。库里带了一个给示例用的应用循环，还有一个由宿主驱动的渲染模块。\n\n它仍然是一个独立的项目。当前 libvultra 的 `dev-VRI` 直接用 VRI，只在自己的文档里提到沿用了 VRI-Framework 的一些资源约定。\n\n## vshadersystem：Shader 编译 {#vshadersystem}\n\n[项目页](/projects/vshadersystem/) · [源码](https://github.com/zzxzzk115/vshadersystem)\n\n这是一条独立的 Slang 管线，在编译之外还加了材质反射、keyword 变体和预编译的 shader 库。从 1.0 版开始，它取代了原来那套 INI 风格的 GLSL DSL。Slang 直接输出 SPIR-V 和 WGSL，运行时只需要加载编译好的文件，不依赖 Slang。\n\n## vasset：资源管线 {#vasset}\n\n[项目页](/projects/vasset/) · [源码](https://github.com/zzxzzk115/vasset)\n\nvasset 负责把网格、纹理和材质导入成引擎格式，用 UUID 追踪资源，再打包成 VPK 归档。它带有桌面端 CLI、虚拟文件系统集成，还有一个 WebAssembly 导入示例。\n\n## vrendergraph：用 JSON 描述管线 {#vrendergraph}\n\n[项目页](/projects/vrendergraph/) · [源码](https://github.com/zzxzzk115/vrendergraph)\n\n一套独立的 JSON 渲染管线 schema 和运行时构建器，可以描述资源、pass，以及可选的编辑器元数据。早期做数据驱动管线实验时用过它。当前的 `dev-VRI` 有自己的 RenderGraph 接口和 JSON 构建方式，文档是单独写的。\n\n## webgpu-sdk：WebGPU 的构建与分发 {#webgpu-sdk}\n\n[源码](https://github.com/zzxzzk115/webgpu-sdk)\n\n一个可复用的 C/C++ SDK 包，给桌面端和 WebAssembly 项目用。它把第三方的 WebGPU 实现和构建依赖打包在一起，包括 wgpu-native、Dawn 和 Emscripten 的集成，`glfw3webgpu` 则是一个单独的辅助 target。仓库里有各平台的构建和预编译发布 workflow，并注明了上游参考了 WebGPU-distribution。\n\n它只管依赖打包和构建集成，WebGPU 的实现本身还是来自打包进来的那些上游项目。\n\n## vbase：基础工具库 {#vbase}\n\n[源码](https://github.com/zzxzzk115/vbase)\n\n一些通用的基础工具：ID、result/error 类型、二进制读写、模块和服务注册表、信号和事件。这个库的定位是能脱离某一个引擎单独复用。\n\n## vfilesystem：文件系统抽象 {#vfilesystem}\n\n[源码](https://github.com/zzxzzk115/vfilesystem)\n\n文件系统接口、规范化路径、物理和内存后端，以及一张虚拟文件系统的挂载表。更上层的资源加载和 VPK 打包放在 vasset 里。\n\n这个库基于 vbase，同步交给宿主程序自己处理。它不提供异步 IO 和任务调度；这些边界，以及不同平台上资源文件系统和可写文件系统的处理方式，都写在它的 [README](https://github.com/zzxzzk115/vfilesystem#scope) 里。\n\n## vtask：任务调度 {#vtask}\n\n[源码](https://github.com/zzxzzk115/vtask)\n\n一个还在开发中的任务管理库，基于 enkiTS。当前 libvultra 的开发分支用它来并行加载和导入。底层调度由 enkiTS 负责，vtask 在上面给整个生态提供一层任务管理。\n\n## 接下来\n\n我现在主要在做 `dev-VRI` 这个图形框架和科研工作流。哪些已经实现、哪些还是实验、哪些还在计划中，以这个分支的示例和 roadmap 为准。\n"
    }
   },
   {
@@ -158,7 +170,7 @@
    },
    "description": {
     "en": "My MSc dissertation renderer, implementing Light Propagation Volumes alongside cascaded shadows, ambient occlusion and screen-space reflections.",
-    "zh": "我的硕士毕业设计渲染器，实现了光传播体积（Light Propagation Volumes），以及级联阴影、环境光遮蔽和屏幕空间反射。"
+    "zh": "我的硕士毕业设计渲染器：实现了 Light Propagation Volumes（光传播体积），还有级联阴影、环境光遮蔽和屏幕空间反射。"
    },
    "status": {
     "en": "MSc dissertation project",
@@ -190,6 +202,11 @@
      "purpose": "Explore real-time global illumination with Light Propagation Volumes for my MSc dissertation.",
      "contribution": "I implemented an LPV renderer on VGFW, alongside cascaded shadows, ambient occlusion and screen-space reflections.",
      "outcome": "The renderer and MSc dissertation document the implementation, rendering results and measured pass timings."
+    },
+    "zh": {
+     "purpose": "硕士毕业设计，用 Light Propagation Volumes 探索实时全局光照。",
+     "contribution": "我在 VGFW 上实现了 LPV 渲染器，另外还做了级联阴影、环境光遮蔽和屏幕空间反射。",
+     "outcome": "渲染器和毕业论文记录了具体实现、渲染效果，以及各个 pass 的实测耗时。"
     }
    },
    "homepage": {
@@ -212,7 +229,8 @@
     }
    },
    "body": {
-    "en": "This renderer was developed for my MSc dissertation. It implements Light Propagation Volumes (LPV) for real-time global illumination on top of [VGFW](/projects/vgfw/).\n\n[Read the MSc dissertation (PDF)](/assets/pdf/LPV-MSc-Dissertation.pdf) for the implementation, rendering results and performance evaluation.\n\n![Light Propagation Volumes rendering result](projects/light-propagation-volumes/images/lpv.webp)\n\nThe rendering pipeline also includes cascaded shadow maps, horizon-based ambient occlusion, screen-space reflections, FXAA, an ACES filmic tone-mapping approximation and bloom. The repository contains the implementation and additional views of the LPV contribution.\n\nThe tone-mapping shader uses the fitted curve described by [Krzysztof Narkowicz](https://knarkowicz.wordpress.com/2016/01/06/aces-filmic-tone-mapping-curve/). This is an approximation, rather than a complete ACES colour-management pipeline.\n\nThe project credits [VGFW](https://github.com/zzxzzk115/vgfw), [FrameGraph-Example](https://github.com/skaarj1989/FrameGraph-Example), and the LPV implementation notes linked in its README.\n"
+    "en": "This renderer was developed for my MSc dissertation. It implements Light Propagation Volumes (LPV) for real-time global illumination on top of [VGFW](/projects/vgfw/).\n\n[Read the MSc dissertation (PDF)](/assets/pdf/LPV-MSc-Dissertation.pdf) for the implementation, rendering results and performance evaluation.\n\n![Light Propagation Volumes rendering result](projects/light-propagation-volumes/images/lpv.webp)\n\nThe rendering pipeline also includes cascaded shadow maps, horizon-based ambient occlusion, screen-space reflections, FXAA, an ACES filmic tone-mapping approximation and bloom. The repository contains the implementation and additional views of the LPV contribution.\n\nThe tone-mapping shader uses the fitted curve described by [Krzysztof Narkowicz](https://knarkowicz.wordpress.com/2016/01/06/aces-filmic-tone-mapping-curve/). This is an approximation, rather than a complete ACES colour-management pipeline.\n\nThe project credits [VGFW](https://github.com/zzxzzk115/vgfw), [FrameGraph-Example](https://github.com/skaarj1989/FrameGraph-Example), and the LPV implementation notes linked in its README.\n",
+    "zh": "这个渲染器是我的硕士毕业设计。它在 [VGFW](/projects/vgfw/) 的基础上实现了 Light Propagation Volumes（LPV，光传播体积），用来做实时全局光照。\n\n实现细节、渲染效果和性能评估都写在 [硕士毕业论文（PDF）](/assets/pdf/LPV-MSc-Dissertation.pdf) 里。\n\n![Light Propagation Volumes 渲染效果](projects/light-propagation-volumes/images/lpv.webp)\n\n渲染管线里还有级联阴影贴图、基于地平线的环境光遮蔽（horizon-based AO）、屏幕空间反射、FXAA、近似的 ACES 电影感色调映射，以及 bloom。仓库里有完整的实现，还有更多展示 LPV 效果的画面。\n\n色调映射的 shader 用的是 [Krzysztof Narkowicz](https://knarkowicz.wordpress.com/2016/01/06/aces-filmic-tone-mapping-curve/) 给出的拟合曲线。这只是一个近似，不是完整的 ACES 色彩管理管线。\n\n项目致谢了 [VGFW](https://github.com/zzxzzk115/vgfw)、[FrameGraph-Example](https://github.com/skaarj1989/FrameGraph-Example)，以及 README 里链接的那些 LPV 实现笔记。\n"
    }
   },
   {
@@ -249,6 +267,11 @@
      "purpose": "Create a bullet hell roguelike where clones of past runs fight alongside the player inside the immune system.",
      "contribution": "As a High Path Games co-founder and programming lead, I design the program architecture, develop core subsystems and lead the programming team.",
      "outcome": "Released on Steam on 10 November 2026 for Windows, macOS and Linux."
+    },
+    "zh": {
+     "purpose": "做一款弹幕 roguelike，让过去几局的克隆体在免疫系统里和玩家并肩作战。",
+     "contribution": "我是 High Path Games 的联合创始人和程序负责人，负责设计程序架构、开发核心子系统，并带领程序团队。",
+     "outcome": "2026 年 11 月 10 日在 Steam 发售，支持 Windows、macOS 和 Linux。"
     }
    },
    "homepage": {
@@ -267,7 +290,8 @@
     "about": true
    },
    "body": {
-    "en": "<iframe src=\"https://store.steampowered.com/widget/3879680/\" frameborder=\"0\" width=\"100%\" height=\"190\" title=\"Cells of Division preview\" loading=\"lazy\"></iframe>\n\n**Cells of Division** is a top-down bullet hell roguelike developed by **High Path Games**: fight alongside clones of your past runs (up to 6 allies), mix around 100 items, and take down 50+ bosses — destroying viruses to defend the immune system. **Out now on [Steam](https://store.steampowered.com/app/3879680/Cells_of_Division/)** for Windows, macOS and Linux (released 10 November 2026).\n\n## My Role\n\nI am a **co-founder** of High Path Games and the **programming lead** on the project, responsible for:\n\n- **Program architecture design** — the overall code architecture of the game.\n- **Subsystem development** — building core gameplay subsystems.\n- **Leading the programming team** — owning technical direction and delivery.\n\n## Get It\n\nIf bullet hell roguelikes are your thing, [get Cells of Division on Steam](https://store.steampowered.com/app/3879680/Cells_of_Division/) — and a review helps indie teams like ours more than you'd think.\n"
+    "en": "<iframe src=\"https://store.steampowered.com/widget/3879680/\" frameborder=\"0\" width=\"100%\" height=\"190\" title=\"Cells of Division preview\" loading=\"lazy\"></iframe>\n\n**Cells of Division** is a top-down bullet hell roguelike developed by **High Path Games**: fight alongside clones of your past runs (up to 6 allies), mix around 100 items, and take down 50+ bosses — destroying viruses to defend the immune system. **Out now on [Steam](https://store.steampowered.com/app/3879680/Cells_of_Division/)** for Windows, macOS and Linux (released 10 November 2026).\n\n## My Role\n\nI am a **co-founder** of High Path Games and the **programming lead** on the project, responsible for:\n\n- **Program architecture design** — the overall code architecture of the game.\n- **Subsystem development** — building core gameplay subsystems.\n- **Leading the programming team** — owning technical direction and delivery.\n\n## Get It\n\nIf bullet hell roguelikes are your thing, [get Cells of Division on Steam](https://store.steampowered.com/app/3879680/Cells_of_Division/) — and a review helps indie teams like ours more than you'd think.\n",
+    "zh": "<iframe src=\"https://store.steampowered.com/widget/3879680/\" frameborder=\"0\" width=\"100%\" height=\"190\" title=\"Cells of Division preview\" loading=\"lazy\"></iframe>\n\n**Cells of Division** 是 **High Path Games** 开发的俯视角弹幕 roguelike：和过去几局的自己的克隆体并肩作战（最多 6 个队友），搭配大约 100 种道具，打倒 50 多个 Boss，消灭病毒、守护免疫系统。**现已在 [Steam](https://store.steampowered.com/app/3879680/Cells_of_Division/) 发售**，支持 Windows、macOS 和 Linux（2026 年 11 月 10 日发售）。\n\n## 我的角色\n\n我是 High Path Games 的 **联合创始人**，也是这个项目的 **程序负责人**，主要负责：\n\n- **程序架构设计**：游戏整体的代码架构。\n- **子系统开发**：搭建核心玩法子系统。\n- **带程序团队**：把控技术方向，保证按时交付。\n\n## 入手\n\n如果你喜欢弹幕 roguelike，欢迎 [在 Steam 上购买 Cells of Division](https://store.steampowered.com/app/3879680/Cells_of_Division/)。顺手留个评测的话，对我们这样的独立团队帮助比你想的要大得多。\n"
    }
   },
   {
@@ -312,6 +336,11 @@
      "purpose": "Bring the classic Flash Gold Miner game to the retro handhelds I collect.",
      "contribution": "I recreated the game with LÖVE2D and extracted the original SWF’s ActionScript and assets to preserve its appearance and feel.",
      "outcome": "The remake has GameShell and Trimui ports, plus a browser-playable version on itch.io."
+    },
+    "zh": {
+     "purpose": "把经典的 Flash 游戏黄金矿工搬到我收藏的复古掌机上。",
+     "contribution": "我用 LÖVE2D 重做了这个游戏，还从原版 SWF 里提取出 ActionScript 和素材，尽量保留原来的样子和手感。",
+     "outcome": "重制版有 GameShell 和 Trimui 移植版，itch.io 上还有能直接在浏览器里玩的版本。"
     }
    },
    "homepage": {
@@ -330,7 +359,8 @@
     "about": true
    },
    "body": {
-    "en": "[View repository ↗](https://github.com/zzxzzk115/GoldMiner-Rebirth)\n\n<iframe frameborder=\"0\" src=\"https://itch.io/embed/1548293\" width=\"552\" height=\"167\" title=\"Gold Miner Rebirth preview\" loading=\"lazy\"><a href=\"https://lazy-v.itch.io/goldminer-rebirth\">GoldMiner-Rebirth by Lazy_V</a></iframe>\n\n## Why This Exists\n\nMy friends and I loved this Flash game as kids, so I decided to bring it back — not as a reinterpretation, but as a faithful recreation, running on the retro gaming handhelds I collect: GameShell, Trimui Smart Pro and Brick. Other ports depend on a compatible LÖVE runtime and device-specific testing.\n\n## Design Notes\n\n**Why LÖVE2D?** I originally started on raylib, but on the GameShell it was unstable — even texture loading could fail. LÖVE 11.1 ran reliably on the handheld, so I switched, and LÖVE provides a shared runtime for the handheld ports; each target still needs platform-specific testing.\n\n**Keeping it authentic.** The most fun part of the project was learning to **unpack the original `.swf` file** — extracting the ActionScript and the original asset files. That's what makes the remake taste like the original: same art, same feel, not a lookalike.\n"
+    "en": "[View repository ↗](https://github.com/zzxzzk115/GoldMiner-Rebirth)\n\n<iframe frameborder=\"0\" src=\"https://itch.io/embed/1548293\" width=\"552\" height=\"167\" title=\"Gold Miner Rebirth preview\" loading=\"lazy\"><a href=\"https://lazy-v.itch.io/goldminer-rebirth\">GoldMiner-Rebirth by Lazy_V</a></iframe>\n\n## Why This Exists\n\nMy friends and I loved this Flash game as kids, so I decided to bring it back — not as a reinterpretation, but as a faithful recreation, running on the retro gaming handhelds I collect: GameShell, Trimui Smart Pro and Brick. Other ports depend on a compatible LÖVE runtime and device-specific testing.\n\n## Design Notes\n\n**Why LÖVE2D?** I originally started on raylib, but on the GameShell it was unstable — even texture loading could fail. LÖVE 11.1 ran reliably on the handheld, so I switched, and LÖVE provides a shared runtime for the handheld ports; each target still needs platform-specific testing.\n\n**Keeping it authentic.** The most fun part of the project was learning to **unpack the original `.swf` file** — extracting the ActionScript and the original asset files. That's what makes the remake taste like the original: same art, same feel, not a lookalike.\n",
+    "zh": "[查看仓库 ↗](https://github.com/zzxzzk115/GoldMiner-Rebirth)\n\n<iframe frameborder=\"0\" src=\"https://itch.io/embed/1548293\" width=\"552\" height=\"167\" title=\"Gold Miner Rebirth preview\" loading=\"lazy\"><a href=\"https://lazy-v.itch.io/goldminer-rebirth\">GoldMiner-Rebirth by Lazy_V</a></iframe>\n\n## 为什么做它\n\n小时候我和朋友们都很喜欢这个 Flash 游戏，所以我决定把它找回来。不是重新诠释，而是原汁原味地还原，让它跑在我收藏的几台复古掌机上：GameShell、Trimui Smart Pro 和 Brick。其他平台的移植要看有没有兼容的 LÖVE 运行时，也得在具体设备上测试。\n\n## 设计笔记\n\n**为什么用 LÖVE2D？** 我一开始用的是 raylib，但它在 GameShell 上不稳定，连加载纹理都可能失败。LÖVE 11.1 在这台掌机上跑得很稳，于是我就换了过来。LÖVE 给各个掌机移植版提供了一套共用的运行时，不过每个平台还是要单独测试。\n\n**保持原味。** 整个项目里最好玩的部分，是学着 **拆开原版的 `.swf` 文件**，把里面的 ActionScript 和原始素材文件提取出来。正因为这样，重制版吃起来才是原来的味道：一样的美术，一样的手感，而不是长得像而已。\n"
    }
   },
   {
@@ -358,7 +388,8 @@
    "image": {
     "src": "projects/vri/images/vri.webp",
     "alt": {
-     "en": "Vulkan path tracer rendering the FlightHelmet glTF model at 128 samples and four bounces."
+     "en": "Vulkan path tracer rendering the FlightHelmet glTF model at 128 samples and four bounces.",
+     "zh": "Vulkan 路径追踪器渲染的 FlightHelmet glTF 模型，128 个采样，4 次弹射。"
     }
    },
    "links": [
@@ -392,6 +423,11 @@
      "purpose": "Give graphics applications a common explicit rendering interface across multiple backends.",
      "contribution": "I develop the C ABI, header-only C++23 wrapper and backend implementations, with capability queries for optional features.",
      "outcome": "Browser examples are available, and Lazy-100 uses VRI. Backend feature coverage is documented in the capability matrix and remains in development."
+    },
+    "zh": {
+     "purpose": "让图形应用在多个后端之上用同一套显式渲染接口。",
+     "contribution": "C ABI、header-only 的 C++23 封装和各个后端实现都是我写的，可选功能通过 capability 查询来获取。",
+     "outcome": "已经有可以在浏览器里跑的示例，Lazy-100 也用上了 VRI。各后端的功能覆盖情况写在 capability 矩阵里，整体仍在开发中。"
     }
    },
    "homepage": {
@@ -414,7 +450,8 @@
     }
    },
    "body": {
-    "en": "![Vulkan path tracer rendering the FlightHelmet glTF model at 128 samples and four bounces.](projects/vri/images/vri.webp)\n\n## Try it in your browser\n\nStart with the [WebGPU path tracer](https://zzxzzk115.github.io/VRI/examples/example-pathtracer.html?backend=webgpu): it loads the FlightHelmet glTF model and progressively accumulates samples. Adjust the camera orbit, sample target, bounce count and lighting to see the renderer respond. On WebGPU, traversal uses a software BVH in compute shaders.\n\nThe [example gallery](https://zzxzzk115.github.io/VRI/examples/) offers separate WebGPU and WebGL 2 launch buttons. For a lighter WebGL 2 example, try the [textured cube](https://zzxzzk115.github.io/VRI/examples/example-cube.html?backend=webgl). Optional capabilities vary by backend: the WebGL 2 path-tracer entry runs a reduced fallback, rather than the WebGPU path-tracing implementation. The cover image above was rendered with the native Vulkan backend.\n\n## What I built\n\nVRI provides an explicit rendering API with command buffers, descriptor sets and synchronization. Applications can query optional capabilities and receive diagnostics from VRI and the native backend.\n\nThe C ABI is paired with a header-only C++23 wrapper. Shaders are authored in Slang and compiled for each target. Backends cover Vulkan, Direct3D 12, Metal, WebGPU, OpenGL, OpenGL ES and WebGL 2; feature availability varies by backend. Software Vulkan implementations can also run the Vulkan path without a hardware GPU.\n\n[Lazy-100](/projects/lazy_100/) uses VRI. [VRI-Framework](/projects/vri-framework/) supplies reusable higher-level rendering capabilities, while the current [libvultra development branch](/projects/vultra_ecosystem/#libvultra) builds directly on VRI.\n\nThe repository's [capability matrix](https://github.com/zzxzzk115/VRI#feature-support) records native, emulated, planned and unavailable features.\n"
+    "en": "![Vulkan path tracer rendering the FlightHelmet glTF model at 128 samples and four bounces.](projects/vri/images/vri.webp)\n\n## Try it in your browser\n\nStart with the [WebGPU path tracer](https://zzxzzk115.github.io/VRI/examples/example-pathtracer.html?backend=webgpu): it loads the FlightHelmet glTF model and progressively accumulates samples. Adjust the camera orbit, sample target, bounce count and lighting to see the renderer respond. On WebGPU, traversal uses a software BVH in compute shaders.\n\nThe [example gallery](https://zzxzzk115.github.io/VRI/examples/) offers separate WebGPU and WebGL 2 launch buttons. For a lighter WebGL 2 example, try the [textured cube](https://zzxzzk115.github.io/VRI/examples/example-cube.html?backend=webgl). Optional capabilities vary by backend: the WebGL 2 path-tracer entry runs a reduced fallback, rather than the WebGPU path-tracing implementation. The cover image above was rendered with the native Vulkan backend.\n\n## What I built\n\nVRI provides an explicit rendering API with command buffers, descriptor sets and synchronization. Applications can query optional capabilities and receive diagnostics from VRI and the native backend.\n\nThe C ABI is paired with a header-only C++23 wrapper. Shaders are authored in Slang and compiled for each target. Backends cover Vulkan, Direct3D 12, Metal, WebGPU, OpenGL, OpenGL ES and WebGL 2; feature availability varies by backend. Software Vulkan implementations can also run the Vulkan path without a hardware GPU.\n\n[Lazy-100](/projects/lazy_100/) uses VRI. [VRI-Framework](/projects/vri-framework/) supplies reusable higher-level rendering capabilities, while the current [libvultra development branch](/projects/vultra_ecosystem/#libvultra) builds directly on VRI.\n\nThe repository's [capability matrix](https://github.com/zzxzzk115/VRI#feature-support) records native, emulated, planned and unavailable features.\n",
+    "zh": "![Vulkan 路径追踪器渲染的 FlightHelmet glTF 模型，128 个采样，4 次弹射。](projects/vri/images/vri.webp)\n\n## 在浏览器里试试\n\n可以先打开 [WebGPU 路径追踪器](https://zzxzzk115.github.io/VRI/examples/example-pathtracer.html?backend=webgpu)：它会加载 FlightHelmet glTF 模型，然后一帧帧累积采样。你可以调相机环绕、目标采样数、弹射次数和光照，看渲染结果怎么变化。在 WebGPU 上，求交遍历用的是跑在 compute shader 里的软件 BVH。\n\n[示例页面](https://zzxzzk115.github.io/VRI/examples/) 里，WebGPU 和 WebGL 2 各有单独的启动按钮。想看个轻量点的 WebGL 2 示例，可以试试 [贴图立方体](https://zzxzzk115.github.io/VRI/examples/example-cube.html?backend=webgl)。可选功能因后端而异：WebGL 2 下的路径追踪入口跑的是一个简化的 fallback 版本，不是 WebGPU 那套路径追踪实现。上面的封面图是用原生 Vulkan 后端渲染的。\n\n## 我做了什么\n\nVRI 提供一套显式的渲染 API，有 command buffer、descriptor set 和同步机制。应用可以查询可选的 capability，也能收到来自 VRI 和底层原生后端的诊断信息。\n\nC ABI 之外还配了一层 header-only 的 C++23 封装。shader 用 Slang 写，再针对每个目标分别编译。后端包括 Vulkan、Direct3D 12、Metal、WebGPU、OpenGL、OpenGL ES 和 WebGL 2，各后端能用的功能不完全一样。用软件实现的 Vulkan，在没有硬件 GPU 的机器上也能跑 Vulkan 这条路径。\n\n[Lazy-100](/projects/lazy_100/) 用的就是 VRI。[VRI-Framework](/projects/vri-framework/) 在它上面提供更高层、可复用的渲染能力；而当前的 [libvultra 开发分支](/projects/vultra_ecosystem/#libvultra) 则是直接基于 VRI 搭的。\n\n仓库里的 [capability 矩阵](https://github.com/zzxzzk115/VRI#feature-support) 列出了每个功能是原生支持、模拟实现、计划中还是不可用。\n"
    }
   },
   {
@@ -466,7 +503,8 @@
     "about": true
    },
    "body": {
-    "en": "[View repository ↗](https://github.com/zzxzzk115/CatmarioGB)\n\n<iframe frameborder=\"0\" src=\"https://itch.io/embed/1490065\" width=\"552\" height=\"167\" title=\"Catmario GB preview\" loading=\"lazy\"><a href=\"https://lazy-v.itch.io/catmario-gb\">CatMario-GB by Lazy_V</a></iframe>\n\n## Why This Exists\n\nThis project is unfinished business. Years earlier I had started a GBC version of CatMario with **GBDK** and never completed it. When **GB Studio** took off, I saw the chance to finally finish the idea — its built-in platformer support meant the trolling gameplay came together fast, and I got to try my hand at drawing the pixel art myself, which turned out to be great fun.\n\n## Honest Retrospective\n\nIt's a test piece more than a full game: completion is modest and there are only a few levels, so the reception was modest too — though some players did pick it up on itch.io after release. Still, it counts: a game I made, shipped, and that strangers actually played. Sometimes that's the whole point.\n"
+    "en": "[View repository ↗](https://github.com/zzxzzk115/CatmarioGB)\n\n<iframe frameborder=\"0\" src=\"https://itch.io/embed/1490065\" width=\"552\" height=\"167\" title=\"Catmario GB preview\" loading=\"lazy\"><a href=\"https://lazy-v.itch.io/catmario-gb\">CatMario-GB by Lazy_V</a></iframe>\n\n## Why This Exists\n\nThis project is unfinished business. Years earlier I had started a GBC version of CatMario with **GBDK** and never completed it. When **GB Studio** took off, I saw the chance to finally finish the idea — its built-in platformer support meant the trolling gameplay came together fast, and I got to try my hand at drawing the pixel art myself, which turned out to be great fun.\n\n## Honest Retrospective\n\nIt's a test piece more than a full game: completion is modest and there are only a few levels, so the reception was modest too — though some players did pick it up on itch.io after release. Still, it counts: a game I made, shipped, and that strangers actually played. Sometimes that's the whole point.\n",
+    "zh": "[查看仓库 ↗](https://github.com/zzxzzk115/CatmarioGB)\n\n<iframe frameborder=\"0\" src=\"https://itch.io/embed/1490065\" width=\"552\" height=\"167\" title=\"Catmario GB preview\" loading=\"lazy\"><a href=\"https://lazy-v.itch.io/catmario-gb\">CatMario-GB by Lazy_V</a></iframe>\n\n## 为什么做它\n\n这个项目算是还一笔旧账。好几年前我用 **GBDK** 开了个 GBC 版猫里奥的坑，一直没填完。后来 **GB Studio** 火了，我觉得终于有机会把这个想法做完：它自带平台跳跃游戏的支持，整蛊玩法很快就搭起来了，我也顺便试着自己画像素图，结果画得很开心。\n\n## 坦白说\n\n它更像一个练手作品，而不是完整的游戏：完成度一般，关卡也只有几关，所以反响也一般，不过发布之后 itch.io 上确实有一些玩家玩过。不管怎么说，它都算数：一个我自己做出来、发布出去、而且真的有陌生人玩过的游戏。有时候，这就是全部意义了。\n"
    }
   },
   {
@@ -515,6 +553,11 @@
      "purpose": "Have lyrics available in a desktop window, terminal or status bar across the systems I use.",
      "contribution": "I built shared .NET functionality for an Avalonia GUI, CLI and TUI, including bilingual karaoke and platform playback integrations.",
      "outcome": "Desktop and CLI/TUI releases are available. The documented 0.4.2 release includes signed and notarized macOS GUI applications."
+    },
+    "zh": {
+     "purpose": "在我用的几个系统上，都能在桌面窗口、终端或状态栏里看歌词。",
+     "contribution": "我写了一套 .NET 共享功能，给 Avalonia GUI、CLI 和 TUI 共用，包括双语卡拉 OK 和各平台的播放集成。",
+     "outcome": "桌面版和 CLI/TUI 版都已发布。文档里的 0.4.2 版提供了签名并经过公证的 macOS GUI 应用。"
     }
    },
    "homepage": {
@@ -536,7 +579,8 @@
     }
    },
    "body": {
-    "en": "## Why This Exists\n\nI wanted a lyric tool that worked as a desktop window, in a terminal and in a status bar on Windows, macOS and Linux. OmniLyrics shares a .NET core across an Avalonia GUI, a CLI and a TUI.\n\n## Design\n\n- Five GUI layouts, bilingual karaoke lyrics, shared preferences and queue caching.\n- CLI/TUI interfaces, including single-line and JSON output for status bars and widgets.\n- Platform playback integrations, including MPRIS on Linux, SMTC on Windows, and native Apple Music / Spotify integration on macOS.\n- Playback control from scripts and keybindings.\n- .NET 10 and Avalonia. I was already familiar with Avalonia from earlier projects.\n\n## Showcase\n\nCurrent Focus layout:\n\n![OmniLyrics Focus layout](projects/omnilyrics/images/omnilyrics-current.webp)\n\nEarlier Windows GUI:\n\n![GUI Windows](https://raw.githubusercontent.com/zzxzzk115/OmniLyrics/master/media/images/gui_windows.png)\n\nWindows Terminal:\n\n![CLI on Windows](https://raw.githubusercontent.com/zzxzzk115/OmniLyrics/master/media/images/cli_windows_terminal.png)\n\nLinux Waybar:\n\n![Waybar line mode](https://raw.githubusercontent.com/zzxzzk115/OmniLyrics/master/media/images/cli_linux_waybar.jpg)\n\n## Status\n\nThe current README documents the 0.4.2 release, including signed and notarized macOS GUI applications. GUI and CLI/TUI downloads are separate and share preferences. Portable builds include the .NET runtime.\n\nSee the [user guide](https://github.com/zzxzzk115/OmniLyrics/blob/master/docs/user-guide.md) for playback integrations, layouts and settings.\n"
+    "en": "## Why This Exists\n\nI wanted a lyric tool that worked as a desktop window, in a terminal and in a status bar on Windows, macOS and Linux. OmniLyrics shares a .NET core across an Avalonia GUI, a CLI and a TUI.\n\n## Design\n\n- Five GUI layouts, bilingual karaoke lyrics, shared preferences and queue caching.\n- CLI/TUI interfaces, including single-line and JSON output for status bars and widgets.\n- Platform playback integrations, including MPRIS on Linux, SMTC on Windows, and native Apple Music / Spotify integration on macOS.\n- Playback control from scripts and keybindings.\n- .NET 10 and Avalonia. I was already familiar with Avalonia from earlier projects.\n\n## Showcase\n\nCurrent Focus layout:\n\n![OmniLyrics Focus layout](projects/omnilyrics/images/omnilyrics-current.webp)\n\nEarlier Windows GUI:\n\n![GUI Windows](https://raw.githubusercontent.com/zzxzzk115/OmniLyrics/master/media/images/gui_windows.png)\n\nWindows Terminal:\n\n![CLI on Windows](https://raw.githubusercontent.com/zzxzzk115/OmniLyrics/master/media/images/cli_windows_terminal.png)\n\nLinux Waybar:\n\n![Waybar line mode](https://raw.githubusercontent.com/zzxzzk115/OmniLyrics/master/media/images/cli_linux_waybar.jpg)\n\n## Status\n\nThe current README documents the 0.4.2 release, including signed and notarized macOS GUI applications. GUI and CLI/TUI downloads are separate and share preferences. Portable builds include the .NET runtime.\n\nSee the [user guide](https://github.com/zzxzzk115/OmniLyrics/blob/master/docs/user-guide.md) for playback integrations, layouts and settings.\n",
+    "zh": "## 为什么做这个\n\n我想要一个歌词工具，在 Windows、macOS 和 Linux 上都能用，既可以开成桌面窗口，也能放在终端或者状态栏里。OmniLyrics 的 Avalonia 图形界面、CLI 和 TUI 共用同一套 .NET 核心。\n\n## 设计\n\n- 五种 GUI 布局、双语卡拉 OK 歌词，偏好设置互通，还有队列缓存。\n- CLI/TUI 界面，支持单行输出和 JSON 输出，方便接到状态栏和小组件上。\n- 各平台的播放集成：Linux 上用 MPRIS，Windows 上用 SMTC，macOS 上原生接入 Apple Music / Spotify。\n- 可以用脚本和快捷键控制播放。\n- .NET 10 加 Avalonia。之前的项目里就用过 Avalonia，比较熟。\n\n## 效果展示\n\n现在的 Focus 布局：\n\n![OmniLyrics 的 Focus 布局](projects/omnilyrics/images/omnilyrics-current.webp)\n\n早期的 Windows GUI：\n\n![Windows 上的 GUI](https://raw.githubusercontent.com/zzxzzk115/OmniLyrics/master/media/images/gui_windows.png)\n\nWindows Terminal：\n\n![Windows 上的 CLI](https://raw.githubusercontent.com/zzxzzk115/OmniLyrics/master/media/images/cli_windows_terminal.png)\n\nLinux Waybar：\n\n![Waybar 单行模式](https://raw.githubusercontent.com/zzxzzk115/OmniLyrics/master/media/images/cli_linux_waybar.jpg)\n\n## 现状\n\n目前的 README 对应的是 0.4.2 版，macOS 的 GUI 应用已经签名并通过了公证。GUI 和 CLI/TUI 分开下载，共用同一份偏好设置。便携版自带 .NET 运行时。\n\n播放集成、布局和设置的说明见 [用户指南](https://github.com/zzxzzk115/OmniLyrics/blob/master/docs/user-guide.md)。\n"
    }
   },
   {
@@ -553,7 +597,7 @@
    },
    "description": {
     "en": "Our COMP5530M student group project at the University of Leeds (2023/24) — a C++ / OpenGL 4.6 game engine seven MSc students built from scratch. I led the team; it is where the Vultra story began.",
-    "zh": "利兹大学 COMP5530M 课程的学生小组项目（2023/24）：7 名硕士生从零搭建的 C++ / OpenGL 4.6 游戏引擎，我担任组长，也是 Vultra 故事的起点。"
+    "zh": "利兹大学 COMP5530M 课程的学生小组项目（2023/24）：我们 7 个硕士生从零写的 C++ / OpenGL 4.6 游戏引擎。我是组长，Vultra 的故事也是从这里开始的。"
    },
    "image": {
     "src": "projects/snow_leopard_engine/images/snow-leopard-engine.jpg"
@@ -584,7 +628,8 @@
     }
    },
    "body": {
-    "en": "[View repository ↗](https://github.com/SnowLeopardEngine/SnowLeopardEngine)\n\n<iframe width=\"100%\" height=\"600\" src=\"https://www.youtube.com/embed/z9oA2pugC6s?si=rY38cth64wPILTV_\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe>\n\n## Why This Exists\n\nSnow Leopard Engine was the group project (COMP5530M, 2023/24) of the **High-Performance Graphics and Games Engineering** MSc programme at the University of Leeds: build a game engine from scratch, then prove it by shipping a game demo on top of it — the demo you can see in the video above.\n\n## The Team\n\n| Name                                             | Responsibility                                                       |\n| ------------------------------------------------ | -------------------------------------------------------------------- |\n| [Kexuan Zhang](https://zzxzzk115.github.io/)     | Leader. Architecture, Core Systems, Rendering, Editor, Audio, Report |\n| Ziyu Min                                         | Associate Leader. Rendering, Shaders, Report                         |\n| Jubiao Lin                                       | Physics, In-Game GUI, Poster                                         |\n| [Simiao Wang](https://wangsimiao2000.github.io/) | Physics, Poster, Showcase Video                                      |\n| Ruofan He                                        | Gameplay (pathfinding)                                              |\n| [Haodong Lin](https://leolanger.github.io/)      | Animation                                                            |\n| Yanni Ma                                         | Editor                                                               |\n\n## What We Built\n\n- Modern OpenGL 4.6 renderer with PBR and post-processing effects\n- **DzShader** — a Unity-like, data-driven shader format. This was my first experiment with data-driven shading, an idea that later matured into [vshadersystem](/projects/vultra_ecosystem/#vshadersystem).\n- PhysX physics simulation, skeletal animation, simple in-game GUI, and an editor\n- An attempted **C# scripting integration** (the .NET SDK was already in the build requirements) — we never finished the API bindings. Later native/Lua/C# scripting work is documented in the [current libvultra development branch](https://github.com/zzxzzk115/libvultra/tree/dev-VRI).\n\n## Retrospective\n\nThe biggest gain was the people: seven teammates, each with their own strengths. The biggest regret was time — coursework and exams competed hard for everyone's hours, and as the leader I absorbed a lot of pressure holding the project together. We didn't reach the polish I had hoped for, though what we shipped was still respectable.\n\nThose regrets didn't go to waste. The shortcomings of a monolithic, OpenGL-era engine — and the wish to do it properly — are exactly what seeded the [Vultra Ecosystem](/projects/vultra_ecosystem/).\n\n## License\n\nMIT — see the [repository](https://github.com/SnowLeopardEngine/SnowLeopardEngine/blob/main/LICENSE).\n"
+    "en": "[View repository ↗](https://github.com/SnowLeopardEngine/SnowLeopardEngine)\n\n<iframe width=\"100%\" height=\"600\" src=\"https://www.youtube.com/embed/z9oA2pugC6s?si=rY38cth64wPILTV_\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe>\n\n## Why This Exists\n\nSnow Leopard Engine was the group project (COMP5530M, 2023/24) of the **High-Performance Graphics and Games Engineering** MSc programme at the University of Leeds: build a game engine from scratch, then prove it by shipping a game demo on top of it — the demo you can see in the video above.\n\n## The Team\n\n| Name                                             | Responsibility                                                       |\n| ------------------------------------------------ | -------------------------------------------------------------------- |\n| [Kexuan Zhang](https://zzxzzk115.github.io/)     | Leader. Architecture, Core Systems, Rendering, Editor, Audio, Report |\n| Ziyu Min                                         | Associate Leader. Rendering, Shaders, Report                         |\n| Jubiao Lin                                       | Physics, In-Game GUI, Poster                                         |\n| [Simiao Wang](https://wangsimiao2000.github.io/) | Physics, Poster, Showcase Video                                      |\n| Ruofan He                                        | Gameplay (pathfinding)                                              |\n| [Haodong Lin](https://leolanger.github.io/)      | Animation                                                            |\n| Yanni Ma                                         | Editor                                                               |\n\n## What We Built\n\n- Modern OpenGL 4.6 renderer with PBR and post-processing effects\n- **DzShader** — a Unity-like, data-driven shader format. This was my first experiment with data-driven shading, an idea that later matured into [vshadersystem](/projects/vultra_ecosystem/#vshadersystem).\n- PhysX physics simulation, skeletal animation, simple in-game GUI, and an editor\n- An attempted **C# scripting integration** (the .NET SDK was already in the build requirements) — we never finished the API bindings. Later native/Lua/C# scripting work is documented in the [current libvultra development branch](https://github.com/zzxzzk115/libvultra/tree/dev-VRI).\n\n## Retrospective\n\nThe biggest gain was the people: seven teammates, each with their own strengths. The biggest regret was time — coursework and exams competed hard for everyone's hours, and as the leader I absorbed a lot of pressure holding the project together. We didn't reach the polish I had hoped for, though what we shipped was still respectable.\n\nThose regrets didn't go to waste. The shortcomings of a monolithic, OpenGL-era engine — and the wish to do it properly — are exactly what seeded the [Vultra Ecosystem](/projects/vultra_ecosystem/).\n\n## License\n\nMIT — see the [repository](https://github.com/SnowLeopardEngine/SnowLeopardEngine/blob/main/LICENSE).\n",
+    "zh": "[查看仓库 ↗](https://github.com/SnowLeopardEngine/SnowLeopardEngine)\n\n<iframe width=\"100%\" height=\"600\" src=\"https://www.youtube.com/embed/z9oA2pugC6s?si=rY38cth64wPILTV_\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen loading=\"lazy\"></iframe>\n\n## 为什么做它\n\nSnow Leopard Engine 是利兹大学 **High-Performance Graphics and Games Engineering**（高性能图形与游戏工程）硕士专业的小组课程项目（COMP5530M，2023/24）：从零写一个游戏引擎，再在它上面做一个游戏 demo 来证明它能用，也就是上面视频里的那个 demo。\n\n## 小组成员\n\n| 姓名                                             | 负责内容                                                             |\n| ------------------------------------------------ | -------------------------------------------------------------------- |\n| [Kexuan Zhang](https://zzxzzk115.github.io/)     | 组长。架构、核心系统、渲染、编辑器、音频、报告                       |\n| Ziyu Min                                         | 副组长。渲染、Shader、报告                                           |\n| Jubiao Lin                                       | 物理、游戏内 GUI、海报                                               |\n| [Simiao Wang](https://wangsimiao2000.github.io/) | 物理、海报、展示视频                                                 |\n| Ruofan He                                        | 玩法（寻路）                                                         |\n| [Haodong Lin](https://leolanger.github.io/)      | 动画                                                                 |\n| Yanni Ma                                         | 编辑器                                                               |\n\n## 我们做了什么\n\n- 基于现代 OpenGL 4.6 的渲染器，支持 PBR 和后处理效果\n- **DzShader**：一种类似 Unity、数据驱动的 shader 格式。这是我第一次尝试数据驱动的 shader 写法，这个想法后来慢慢成熟，变成了 [vshadersystem](/projects/vultra_ecosystem/#vshadersystem)。\n- PhysX 物理模拟、骨骼动画、简单的游戏内 GUI，还有一个编辑器\n- 尝试过接入 **C# 脚本**（构建依赖里已经有 .NET SDK 了），但 API 绑定最后没做完。后来 native / Lua / C# 脚本方面的工作，记录在 [libvultra 目前的开发分支](https://github.com/zzxzzk115/libvultra/tree/dev-VRI) 里。\n\n## 回顾\n\n最大的收获是人：七个队友，每个人都有自己擅长的东西。最大的遗憾是时间：课业和考试都在抢大家的时间，我作为组长要把项目撑下去，压力扛了不少。最后没能做到我期望的完成度，不过交出来的东西还算拿得出手。\n\n这些遗憾也没有白费。整体式、OpenGL 时代的引擎有哪些不足，加上想把它真正做好的念头，正是 [Vultra Ecosystem](/projects/vultra_ecosystem/) 的起点。\n\n## 许可证\n\nMIT，详见 [仓库](https://github.com/SnowLeopardEngine/SnowLeopardEngine/blob/main/LICENSE)。\n"
    }
   },
   {
@@ -612,7 +657,8 @@
    "image": {
     "src": "projects/vri-framework/images/vri-framework.webp",
     "alt": {
-     "en": "GPU rendering of the hornedlizard 3D Gaussian splatting (3DGS) scene, loaded from an SPZ file (786,233 splats)."
+     "en": "GPU rendering of the hornedlizard 3D Gaussian splatting (3DGS) scene, loaded from an SPZ file (786,233 splats).",
+     "zh": "GPU 渲染的 hornedlizard 3D Gaussian Splatting（3DGS）场景，从 SPZ 文件加载，共 786,233 个 splat。"
     }
    },
    "links": [
@@ -641,7 +687,8 @@
     }
    },
    "body": {
-    "en": "![GPU rendering of the hornedlizard 3D Gaussian splatting (3DGS) scene, loaded from an SPZ file (786,233 splats).](projects/vri-framework/images/vri-framework.webp)\n\nVRI-Framework is a public library of rendering capabilities built over [VRI](/projects/vri/). It provides resource ownership, device and presentation helpers, framegraph construction, descriptor management, GPU profiling and OpenXR lifecycle support.\n\nIt is a toolkit for composing a renderer. Applications supply their own passes, scenes and shaders. The library includes an application loop for examples and a render module for host-driven integration.\n\nIt belongs to the [Vultra ecosystem](/projects/vultra_ecosystem/), but it is a separate project. The current libvultra `dev-VRI` branch uses VRI directly; this framework is not a mandatory layer between VRI and libvultra.\n"
+    "en": "![GPU rendering of the hornedlizard 3D Gaussian splatting (3DGS) scene, loaded from an SPZ file (786,233 splats).](projects/vri-framework/images/vri-framework.webp)\n\nVRI-Framework is a public library of rendering capabilities built over [VRI](/projects/vri/). It provides resource ownership, device and presentation helpers, framegraph construction, descriptor management, GPU profiling and OpenXR lifecycle support.\n\nIt is a toolkit for composing a renderer. Applications supply their own passes, scenes and shaders. The library includes an application loop for examples and a render module for host-driven integration.\n\nIt belongs to the [Vultra ecosystem](/projects/vultra_ecosystem/), but it is a separate project. The current libvultra `dev-VRI` branch uses VRI directly; this framework is not a mandatory layer between VRI and libvultra.\n",
+    "zh": "![GPU 渲染的 hornedlizard 3D Gaussian Splatting（3DGS）场景，从 SPZ 文件加载，共 786,233 个 splat。](projects/vri-framework/images/vri-framework.webp)\n\nVRI-Framework 是一个公开的渲染能力库，基于 [VRI](/projects/vri/)。它提供资源所有权管理、设备和 presentation 辅助、FrameGraph 构建、descriptor 管理、GPU 性能分析，以及 OpenXR 生命周期支持。\n\n它是一套用来拼装渲染器的工具箱：pass、场景和 shader 都由应用自己提供。库里有一个给示例用的应用循环，还有一个渲染模块，方便由宿主程序驱动来集成。\n\n它属于 [Vultra 生态](/projects/vultra_ecosystem/)，但是一个独立的项目。当前 libvultra 的 `dev-VRI` 分支直接用 VRI，这个框架并不是夹在 VRI 和 libvultra 之间、非用不可的一层。\n"
    }
   },
   {
@@ -660,7 +707,7 @@
    },
    "description": {
     "en": "C++23 plotting through a C ABI, with PNG, SVG and PDF export, ImGui integration and a WebAssembly demo.",
-    "zh": "通过 C ABI 提供的 C++23 绘图库，支持导出 PNG、SVG 和 PDF，集成 ImGui，并有 WebAssembly 演示。"
+    "zh": "用 C++23 写、通过 C ABI 调用的绘图库，能导出 PNG、SVG 和 PDF，可以嵌进 ImGui，还有 WebAssembly 演示。"
    },
    "status": {
     "en": "Early development · API evolving",
@@ -692,6 +739,11 @@
      "purpose": "Export figures and embed plots in C++ applications without requiring a Python runtime.",
      "contribution": "I adapt Matplotlib’s C++ rendering core into a standalone C++23 library, with a C ABI, figure export and Dear ImGui integration.",
      "outcome": "A WebAssembly demo is available, with PNG, SVG and PDF output. The API is still evolving and plotting coverage varies by method."
+    },
+    "zh": {
+     "purpose": "不依赖 Python 运行时，也能在 C++ 程序里导出图表、嵌入绘图。",
+     "contribution": "我把 Matplotlib 的 C++ 渲染核心改造成独立的 C++23 库，提供 C ABI、图表导出和 Dear ImGui 集成。",
+     "outcome": "已经有 WebAssembly 演示，支持输出 PNG、SVG 和 PDF。API 还在变，不同绘图方法的完成度也不一样。"
     }
    },
    "homepage": {
@@ -717,7 +769,8 @@
     }
    },
    "body": {
-    "en": "vplot adapts Matplotlib's C++ rendering core into a standalone C++23 library and exposes it through a C ABI. It can export figures for papers or draw plots inside a renderer’s Dear ImGui interface without a Python runtime.\n\n![Plots rendered by vplot](projects/vplot/images/vplot.webp)\n\nIt supports line and scatter plots, histograms, box and violin plots, image and contour plots, vector fields, annotations, axes and subplot layouts. Output includes RGBA buffers, PNG, SVG and PDF.\n\nThe API is still evolving and coverage varies by plotting method. The [coverage document](https://github.com/zzxzzk115/vplot/blob/main/docs/API-COVERAGE.md) describes the current limits. The browser demo runs through WebGPU or WebGL 2.\n"
+    "en": "vplot adapts Matplotlib's C++ rendering core into a standalone C++23 library and exposes it through a C ABI. It can export figures for papers or draw plots inside a renderer’s Dear ImGui interface without a Python runtime.\n\n![Plots rendered by vplot](projects/vplot/images/vplot.webp)\n\nIt supports line and scatter plots, histograms, box and violin plots, image and contour plots, vector fields, annotations, axes and subplot layouts. Output includes RGBA buffers, PNG, SVG and PDF.\n\nThe API is still evolving and coverage varies by plotting method. The [coverage document](https://github.com/zzxzzk115/vplot/blob/main/docs/API-COVERAGE.md) describes the current limits. The browser demo runs through WebGPU or WebGL 2.\n",
+    "zh": "vplot 把 Matplotlib 的 C++ 渲染核心改造成一个独立的 C++23 库，并通过 C ABI 对外提供接口。不需要 Python 运行时，就能导出论文用的图，或者直接在渲染器的 Dear ImGui 界面里画图。\n\n![vplot 画出的图表](projects/vplot/images/vplot.webp)\n\n它支持折线图和散点图、直方图、箱线图和小提琴图、图像和等高线图、向量场、标注、坐标轴以及子图布局。输出可以是 RGBA 缓冲区、PNG、SVG 或 PDF。\n\nAPI 还在变，不同绘图方法的完成度也不一样，目前的限制写在 [覆盖情况文档](https://github.com/zzxzzk115/vplot/blob/main/docs/API-COVERAGE.md) 里。浏览器演示跑在 WebGPU 或 WebGL 2 上。\n"
    }
   },
   {
@@ -736,7 +789,7 @@
    },
    "description": {
     "en": "A Linux GUI and CLI for MCHOSE mice, with DPI and sensor settings, per-application presets and KDE desktop integration.",
-    "zh": "MCHOSE 鼠标的 Linux 图形界面与命令行工具：DPI 与传感器设置、按应用切换的预设，以及 KDE 桌面集成。"
+    "zh": "给 MCHOSE 鼠标做的 Linux 图形界面和命令行工具：能调 DPI 和传感器设置，按应用自动切换预设，还集成了 KDE 桌面。"
    },
    "image": {
     "src": "projects/mchose-control-linux/images/mchose-control.webp"
@@ -756,6 +809,11 @@
      "purpose": "Configure MCHOSE mouse hardware and desktop presets from Linux.",
      "contribution": "I extended Alexandre Frih’s mchose-linux with a GUI, CLI, per-application presets and KDE desktop integration, retaining its HID protocol implementation.",
      "outcome": "The tool includes tray operation, automatic preset switching and Chinese/English interfaces. It is an independent project."
+    },
+    "zh": {
+     "purpose": "在 Linux 上设置 MCHOSE 鼠标的硬件参数和桌面预设。",
+     "contribution": "我在 Alexandre Frih 的 mchose-linux 基础上加了 GUI、CLI、按应用切换的预设和 KDE 桌面集成，保留了它的 HID 协议实现。",
+     "outcome": "工具支持托盘运行和自动切换预设，有中英文界面。这是一个独立项目。"
     }
    },
    "homepage": {
@@ -777,7 +835,8 @@
     }
    },
    "body": {
-    "en": "This Linux desktop tool configures MCHOSE mouse DPI, polling rate, sensor rotation and other hardware settings. It includes a GUI, a CLI, editable presets and automatic switching based on the foreground application.\n\n![MCHOSE Control Linux running on KDE Plasma](projects/mchose-control-linux/images/mchose-control.webp)\n\nDesktop integration covers tray operation, single-instance activation and KDE mouse settings. The interface supports Chinese and English.\n\nThis is an independent derivative of [Alexandre Frih's mchose-linux](https://github.com/alexfrih/mchose-linux), retaining its HID protocol implementation and extending the interface and desktop integration. It is not official MCHOSE software.\n"
+    "en": "This Linux desktop tool configures MCHOSE mouse DPI, polling rate, sensor rotation and other hardware settings. It includes a GUI, a CLI, editable presets and automatic switching based on the foreground application.\n\n![MCHOSE Control Linux running on KDE Plasma](projects/mchose-control-linux/images/mchose-control.webp)\n\nDesktop integration covers tray operation, single-instance activation and KDE mouse settings. The interface supports Chinese and English.\n\nThis is an independent derivative of [Alexandre Frih's mchose-linux](https://github.com/alexfrih/mchose-linux), retaining its HID protocol implementation and extending the interface and desktop integration. It is not official MCHOSE software.\n",
+    "zh": "这是一个 Linux 桌面工具，用来设置 MCHOSE 鼠标的 DPI、回报率、传感器旋转角度等硬件参数。它有 GUI 也有 CLI，预设可以自己编辑，还能根据前台应用自动切换。\n\n![在 KDE Plasma 上运行的 MCHOSE Control Linux](projects/mchose-control-linux/images/mchose-control.webp)\n\n桌面集成方面，支持托盘运行、单实例激活，也接入了 KDE 的鼠标设置。界面支持中文和英文。\n\n它是 [Alexandre Frih 的 mchose-linux](https://github.com/alexfrih/mchose-linux) 的独立衍生项目：保留了原项目的 HID 协议实现，在界面和桌面集成上做了扩展。这不是 MCHOSE 官方软件。\n"
    }
   },
   {
@@ -826,7 +885,8 @@
     }
    },
    "body": {
-    "en": "VGFW is a header-only graphics framework for quickly trying rendering ideas. It supports OBJ and glTF models, a framegraph, Dear ImGui integration and Tracy profiling.\n\n![VGFW deferred rendering example](projects/vgfw/images/vgfw.webp)\n\nThe framework requests an OpenGL 4.6 context and can fall back to 3.3. Applications still need shaders compatible with the context they actually obtain; some advanced examples require newer GLSL versions.\n\nI used VGFW as the rendering framework for my [Light Propagation Volumes dissertation project](/projects/light-propagation-volumes/).\n"
+    "en": "VGFW is a header-only graphics framework for quickly trying rendering ideas. It supports OBJ and glTF models, a framegraph, Dear ImGui integration and Tracy profiling.\n\n![VGFW deferred rendering example](projects/vgfw/images/vgfw.webp)\n\nThe framework requests an OpenGL 4.6 context and can fall back to 3.3. Applications still need shaders compatible with the context they actually obtain; some advanced examples require newer GLSL versions.\n\nI used VGFW as the rendering framework for my [Light Propagation Volumes dissertation project](/projects/light-propagation-volumes/).\n",
+    "zh": "VGFW 是一个 header-only 的图形框架，用来快速试验渲染想法。它支持 OBJ 和 glTF 模型、framegraph、Dear ImGui 集成和 Tracy 性能分析。\n\n![VGFW 的延迟渲染示例](projects/vgfw/images/vgfw.webp)\n\n框架会请求 OpenGL 4.6 上下文，拿不到时可以回退到 3.3。不过应用里的 shader 还是得和实际拿到的上下文兼容；有些进阶示例需要更新版本的 GLSL。\n\n我在 [Light Propagation Volumes 毕业论文项目](/projects/light-propagation-volumes/) 里用的渲染框架就是 VGFW。\n"
    }
   },
   {
@@ -845,12 +905,13 @@
    },
    "description": {
     "en": "A Slang-based shader compilation pipeline with material reflection, keyword variants and portable runtime shader libraries.",
-    "zh": "基于 Slang 的着色器编译管线：材质反射、关键字变体，以及可移植的运行时着色器库。"
+    "zh": "基于 Slang 的 shader 编译管线，支持材质反射和关键字变体，产出可移植的运行时 shader 库。"
    },
    "image": {
     "src": "projects/vshadersystem/images/vshadersystem.svg",
     "alt": {
-     "en": "Expand Slang keyword variants, compile shader stages, and bundle bytecode with reflection."
+     "en": "Expand Slang keyword variants, compile shader stages, and bundle bytecode with reflection.",
+     "zh": "展开 Slang 关键字变体，编译各个 shader 阶段，再把字节码和反射信息打包在一起。"
     },
     "fit": "contain"
    },
@@ -880,7 +941,8 @@
     }
    },
    "body": {
-    "en": "![Expand Slang keyword variants, compile shader stages, and bundle bytecode with reflection.](projects/vshadersystem/images/vshadersystem.svg)\n\nvshadersystem separates offline shader compilation from runtime loading. Its `vshaderc` compiler processes Slang source, material attributes, reflection and keyword variants; the runtime consumes precompiled libraries without linking Slang.\n\nVersion 1.0 replaced the earlier INI-style GLSL language with Slang user-defined attributes. Slang emits SPIR-V and WGSL directly. Outputs include `.vshbin`, `.vshlib` and reusable `.vshslang` source packs.\n\nThe desktop compiler prepares assets for desktop, Android and WebAssembly consumers. The [repository documentation](https://github.com/zzxzzk115/vshadersystem#overview) describes the format change and authoring workflow.\n"
+    "en": "![Expand Slang keyword variants, compile shader stages, and bundle bytecode with reflection.](projects/vshadersystem/images/vshadersystem.svg)\n\nvshadersystem separates offline shader compilation from runtime loading. Its `vshaderc` compiler processes Slang source, material attributes, reflection and keyword variants; the runtime consumes precompiled libraries without linking Slang.\n\nVersion 1.0 replaced the earlier INI-style GLSL language with Slang user-defined attributes. Slang emits SPIR-V and WGSL directly. Outputs include `.vshbin`, `.vshlib` and reusable `.vshslang` source packs.\n\nThe desktop compiler prepares assets for desktop, Android and WebAssembly consumers. The [repository documentation](https://github.com/zzxzzk115/vshadersystem#overview) describes the format change and authoring workflow.\n",
+    "zh": "![展开 Slang 关键字变体，编译各个 shader 阶段，再把字节码和反射信息打包在一起。](projects/vshadersystem/images/vshadersystem.svg)\n\nvshadersystem 把离线的 shader 编译和运行时加载拆成了两部分。编译器 `vshaderc` 负责处理 Slang 源码、材质属性、反射和关键字变体；运行时只读取预编译好的库，不需要链接 Slang。\n\n1.0 版用 Slang 的用户自定义属性（user-defined attributes）替换掉了之前那套 INI 风格的 GLSL 语言。Slang 可以直接生成 SPIR-V 和 WGSL。输出有 `.vshbin`、`.vshlib`，以及可复用的 `.vshslang` 源码包。\n\n桌面端的编译器负责为桌面、Android 和 WebAssembly 端准备资源。格式上的变化和编写流程，可以看 [仓库文档](https://github.com/zzxzzk115/vshadersystem#overview)。\n"
    }
   },
   {
@@ -899,12 +961,13 @@
    },
    "description": {
     "en": "An asset import and packaging pipeline with UUID-based registries, custom mesh and texture formats, VPK archives and a command-line tool.",
-    "zh": "资源导入与打包管线：基于 UUID 的注册表、自定义网格和纹理格式、VPK 归档以及命令行工具。"
+    "zh": "资源导入和打包管线：用 UUID 管理资源注册表，有自定义的网格和纹理格式、VPK 归档，还带命令行工具。"
    },
    "image": {
     "src": "projects/vasset/images/vasset.svg",
     "alt": {
-     "en": "Import source assets, cook registry entries, and package them for runtime loading."
+     "en": "Import source assets, cook registry entries, and package them for runtime loading.",
+     "zh": "导入源资源，cook 成注册表条目，再打包给运行时加载。"
     },
     "fit": "contain"
    },
@@ -934,7 +997,8 @@
     }
    },
    "body": {
-    "en": "![Import source assets, cook registry entries, and package them for runtime loading.](projects/vasset/images/vasset.svg)\n\nvasset is a library and command-line pipeline for importing and packaging engine assets. It uses VMesh, VTexture and VMaterial formats, tracks assets by UUID, and packs them into VPK archives that can be mounted through [vfilesystem](https://github.com/zzxzzk115/vfilesystem).\n\nDesktop builds provide import and packing tools. Android distributions focus on the runtime libraries. WebAssembly builds can include the importer, with a browser upload example in the repository.\n\n```sh\nvasset-cli import <asset-root>\nvasset-cli pack <asset-root> <out.vpk>\n```\n\nThe [release documentation](https://github.com/zzxzzk115/vasset#prebuilt-releases) distinguishes the available tools and runtime bundles.\n"
+    "en": "![Import source assets, cook registry entries, and package them for runtime loading.](projects/vasset/images/vasset.svg)\n\nvasset is a library and command-line pipeline for importing and packaging engine assets. It uses VMesh, VTexture and VMaterial formats, tracks assets by UUID, and packs them into VPK archives that can be mounted through [vfilesystem](https://github.com/zzxzzk115/vfilesystem).\n\nDesktop builds provide import and packing tools. Android distributions focus on the runtime libraries. WebAssembly builds can include the importer, with a browser upload example in the repository.\n\n```sh\nvasset-cli import <asset-root>\nvasset-cli pack <asset-root> <out.vpk>\n```\n\nThe [release documentation](https://github.com/zzxzzk115/vasset#prebuilt-releases) distinguishes the available tools and runtime bundles.\n",
+    "zh": "![导入源资源，cook 成注册表条目，再打包给运行时加载。](projects/vasset/images/vasset.svg)\n\nvasset 是一个用来导入和打包引擎资源的库，外加一套命令行管线。它用 VMesh、VTexture 和 VMaterial 这几种格式，按 UUID 追踪资源，最后打包成 VPK 归档，可以通过 [vfilesystem](https://github.com/zzxzzk115/vfilesystem) 挂载。\n\n桌面版提供导入和打包工具；Android 发行版主要是运行时库；WebAssembly 版可以带上导入器，仓库里还有一个在浏览器里上传资源的示例。\n\n```sh\nvasset-cli import <asset-root>\nvasset-cli pack <asset-root> <out.vpk>\n```\n\n哪些发行包里有哪些工具、哪些是运行时包，[发布说明文档](https://github.com/zzxzzk115/vasset#prebuilt-releases) 里都分开写清楚了。\n"
    }
   },
   {
@@ -976,6 +1040,11 @@
      "purpose": "Run classic Mac OS System 7.5 on a PocketCHIP handheld.",
      "contribution": "I adapted and built Mini vMac for PocketCHIP; Mini vMac supplies the underlying emulation.",
      "outcome": "The repository provides a handheld executable and setup instructions. Users supply their own disk image."
+    },
+    "zh": {
+     "purpose": "在 PocketCHIP 掌机上跑经典 Mac OS System 7.5。",
+     "contribution": "我把 Mini vMac 适配并编译到了 PocketCHIP 上；底层的模拟由 Mini vMac 负责。",
+     "outcome": "仓库提供掌机上用的可执行文件和配置说明，磁盘镜像需要用户自己准备。"
     }
    },
    "homepage": {
@@ -997,7 +1066,8 @@
     }
    },
    "body": {
-    "en": "This project runs classic Mac OS System 7.5 on PocketCHIP using a custom Mini vMac build. The repository provides the handheld executable and usage instructions for a user-supplied disk image.\n\n![Classic Mac OS running on PocketCHIP](projects/pocketchip-macos/images/pocketchip-macos.webp)\n\nMy work here is the PocketCHIP adaptation and build. Mini vMac is the underlying emulator; this project does not claim authorship of the emulator or Mac OS.\n"
+    "en": "This project runs classic Mac OS System 7.5 on PocketCHIP using a custom Mini vMac build. The repository provides the handheld executable and usage instructions for a user-supplied disk image.\n\n![Classic Mac OS running on PocketCHIP](projects/pocketchip-macos/images/pocketchip-macos.webp)\n\nMy work here is the PocketCHIP adaptation and build. Mini vMac is the underlying emulator; this project does not claim authorship of the emulator or Mac OS.\n",
+    "zh": "这个项目用定制的 Mini vMac 构建，在 PocketCHIP 上跑经典 Mac OS System 7.5。仓库里提供了掌机上用的可执行文件，以及使用说明（磁盘镜像需要自己准备）。\n\n![在 PocketCHIP 上运行的经典 Mac OS](projects/pocketchip-macos/images/pocketchip-macos.webp)\n\n我做的是 PocketCHIP 上的适配和构建。底层的模拟器是 Mini vMac；模拟器和 Mac OS 都不是这个项目的作品。\n"
    }
   },
   {
@@ -1020,7 +1090,8 @@
    "image": {
     "src": "projects/online-tools/images/online-tools.webp",
     "alt": {
-     "en": "本地运行的图像指标工具：批量评估三张自制测试图像。"
+     "en": "本地运行的图像指标工具：批量评估三张自制测试图像。",
+     "zh": "本地运行的图像指标工具：批量评估三张自制测试图像。"
     }
    },
    "links": [
@@ -1057,7 +1128,8 @@
     }
    },
    "body": {
-    "en": "![本地运行的图像指标工具：批量评估三张自制测试图像。](projects/online-tools/images/online-tools.webp)\n\nA small collection of browser-based image comparison tools written in HTML, CSS and JavaScript.\n\nThe image metrics tool compares one reference image with multiple target images using the structural similarity index (SSIM), peak signal-to-noise ratio (PSNR) and mean squared error (MSE). A second tool generates absolute error maps and heatmaps, using Plotly for visualization.\n\nThe interface supports English and Chinese. These tools are useful for inspecting rendering outputs alongside the experiments that produced them.\n"
+    "en": "![本地运行的图像指标工具：批量评估三张自制测试图像。](projects/online-tools/images/online-tools.webp)\n\nA small collection of browser-based image comparison tools written in HTML, CSS and JavaScript.\n\nThe image metrics tool compares one reference image with multiple target images using the structural similarity index (SSIM), peak signal-to-noise ratio (PSNR) and mean squared error (MSE). A second tool generates absolute error maps and heatmaps, using Plotly for visualization.\n\nThe interface supports English and Chinese. These tools are useful for inspecting rendering outputs alongside the experiments that produced them.\n",
+    "zh": "![本地运行的图像指标工具：批量评估三张自制测试图像。](projects/online-tools/images/online-tools.webp)\n\n这是一组在浏览器里跑的图像对比小工具，用 HTML、CSS 和 JavaScript 写的。\n\n图像指标工具拿一张参考图和多张目标图做比较，算出结构相似性（SSIM）、峰值信噪比（PSNR）和均方误差（MSE）。另一个工具用来生成绝对误差图和热力图，可视化用的是 Plotly。\n\n界面支持中文和英文。检查渲染结果、和产出这些结果的实验对照着看的时候，这几个工具挺好用的。\n"
    }
   },
   {
@@ -1109,7 +1181,8 @@
     }
    },
    "body": {
-    "en": "A GameShell adaptation of classic BBK handheld games based on [cyanzhong's bbk.emu](https://github.com/cyanzhong/bbk.emu).\n\n![BBK game running on GameShell](projects/bbk-gameshell/images/bbk-gameshell.webp)\n\nThe project packages the emulator for GameShell and provides launcher integration. The underlying emulator, game content and contributed icons retain their original authorship.\n\nA related project is my [WQX NC1020 adaptation](/projects/wqx-gameshell/).\n"
+    "en": "A GameShell adaptation of classic BBK handheld games based on [cyanzhong's bbk.emu](https://github.com/cyanzhong/bbk.emu).\n\n![BBK game running on GameShell](projects/bbk-gameshell/images/bbk-gameshell.webp)\n\nThe project packages the emulator for GameShell and provides launcher integration. The underlying emulator, game content and contributed icons retain their original authorship.\n\nA related project is my [WQX NC1020 adaptation](/projects/wqx-gameshell/).\n",
+    "zh": "基于 [cyanzhong 的 bbk.emu](https://github.com/cyanzhong/bbk.emu)，把经典的步步高掌机游戏适配到 GameShell 上。\n\n![在 GameShell 上运行的步步高游戏](projects/bbk-gameshell/images/bbk-gameshell.webp)\n\n这个项目把模拟器打包到了 GameShell 上，并接入了启动器。底层的模拟器、游戏内容和别人贡献的图标，作者仍是原作者。\n\n相关的还有我的 [文曲星 NC1020 适配](/projects/wqx-gameshell/)。\n"
    }
   },
   {
@@ -1136,7 +1209,8 @@
    "image": {
     "src": "projects/wqx-gameshell/images/wqx-gameshell.webp",
     "alt": {
-     "en": "NC1020 emulator calendar and clock running from this repository in a local browser."
+     "en": "NC1020 emulator calendar and clock running from this repository in a local browser.",
+     "zh": "用这个仓库在本地浏览器里跑起来的 NC1020 模拟器，显示日历和时钟。"
     },
     "fit": "contain"
    },
@@ -1165,7 +1239,8 @@
     }
    },
    "body": {
-    "en": "![NC1020 emulator calendar and clock running from this repository in a local browser.](projects/wqx-gameshell/images/wqx-gameshell.webp)\n\nThis project adapts the WQX NC1020 emulator for GameShell. It uses [hackwaly's jswqx](https://github.com/hackwaly/jswqx), packages it with NW.js and supplies a GameShell launcher.\n\nThe repository documents where to place the application and how to adjust the launcher when the GameShell account name differs from the default. My contribution is the handheld integration; the emulator and contributed icon assets retain their original authorship.\n"
+    "en": "![NC1020 emulator calendar and clock running from this repository in a local browser.](projects/wqx-gameshell/images/wqx-gameshell.webp)\n\nThis project adapts the WQX NC1020 emulator for GameShell. It uses [hackwaly's jswqx](https://github.com/hackwaly/jswqx), packages it with NW.js and supplies a GameShell launcher.\n\nThe repository documents where to place the application and how to adjust the launcher when the GameShell account name differs from the default. My contribution is the handheld integration; the emulator and contributed icon assets retain their original authorship.\n",
+    "zh": "![用这个仓库在本地浏览器里跑起来的 NC1020 模拟器，显示日历和时钟。](projects/wqx-gameshell/images/wqx-gameshell.webp)\n\n这个项目把文曲星 NC1020 模拟器适配到了 GameShell 上。它基于 [hackwaly 的 jswqx](https://github.com/hackwaly/jswqx)，用 NW.js 打包，并提供了一个 GameShell 启动器。\n\n仓库里写了应用该放在哪个位置，以及当 GameShell 的账户名和默认的不一样时，启动器要怎么改。我做的是掌机上的集成部分；模拟器本身和别人贡献的图标素材，作者仍是原作者。\n"
    }
   },
   {
@@ -1218,7 +1293,8 @@
     }
    },
    "body": {
-    "en": "VRaytracer is a C++ ray tracer with an ImGui interface, multithreaded rendering and configurable scenes.\n\n![VRaytracer rendering example](projects/vraytracer/images/vraytracer.webp)\n\nThe repository contains CMake build instructions for Windows, Linux and macOS. Physically based materials and Wavefront OBJ loading remain on its roadmap.\n"
+    "en": "VRaytracer is a C++ ray tracer with an ImGui interface, multithreaded rendering and configurable scenes.\n\n![VRaytracer rendering example](projects/vraytracer/images/vraytracer.webp)\n\nThe repository contains CMake build instructions for Windows, Linux and macOS. Physically based materials and Wavefront OBJ loading remain on its roadmap.\n",
+    "zh": "VRaytracer 是一个 C++ 光线追踪器，带 ImGui 界面、多线程渲染和可配置的场景。\n\n![VRaytracer 渲染示例](projects/vraytracer/images/vraytracer.webp)\n\n仓库里有 Windows、Linux 和 macOS 下的 CMake 构建说明。基于物理的材质和 Wavefront OBJ 加载还在计划中，尚未实现。\n"
    }
   },
   {
@@ -1271,7 +1347,8 @@
     }
    },
    "body": {
-    "en": "VSoftRenderer is a small software renderer for Windows, Linux and macOS. It exposes a programmable shading pipeline through C++ shader classes.\n\n![Textured Phong shading in VSoftRenderer](projects/vsoft-renderer/images/vsoft-renderer.webp)\n\nThe examples demonstrate Gouraud shading and Phong shading with diffuse, normal and specular textures. This project records my earlier work on the rendering pipeline before the later graphics frameworks.\n"
+    "en": "VSoftRenderer is a small software renderer for Windows, Linux and macOS. It exposes a programmable shading pipeline through C++ shader classes.\n\n![Textured Phong shading in VSoftRenderer](projects/vsoft-renderer/images/vsoft-renderer.webp)\n\nThe examples demonstrate Gouraud shading and Phong shading with diffuse, normal and specular textures. This project records my earlier work on the rendering pipeline before the later graphics frameworks.\n",
+    "zh": "VSoftRenderer 是一个小型软件渲染器，支持 Windows、Linux 和 macOS。它通过 C++ 的 shader 类提供可编程的着色管线。\n\n![VSoftRenderer 里带纹理的 Phong 着色](projects/vsoft-renderer/images/vsoft-renderer.webp)\n\n示例里演示了 Gouraud 着色，以及使用漫反射、法线和高光贴图的 Phong 着色。这个项目记录的是我在做后来那些图形框架之前，对渲染管线的早期尝试。\n"
    }
   },
   {
@@ -1294,7 +1371,8 @@
    "image": {
     "src": "projects/j2me-asset-hunter/images/j2me-asset-hunter.svg",
     "alt": {
-     "en": "Recover images and MIDI from J2ME archives, with FluidSynth audio conversion."
+     "en": "Recover images and MIDI from J2ME archives, with FluidSynth audio conversion.",
+     "zh": "从 J2ME 归档里找回图片和 MIDI，并用 FluidSynth 转换音频。"
     },
     "fit": "contain"
    },
@@ -1323,7 +1401,8 @@
     }
    },
    "body": {
-    "en": "![Recover images and MIDI from J2ME archives, with FluidSynth audio conversion.](projects/j2me-asset-hunter/images/j2me-asset-hunter.svg)\n\nA small command-line tool for finding and extracting game assets from J2ME `.jar` files.\n\n```sh\nj2me-asset-hunter <game.jar> -o <output-directory>\n```\n\nThe source repository contains the tool and its command-line usage.\n"
+    "en": "![Recover images and MIDI from J2ME archives, with FluidSynth audio conversion.](projects/j2me-asset-hunter/images/j2me-asset-hunter.svg)\n\nA small command-line tool for finding and extracting game assets from J2ME `.jar` files.\n\n```sh\nj2me-asset-hunter <game.jar> -o <output-directory>\n```\n\nThe source repository contains the tool and its command-line usage.\n",
+    "zh": "![从 J2ME 归档里找回图片和 MIDI，并用 FluidSynth 转换音频。](projects/j2me-asset-hunter/images/j2me-asset-hunter.svg)\n\n一个小巧的命令行工具，用来从 J2ME 的 `.jar` 文件里找出并提取游戏资源。\n\n```sh\nj2me-asset-hunter <game.jar> -o <output-directory>\n```\n\n源码仓库里有这个工具和它的命令行用法。\n"
    }
   },
   {
@@ -1346,7 +1425,8 @@
    "image": {
     "src": "projects/bixuetang/images/bixuetang.webp",
     "alt": {
-     "en": "本地空数据库中的演示学员：智能启程路线与公开课闯关地图。"
+     "en": "本地空数据库中的演示学员：智能启程路线与公开课闯关地图。",
+     "zh": "本地空数据库中的演示学员：智能启程路线与公开课闯关地图。"
     }
    },
    "links": [
@@ -1374,7 +1454,8 @@
     }
    },
    "body": {
-    "en": "![本地空数据库中的演示学员：智能启程路线与公开课闯关地图。](projects/bixuetang/images/bixuetang.webp)\n\nBixuetang is a self-study application for Chinese-speaking learners. It organizes open courses into learning paths with prerequisites and keeps track of completed lessons.\n\nFeatures include timestamped video notes, vocabulary review, spaced repetition, quizzes and progress rewards. The course index is mainly drawn from [csdiy.wiki](https://csdiy.wiki/), with videos from public course providers.\n\nSource code and setup instructions are available in the repository under GPL-3.0.\n"
+    "en": "![本地空数据库中的演示学员：智能启程路线与公开课闯关地图。](projects/bixuetang/images/bixuetang.webp)\n\nBixuetang is a self-study application for Chinese-speaking learners. It organizes open courses into learning paths with prerequisites and keeps track of completed lessons.\n\nFeatures include timestamped video notes, vocabulary review, spaced repetition, quizzes and progress rewards. The course index is mainly drawn from [csdiy.wiki](https://csdiy.wiki/), with videos from public course providers.\n\nSource code and setup instructions are available in the repository under GPL-3.0.\n",
+    "zh": "![本地空数据库中的演示学员：智能启程路线与公开课闯关地图。](projects/bixuetang/images/bixuetang.webp)\n\n必学堂（Bixuetang）是一个给中文学习者用的自学应用。它把公开课按先修关系排成学习路径，并记下你已经学完了哪些课。\n\n功能包括带时间戳的视频笔记、单词复习、间隔重复、小测验和进度奖励。课程目录主要来自 [csdiy.wiki](https://csdiy.wiki/)，视频来自各个公开课平台。\n\n源码和安装说明都在仓库里，以 GPL-3.0 协议开源。\n"
    }
   },
   {
@@ -1401,7 +1482,8 @@
    "image": {
     "src": "projects/chip8-cpp/images/chip8-showcase.png",
     "alt": {
-     "en": "The CHIP-8 interpreter displaying the IBM logo test ROM."
+     "en": "The CHIP-8 interpreter displaying the IBM logo test ROM.",
+     "zh": "CHIP-8 解释器正在显示 IBM logo 测试 ROM。"
     },
     "fit": "contain"
    },
@@ -1420,6 +1502,11 @@
      "purpose": "Learn how an interpreter turns machine instructions into graphics, input and sound.",
      "contribution": "I implemented a CHIP-8 interpreter in C++ with SDL2 handling the display, input and audio.",
      "outcome": "The repository includes a ROM-loading application, an IBM logo demonstration and CMake build instructions."
+    },
+    "zh": {
+     "purpose": "搞清楚解释器是怎么把机器指令变成画面、输入和声音的。",
+     "contribution": "我用 C++ 写了一个 CHIP-8 解释器，显示、输入和音频交给 SDL2。",
+     "outcome": "仓库里有加载 ROM 的程序、IBM logo 演示，以及 CMake 构建说明。"
     }
    },
    "homepage": {
@@ -1437,7 +1524,8 @@
     }
    },
    "body": {
-    "en": "![The CHIP-8 interpreter displaying the IBM logo test ROM.](projects/chip8-cpp/images/chip8-showcase.png)\n\nchip8-cpp is my first step into writing an emulator. It implements the CHIP-8 instruction set and uses SDL2 for the display, input handling and sound.\n\n## Running a ROM\n\nThe application accepts a CHIP-8 ROM path. The repository documents a CMake build with a C++23 compiler:\n\n```sh\ncmake -S . -B build\ncmake --build build\n```\n\nRun the resulting `chip8cpp-app` executable with the path to a ROM. Its location depends on the build generator and configuration.\n\n## Scope and source\n\nThis is a small learning project focused on CHIP-8. It is separate from my handheld adaptations of existing emulators, such as [WQX on GameShell](/projects/wqx-gameshell/) and [Mini vMac on PocketCHIP](/projects/pocketchip-macos/).\n\nThe screenshot is the repository's [IBM logo showcase](https://github.com/zzxzzk115/chip8-cpp/blob/master/media/ibm_logo_showcase.png). Source code and build instructions are available in the [MIT-licensed repository](https://github.com/zzxzzk115/chip8-cpp).\n"
+    "en": "![The CHIP-8 interpreter displaying the IBM logo test ROM.](projects/chip8-cpp/images/chip8-showcase.png)\n\nchip8-cpp is my first step into writing an emulator. It implements the CHIP-8 instruction set and uses SDL2 for the display, input handling and sound.\n\n## Running a ROM\n\nThe application accepts a CHIP-8 ROM path. The repository documents a CMake build with a C++23 compiler:\n\n```sh\ncmake -S . -B build\ncmake --build build\n```\n\nRun the resulting `chip8cpp-app` executable with the path to a ROM. Its location depends on the build generator and configuration.\n\n## Scope and source\n\nThis is a small learning project focused on CHIP-8. It is separate from my handheld adaptations of existing emulators, such as [WQX on GameShell](/projects/wqx-gameshell/) and [Mini vMac on PocketCHIP](/projects/pocketchip-macos/).\n\nThe screenshot is the repository's [IBM logo showcase](https://github.com/zzxzzk115/chip8-cpp/blob/master/media/ibm_logo_showcase.png). Source code and build instructions are available in the [MIT-licensed repository](https://github.com/zzxzzk115/chip8-cpp).\n",
+    "zh": "![CHIP-8 解释器运行 IBM logo 测试 ROM。](projects/chip8-cpp/images/chip8-showcase.png)\n\nchip8-cpp 是我写模拟器的第一步。它实现了 CHIP-8 指令集，画面显示、输入处理和声音都交给 SDL2。\n\n## 运行 ROM\n\n程序接收一个 CHIP-8 ROM 的路径。仓库里写的构建方式是 CMake，加上支持 C++23 的编译器：\n\n```sh\ncmake -S . -B build\ncmake --build build\n```\n\n编出来的可执行文件叫 `chip8cpp-app`，运行时把 ROM 路径传给它就行。它具体在哪个目录，取决于用的构建生成器和配置。\n\n## 范围与源码\n\n这是一个只关注 CHIP-8 的学习小项目，和我把现有模拟器移植到掌机上的那些项目不是一回事，比如 [GameShell 上的 WQX](/projects/wqx-gameshell/) 和 [PocketCHIP 上的 Mini vMac](/projects/pocketchip-macos/)。\n\n截图是仓库里的 [IBM logo 展示图](https://github.com/zzxzzk115/chip8-cpp/blob/master/media/ibm_logo_showcase.png)。源码和构建说明都在 [MIT 协议的仓库](https://github.com/zzxzzk115/chip8-cpp) 里。\n"
    }
   },
   {
@@ -1543,7 +1631,8 @@
    "image": {
     "src": "projects/vrendergraph/images/vrendergraph-editor.png",
     "alt": {
-     "en": "The vrendergraph editor example connecting depth, G-buffer, SSAO, lighting, tone mapping and presentation passes."
+     "en": "The vrendergraph editor example connecting depth, G-buffer, SSAO, lighting, tone mapping and presentation passes.",
+     "zh": "vrendergraph 编辑器示例，把深度、G-buffer、SSAO、光照、色调映射和呈现这几个 pass 连了起来。"
     },
     "fit": "contain"
    },
@@ -1570,6 +1659,11 @@
      "purpose": "Describe render-pipeline passes and connections as data that a host application can load and edit.",
      "contribution": "I built a JSON schema and runtime builder, with versioned resource references and helpers for editor integration.",
      "outcome": "The repository provides runtime and editor examples, including a node-based view of a deferred pipeline."
+    },
+    "zh": {
+     "purpose": "把渲染管线的 pass 和它们之间的连接写成数据，让宿主程序可以加载和编辑。",
+     "contribution": "我设计了 JSON schema，写了运行时构建器，资源引用带版本，还提供了方便接入编辑器的辅助工具。",
+     "outcome": "仓库里有运行时和编辑器的示例，包括一个延迟渲染管线的节点视图。"
     }
    },
    "homepage": {
@@ -1588,7 +1682,8 @@
     }
    },
    "body": {
-    "en": "![The node-based vrendergraph editor example.](projects/vrendergraph/images/vrendergraph-editor.png)\n\nvrendergraph is a small data-driven layer that builds a runtime FrameGraph from JSON. Pass inputs and outputs describe slot connections; the host supplies the pass implementations and interprets engine-specific settings.\n\n## Runtime and editor data\n\n- The runtime builder executes passes in the order of the JSON `passes` array.\n- The v0.3 schema adds resource descriptors, conditions, view modes and resource selectors while retaining support for v0.2 descriptions.\n- Optional editor metadata stores node positions and other UI state, without affecting runtime execution.\n\nThe repository includes [runtime integration](https://github.com/zzxzzk115/vrendergraph/blob/master/docs/RUNTIME.md) and [editor integration](https://github.com/zzxzzk115/vrendergraph/blob/master/docs/EDITOR.md) guides.\n\n## Place in the Vultra ecosystem\n\nThis standalone library belongs to the [Vultra ecosystem](/projects/vultra_ecosystem/). It was used in earlier data-driven pipeline experiments. Current libvultra `dev-VRI` documents its own RenderGraph interfaces and JSON construction separately; this page does not imply that vrendergraph is a dependency of that branch.\n\nThe image is the repository's [editor example screenshot](https://github.com/zzxzzk115/vrendergraph/blob/master/media/vrendergraph_editor_example.png).\n"
+    "en": "![The node-based vrendergraph editor example.](projects/vrendergraph/images/vrendergraph-editor.png)\n\nvrendergraph is a small data-driven layer that builds a runtime FrameGraph from JSON. Pass inputs and outputs describe slot connections; the host supplies the pass implementations and interprets engine-specific settings.\n\n## Runtime and editor data\n\n- The runtime builder executes passes in the order of the JSON `passes` array.\n- The v0.3 schema adds resource descriptors, conditions, view modes and resource selectors while retaining support for v0.2 descriptions.\n- Optional editor metadata stores node positions and other UI state, without affecting runtime execution.\n\nThe repository includes [runtime integration](https://github.com/zzxzzk115/vrendergraph/blob/master/docs/RUNTIME.md) and [editor integration](https://github.com/zzxzzk115/vrendergraph/blob/master/docs/EDITOR.md) guides.\n\n## Place in the Vultra ecosystem\n\nThis standalone library belongs to the [Vultra ecosystem](/projects/vultra_ecosystem/). It was used in earlier data-driven pipeline experiments. Current libvultra `dev-VRI` documents its own RenderGraph interfaces and JSON construction separately; this page does not imply that vrendergraph is a dependency of that branch.\n\nThe image is the repository's [editor example screenshot](https://github.com/zzxzzk115/vrendergraph/blob/master/media/vrendergraph_editor_example.png).\n",
+    "zh": "![vrendergraph 基于节点的编辑器示例。](projects/vrendergraph/images/vrendergraph-editor.png)\n\nvrendergraph 是一个数据驱动的小模块，用 JSON 在运行时构建 FrameGraph。每个 pass 的输入和输出描述了槽位之间怎么连；pass 的具体实现由宿主程序提供，引擎相关的设置也由宿主自己解释。\n\n## 运行时与编辑器数据\n\n- 运行时构建器按 JSON 里 `passes` 数组的顺序执行 pass。\n- v0.3 schema 加入了资源描述符、条件、视图模式和资源选择器，同时仍然兼容 v0.2 的描述。\n- 可选的编辑器元数据用来保存节点位置等 UI 状态，不影响运行时执行。\n\n仓库里有 [运行时集成](https://github.com/zzxzzk115/vrendergraph/blob/master/docs/RUNTIME.md) 和 [编辑器集成](https://github.com/zzxzzk115/vrendergraph/blob/master/docs/EDITOR.md) 两份指南。\n\n## 在 Vultra 生态里的位置\n\n这是一个独立的库，属于 [Vultra 生态](/projects/vultra_ecosystem/)，早先在一些数据驱动管线的实验里用过。现在 libvultra 的 `dev-VRI` 有自己的 RenderGraph 接口和 JSON 构建方式，文档是另外写的；这里并不是说那个分支依赖 vrendergraph。\n\n图片是仓库里的 [编辑器示例截图](https://github.com/zzxzzk115/vrendergraph/blob/master/media/vrendergraph_editor_example.png)。\n"
    }
   },
   {
@@ -1616,7 +1711,8 @@
    "image": {
     "src": "projects/nw-unity/images/nw-unity-gameshell.jpg",
     "alt": {
-     "en": "The Hello, NW-Unity sample running on a GameShell handheld."
+     "en": "The Hello, NW-Unity sample running on a GameShell handheld.",
+     "zh": "Hello, NW-Unity 示例在 GameShell 掌机上运行。"
     }
    },
    "links": [
@@ -1634,6 +1730,11 @@
      "purpose": "Package a Unity WebGL export for use in a desktop application or on a GameShell handheld.",
      "contribution": "I built a Python CLI that prepares the NW.js application folder and exposes window and platform settings.",
      "outcome": "The repository documents the nwunity package and includes Windows and GameShell sample captures."
+    },
+    "zh": {
+     "purpose": "把 Unity WebGL 导出打包起来，做成桌面应用或者放到 GameShell 掌机上跑。",
+     "contribution": "我写了一个 Python CLI，负责准备 NW.js 应用目录，并提供窗口和平台相关的设置。",
+     "outcome": "仓库里有 nwunity 包的文档，还附了 Windows 和 GameShell 上的示例截图和照片。"
     }
    },
    "homepage": {
@@ -1651,7 +1752,8 @@
     }
    },
    "body": {
-    "en": "![The Hello, NW-Unity sample running on GameShell.](projects/nw-unity/images/nw-unity-gameshell.jpg)\n\nNW-Unity packages an existing Unity WebGL output folder into an NW.js application folder. It is part of my earlier work bringing games and software to GameShell.\n\n## Packaging workflow\n\nThe `nwunity` CLI accepts the WebGL export directory and application name, along with options for window size, fullscreen mode, resizing, icons and platform selection. A dedicated GameShell mode handles that target's packaging workflow.\n\nThe [repository README](https://github.com/zzxzzk115/NW-Unity#quick-usage) documents installation and example commands. Its Unity, NW.js and GameShell setup notes reflect the versions used for this earlier project.\n\n## Handheld demonstration\n\nThe cover is the repository's [GameShell sample photograph](https://github.com/zzxzzk115/NW-Unity/blob/master/images/run_on_gameshell.JPG). The repository also includes a Windows sample capture and GameShell-specific setup notes.\n"
+    "en": "![The Hello, NW-Unity sample running on GameShell.](projects/nw-unity/images/nw-unity-gameshell.jpg)\n\nNW-Unity packages an existing Unity WebGL output folder into an NW.js application folder. It is part of my earlier work bringing games and software to GameShell.\n\n## Packaging workflow\n\nThe `nwunity` CLI accepts the WebGL export directory and application name, along with options for window size, fullscreen mode, resizing, icons and platform selection. A dedicated GameShell mode handles that target's packaging workflow.\n\nThe [repository README](https://github.com/zzxzzk115/NW-Unity#quick-usage) documents installation and example commands. Its Unity, NW.js and GameShell setup notes reflect the versions used for this earlier project.\n\n## Handheld demonstration\n\nThe cover is the repository's [GameShell sample photograph](https://github.com/zzxzzk115/NW-Unity/blob/master/images/run_on_gameshell.JPG). The repository also includes a Windows sample capture and GameShell-specific setup notes.\n",
+    "zh": "![Hello, NW-Unity 示例在 GameShell 上运行。](projects/nw-unity/images/nw-unity-gameshell.jpg)\n\nNW-Unity 把现成的 Unity WebGL 导出目录打包成一个 NW.js 应用目录。它是我早年把游戏和软件搬到 GameShell 上的工作之一。\n\n## 打包流程\n\n`nwunity` 命令行接收 WebGL 导出目录和应用名，还能设置窗口大小、全屏、是否允许调整窗口大小、图标和目标平台。另外有一个专门的 GameShell 模式，负责这个平台的打包流程。\n\n安装方法和示例命令见 [仓库 README](https://github.com/zzxzzk115/NW-Unity#quick-usage)。里面 Unity、NW.js 和 GameShell 的配置说明，对应的是当年做这个项目时用的版本。\n\n## 掌机演示\n\n封面是仓库里的 [GameShell 示例照片](https://github.com/zzxzzk115/NW-Unity/blob/master/images/run_on_gameshell.JPG)。仓库里还有一张 Windows 上的示例截图，以及 GameShell 专用的配置说明。\n"
    }
   },
   {
@@ -1720,7 +1822,8 @@
    "image": {
     "src": "projects/academic-casual-template/images/academic-casual-template.png",
     "alt": {
-     "en": "The template's historical Albert Einstein example with its profile sidebar and research sections."
+     "en": "The template's historical Albert Einstein example with its profile sidebar and research sections.",
+     "zh": "模板自带的历史人物 Albert Einstein 示例，带个人资料侧边栏和研究栏目。"
     }
    },
    "links": [
@@ -1746,6 +1849,11 @@
      "purpose": "Maintain a research homepage and a personal portfolio from shared content and reusable presentation code.",
      "contribution": "I built the Astro and Vue template, content schemas, responsive layouts, build tooling and deployment workflows.",
      "outcome": "This site uses the template from a separate pinned repository; a historical Einstein profile supplies independent example content."
+    },
+    "zh": {
+     "purpose": "用同一份内容和可复用的展示代码，同时维护一个学术主页和一个个人作品集。",
+     "contribution": "我做了这套 Astro + Vue 模板，包括内容 schema、响应式布局、构建工具和部署流程。",
+     "outcome": "这个网站就在用这套模板，内容放在单独的仓库里，固定引用模板的某个版本；另外有一份历史人物 Einstein 的资料作为独立的示例内容。"
     }
    },
    "homepage": {
@@ -1763,7 +1871,8 @@
     }
    },
    "body": {
-    "en": "![The template's Albert Einstein example.](projects/academic-casual-template/images/academic-casual-template.png)\n\nThis is the reusable template behind my current homepage. It offers Academic and Casual presentations over shared content, with independently configurable portraits, contact links, section order and homepage selections.\n\n## Content and presentation\n\nProjects, posts, current focus, profile information and bibliography entries live in the content repository. The Astro and Vue components live in the template repository. A pinned template revision makes the build reproducible across the two repositories.\n\nThe template supports responsive profile sidebars, optional feature banners, light and dark themes, search, heading permalinks, tables of contents and Giscus comments. External navigation links keep independently hosted sites, such as my Blog, accessible from either mode.\n\n## Publishing and examples\n\nGitHub Actions builds review previews and publishes the site. Optional LaTeX configuration maps source documents to public PDF paths, including independently labelled language editions of a CV.\n\nThe cover is a local browser capture of the bundled historical Albert Einstein example. Its historical content and image credits remain documented in the template's [source notes](https://github.com/zzxzzk115/academic-casual-template/blob/eff77bad83aaca2dd8f50c2b9e4775ff51def8b1/examples/einstein/content/posts/sources.md). It is example content rather than my own research.\n"
+    "en": "![The template's Albert Einstein example.](projects/academic-casual-template/images/academic-casual-template.png)\n\nThis is the reusable template behind my current homepage. It offers Academic and Casual presentations over shared content, with independently configurable portraits, contact links, section order and homepage selections.\n\n## Content and presentation\n\nProjects, posts, current focus, profile information and bibliography entries live in the content repository. The Astro and Vue components live in the template repository. A pinned template revision makes the build reproducible across the two repositories.\n\nThe template supports responsive profile sidebars, optional feature banners, light and dark themes, search, heading permalinks, tables of contents and Giscus comments. External navigation links keep independently hosted sites, such as my Blog, accessible from either mode.\n\n## Publishing and examples\n\nGitHub Actions builds review previews and publishes the site. Optional LaTeX configuration maps source documents to public PDF paths, including independently labelled language editions of a CV.\n\nThe cover is a local browser capture of the bundled historical Albert Einstein example. Its historical content and image credits remain documented in the template's [source notes](https://github.com/zzxzzk115/academic-casual-template/blob/eff77bad83aaca2dd8f50c2b9e4775ff51def8b1/examples/einstein/content/posts/sources.md). It is example content rather than my own research.\n",
+    "zh": "![模板自带的 Albert Einstein 示例。](projects/academic-casual-template/images/academic-casual-template.png)\n\n这是我现在这个主页背后的可复用模板。同一份内容可以用 Academic 和 Casual 两种方式展示，头像、联系方式、栏目顺序和首页放哪些内容，两种模式都能分开配置。\n\n## 内容与展示\n\n项目、文章、当前关注、个人资料和参考文献条目都放在内容仓库里，Astro 和 Vue 组件则放在模板仓库里。内容仓库固定引用模板的某个版本，所以跨两个仓库的构建也能复现。\n\n模板支持响应式的个人资料侧边栏、可选的题图横幅、亮色和暗色主题、搜索、标题永久链接、目录和 Giscus 评论。导航栏里还可以放外部链接，这样不管在哪种模式下，都能跳到单独托管的站点，比如我的博客。\n\n## 发布与示例\n\nGitHub Actions 负责构建预览供审阅，再把网站发布出去。LaTeX 配置是可选的，可以把源文档对应到公开的 PDF 路径上，包括分别标好语言的几个版本的简历。\n\n封面是在本地浏览器里截的模板自带示例，内容是历史人物 Albert Einstein。示例里的史料和图片出处都记在模板的 [来源说明](https://github.com/zzxzzk115/academic-casual-template/blob/eff77bad83aaca2dd8f50c2b9e4775ff51def8b1/examples/einstein/content/posts/sources.md) 里。这只是示例内容，不是我自己的研究。\n"
    }
   },
   {
@@ -1860,7 +1969,8 @@
    "image": {
     "src": "projects/portfolio-98/images/portfolio-98.png",
     "alt": {
-     "en": "Portfolio-98 showing its desktop icons, About Me window, widgets and taskbar."
+     "en": "Portfolio-98 showing its desktop icons, About Me window, widgets and taskbar.",
+     "zh": "Portfolio-98 的桌面图标、About Me 窗口、小组件和任务栏。"
     }
    },
    "links": [
@@ -1886,6 +1996,11 @@
      "purpose": "Present a personal portfolio as an interactive retro desktop that also adapts to a phone screen.",
      "contribution": "I built the Next.js desktop and Pocket PC-style mobile shells, application registry and Markdown-driven content integration.",
      "outcome": "A browser demo includes desktop applications, virtual files, games, wallpapers and interface easter eggs."
+    },
+    "zh": {
+     "purpose": "把个人作品集做成一个能交互的复古桌面，同时也能适配手机屏幕。",
+     "contribution": "我用 Next.js 做了桌面外壳和 Pocket PC 风格的手机端外壳、应用注册表，以及基于 Markdown 的内容接入。",
+     "outcome": "浏览器里的演示有桌面应用、虚拟文件、游戏、壁纸和一些界面彩蛋。"
     }
    },
    "homepage": {
@@ -1900,7 +2015,8 @@
     "about": true
    },
    "body": {
-    "en": "![Portfolio-98's desktop and About Me window.](projects/portfolio-98/images/portfolio-98.png)\n\nPortfolio-98 is a playful alternative view of my portfolio, built with Next.js. On desktop it presents draggable and resizable windows, a taskbar and a Start menu. On phones it switches to a Pocket PC / PDA-style shell with full-screen applications.\n\n## A portfolio as a desktop\n\nMarkdown files supply the CV, projects, publications and posts. An application registry connects these to desktop windows and mobile launchers. Other applications include a virtual filesystem, an MS-DOS-style prompt, Minesweeper and a music player. [Lazy-100](/projects/lazy_100/) runs inside a game window.\n\n## Interface and credits\n\nThe interface includes configurable wallpapers, screensavers, GLSL backgrounds and small period-inspired easter eggs. The cover was captured from the [live browser demo](https://zzxzzk115.github.io/portfolio-98/).\n\nThe project uses 98.css for its widget styling and Strudel for live-coded music. Source and credits are available in the [AGPL-3.0 repository](https://github.com/zzxzzk115/portfolio-98).\n"
+    "en": "![Portfolio-98's desktop and About Me window.](projects/portfolio-98/images/portfolio-98.png)\n\nPortfolio-98 is a playful alternative view of my portfolio, built with Next.js. On desktop it presents draggable and resizable windows, a taskbar and a Start menu. On phones it switches to a Pocket PC / PDA-style shell with full-screen applications.\n\n## A portfolio as a desktop\n\nMarkdown files supply the CV, projects, publications and posts. An application registry connects these to desktop windows and mobile launchers. Other applications include a virtual filesystem, an MS-DOS-style prompt, Minesweeper and a music player. [Lazy-100](/projects/lazy_100/) runs inside a game window.\n\n## Interface and credits\n\nThe interface includes configurable wallpapers, screensavers, GLSL backgrounds and small period-inspired easter eggs. The cover was captured from the [live browser demo](https://zzxzzk115.github.io/portfolio-98/).\n\nThe project uses 98.css for its widget styling and Strudel for live-coded music. Source and credits are available in the [AGPL-3.0 repository](https://github.com/zzxzzk115/portfolio-98).\n",
+    "zh": "![Portfolio-98 的桌面和 About Me 窗口。](projects/portfolio-98/images/portfolio-98.png)\n\nPortfolio-98 是我作品集的另一种好玩的打开方式，用 Next.js 写的。在电脑上，它是一个可以拖动、缩放窗口的桌面，有任务栏和开始菜单；到了手机上，就换成 Pocket PC / PDA 风格的外壳，应用全屏打开。\n\n## 把作品集做成桌面\n\n简历、项目、论文和文章都来自 Markdown 文件，再由一个应用注册表把它们接到桌面窗口和手机端的启动器上。其他应用还有虚拟文件系统、MS-DOS 风格的命令行、扫雷和音乐播放器。[Lazy-100](/projects/lazy_100/) 就跑在一个游戏窗口里。\n\n## 界面与致谢\n\n界面里有可配置的壁纸、屏保、GLSL 背景，还有一些致敬那个年代的小彩蛋。封面截自 [在线演示](https://zzxzzk115.github.io/portfolio-98/)。\n\n控件样式用的是 98.css，现场编码的音乐用的是 Strudel。源码和致谢都在 [AGPL-3.0 仓库](https://github.com/zzxzzk115/portfolio-98) 里。\n"
    }
   },
   {

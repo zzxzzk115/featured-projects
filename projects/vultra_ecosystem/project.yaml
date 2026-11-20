@@ -8,7 +8,7 @@ title:
   en: Vultra Ecosystem
 description:
   en: Graphics and engine projects for research and games, with current libvultra development on the VRI-based dev-VRI branch.
-  zh: 面向科研和游戏的图形与引擎项目集合；libvultra 目前在基于 VRI 的 dev-VRI 分支上开发。
+  zh: 我为科研和游戏做的一组图形与引擎项目；libvultra 目前在基于 VRI 的 dev-VRI 分支上开发。
 status:
   en: 'Current development: dev-VRI · early stage'
   zh: 当前开发：dev-VRI · 早期阶段
@@ -27,6 +27,10 @@ overview:
       into their own repositories.
     outcome: The active dev-VRI branch includes a glTF viewer and research workbench. It is early development, currently targeting
       Vulkan on Windows and Linux.
+  zh:
+    purpose: 一套可复用的图形框架和工具，用来做我的渲染研究和游戏实验。
+    contribution: 我维护 libvultra 以及相关的渲染、shader 和资源库，把能复用的组件拆到各自的仓库里。
+    outcome: 正在开发的 dev-VRI 分支里有一个 glTF 查看器和一个科研工作台。目前还在早期开发阶段，目前面向的是 Windows 和 Linux 上的 Vulkan。
 homepage:
   path: /projects/vultra_ecosystem/
   modes: [academic, casual]

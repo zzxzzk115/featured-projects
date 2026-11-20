@@ -8,11 +8,12 @@ title:
   en: vshadersystem
 description:
   en: A Slang-based shader compilation pipeline with material reflection, keyword variants and portable runtime shader libraries.
-  zh: 基于 Slang 的着色器编译管线：材质反射、关键字变体，以及可移植的运行时着色器库。
+  zh: 基于 Slang 的 shader 编译管线，支持材质反射和关键字变体，产出可移植的运行时 shader 库。
 image:
   src: images/vshadersystem.svg
   alt:
     en: Expand Slang keyword variants, compile shader stages, and bundle bytecode with reflection.
+    zh: 展开 Slang 关键字变体，编译各个 shader 阶段，再把字节码和反射信息打包在一起。
   fit: contain
 links:
 - label:

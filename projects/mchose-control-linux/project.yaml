@@ -8,7 +8,7 @@ title:
   en: MCHOSE Control Linux
 description:
   en: A Linux GUI and CLI for MCHOSE mice, with DPI and sensor settings, per-application presets and KDE desktop integration.
-  zh: MCHOSE 鼠标的 Linux 图形界面与命令行工具：DPI 与传感器设置、按应用切换的预设，以及 KDE 桌面集成。
+  zh: 给 MCHOSE 鼠标做的 Linux 图形界面和命令行工具：能调 DPI 和传感器设置，按应用自动切换预设，还集成了 KDE 桌面。
 image:
   src: images/mchose-control.webp
 links:
@@ -24,6 +24,10 @@ overview:
       retaining its HID protocol implementation.
     outcome: The tool includes tray operation, automatic preset switching and Chinese/English interfaces. It is an independent
       project.
+  zh:
+    purpose: 在 Linux 上设置 MCHOSE 鼠标的硬件参数和桌面预设。
+    contribution: 我在 Alexandre Frih 的 mchose-linux 基础上加了 GUI、CLI、按应用切换的预设和 KDE 桌面集成，保留了它的 HID 协议实现。
+    outcome: 工具支持托盘运行和自动切换预设，有中英文界面。这是一个独立项目。
 homepage:
   path: /projects/mchose-control-linux/
   modes: [casual]

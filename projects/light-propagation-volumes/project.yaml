@@ -9,7 +9,7 @@ title:
 description:
   en: My MSc dissertation renderer, implementing Light Propagation Volumes alongside cascaded shadows, ambient occlusion and
     screen-space reflections.
-  zh: 我的硕士毕业设计渲染器，实现了光传播体积（Light Propagation Volumes），以及级联阴影、环境光遮蔽和屏幕空间反射。
+  zh: 我的硕士毕业设计渲染器：实现了 Light Propagation Volumes（光传播体积），还有级联阴影、环境光遮蔽和屏幕空间反射。
 status:
   en: MSc dissertation project
   zh: 硕士毕业设计
@@ -31,6 +31,10 @@ overview:
     purpose: Explore real-time global illumination with Light Propagation Volumes for my MSc dissertation.
     contribution: I implemented an LPV renderer on VGFW, alongside cascaded shadows, ambient occlusion and screen-space reflections.
     outcome: The renderer and MSc dissertation document the implementation, rendering results and measured pass timings.
+  zh:
+    purpose: 硕士毕业设计，用 Light Propagation Volumes 探索实时全局光照。
+    contribution: 我在 VGFW 上实现了 LPV 渲染器，另外还做了级联阴影、环境光遮蔽和屏幕空间反射。
+    outcome: 渲染器和毕业论文记录了具体实现、渲染效果，以及各个 pass 的实测耗时。
 homepage:
   path: /projects/light-propagation-volumes/
   modes: [academic, casual]

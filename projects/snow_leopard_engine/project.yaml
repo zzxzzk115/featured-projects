@@ -9,7 +9,7 @@ title:
 description:
   en: Our COMP5530M student group project at the University of Leeds (2023/24) — a C++ / OpenGL 4.6 game engine seven
     MSc students built from scratch. I led the team; it is where the Vultra story began.
-  zh: 利兹大学 COMP5530M 课程的学生小组项目（2023/24）：7 名硕士生从零搭建的 C++ / OpenGL 4.6 游戏引擎，我担任组长，也是 Vultra 故事的起点。
+  zh: 利兹大学 COMP5530M 课程的学生小组项目（2023/24）：我们 7 个硕士生从零写的 C++ / OpenGL 4.6 游戏引擎。我是组长，Vultra 的故事也是从这里开始的。
 image:
   src: images/snow-leopard-engine.jpg
 links:

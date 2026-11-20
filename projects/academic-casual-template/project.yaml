@@ -13,6 +13,7 @@ image:
   src: images/academic-casual-template.png
   alt:
     en: The template's historical Albert Einstein example with its profile sidebar and research sections.
+    zh: 模板自带的历史人物 Albert Einstein 示例，带个人资料侧边栏和研究栏目。
 links:
 - label:
     en: Source
@@ -30,6 +31,10 @@ overview:
     contribution: I built the Astro and Vue template, content schemas, responsive layouts, build tooling and deployment workflows.
     outcome: This site uses the template from a separate pinned repository; a historical Einstein profile supplies independent
       example content.
+  zh:
+    purpose: 用同一份内容和可复用的展示代码，同时维护一个学术主页和一个个人作品集。
+    contribution: 我做了这套 Astro + Vue 模板，包括内容 schema、响应式布局、构建工具和部署流程。
+    outcome: 这个网站就在用这套模板，内容放在单独的仓库里，固定引用模板的某个版本；另外有一份历史人物 Einstein 的资料作为独立的示例内容。
 homepage:
   path: /projects/academic-casual-template/
   modes: [casual]

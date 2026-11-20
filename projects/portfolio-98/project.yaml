@@ -13,6 +13,7 @@ image:
   src: images/portfolio-98.png
   alt:
     en: Portfolio-98 showing its desktop icons, About Me window, widgets and taskbar.
+    zh: Portfolio-98 的桌面图标、About Me 窗口、小组件和任务栏。
 links:
 - label:
     en: Explore desktop
@@ -30,6 +31,10 @@ overview:
     contribution: I built the Next.js desktop and Pocket PC-style mobile shells, application registry and Markdown-driven
       content integration.
     outcome: A browser demo includes desktop applications, virtual files, games, wallpapers and interface easter eggs.
+  zh:
+    purpose: 把个人作品集做成一个能交互的复古桌面，同时也能适配手机屏幕。
+    contribution: 我用 Next.js 做了桌面外壳和 Pocket PC 风格的手机端外壳、应用注册表，以及基于 Markdown 的内容接入。
+    outcome: 浏览器里的演示有桌面应用、虚拟文件、游戏、壁纸和一些界面彩蛋。
 homepage:
   path: /projects/portfolio-98/
   modes: [casual]

@@ -14,6 +14,7 @@ image:
   src: images/bixuetang.webp
   alt:
     en: 本地空数据库中的演示学员：智能启程路线与公开课闯关地图。
+    zh: 本地空数据库中的演示学员：智能启程路线与公开课闯关地图。
 links:
 - label:
     en: Source
