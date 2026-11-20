@@ -1,0 +1,35 @@
+# planet-chaos: see schema/project.schema.json
+id: planet-chaos
+order: 5
+category: games
+tags: [Unity, C#, Multiplayer]
+repo: GeniusGameStudio/PlanetChaos
+title:
+  en: Planet Chaos
+description:
+  en: A Worms-style multiplayer 2D artillery game made in Unity with friends at GeniusGameStudio in 2020; I built the core
+    architecture and gameplay code.
+  zh: 2020 年和 GeniusGameStudio 的伙伴们用 Unity 做的多人 2D 炮击对战，玩法类似《百战天虫》；核心架构和玩法程序是我写的。
+image:
+  src: images/main_menu.png
+  alt:
+    en: Planet Chaos main menu.
+    zh: Planet Chaos 主菜单。
+links:
+- label:
+    en: Source
+    zh: 源码
+  href: https://github.com/GeniusGameStudio/PlanetChaos
+  icon: brands:github
+- label:
+    en: Downloads
+    zh: 下载
+  href: https://github.com/GeniusGameStudio/PlanetChaos/releases
+  icon: solid:download
+homepage:
+  path: /projects/planet-chaos/
+  modes: [casual]
+  home: false
+  tag: fun
+blog:
+  about: true

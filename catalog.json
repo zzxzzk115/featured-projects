@@ -633,6 +633,123 @@
    }
   },
   {
+   "id": "planet-chaos",
+   "order": 5,
+   "category": "games",
+   "tags": [
+    "Unity",
+    "C#",
+    "Multiplayer"
+   ],
+   "repo": "GeniusGameStudio/PlanetChaos",
+   "title": {
+    "en": "Planet Chaos"
+   },
+   "description": {
+    "en": "A Worms-style multiplayer 2D artillery game made in Unity with friends at GeniusGameStudio in 2020; I built the core architecture and gameplay code.",
+    "zh": "2020 年和 GeniusGameStudio 的伙伴们用 Unity 做的多人 2D 炮击对战，玩法类似《百战天虫》；核心架构和玩法程序是我写的。"
+   },
+   "image": {
+    "src": "projects/planet-chaos/images/main_menu.png",
+    "alt": {
+     "en": "Planet Chaos main menu.",
+     "zh": "Planet Chaos 主菜单。"
+    }
+   },
+   "links": [
+    {
+     "label": {
+      "en": "Source",
+      "zh": "源码"
+     },
+     "href": "https://github.com/GeniusGameStudio/PlanetChaos",
+     "icon": "brands:github"
+    },
+    {
+     "label": {
+      "en": "Downloads",
+      "zh": "下载"
+     },
+     "href": "https://github.com/GeniusGameStudio/PlanetChaos/releases",
+     "icon": "solid:download"
+    }
+   ],
+   "homepage": {
+    "path": "/projects/planet-chaos/",
+    "modes": [
+     "casual"
+    ],
+    "home": false,
+    "tag": "fun"
+   },
+   "blog": {
+    "about": true
+   },
+   "body": {
+    "en": "Planet Chaos is a team game I made with friends at GeniusGameStudio in 2020: Worms-style multiplayer 2D artillery battles, built in Unity 2019.4 LTS. I worked on the core architecture and the gameplay code, and coordinated the schedule.\n\n![Planet Chaos main menu](projects/planet-chaos/images/main_menu.png)\n\n![Planet Chaos gameplay](projects/planet-chaos/images/gameplay001.jpg)\n\n![Planet Chaos gameplay](projects/planet-chaos/images/gameplay003.jpg)\n\n![Planet Chaos gameplay](projects/planet-chaos/images/gameplay005.jpg)\n\nThe sequel, [Planet Chaos 2](/projects/planet-chaos-2/), moved to pixel art and Unity URP.\n\nBuilds are on the [GitHub releases page](https://github.com/GeniusGameStudio/PlanetChaos/releases).\n",
+    "zh": "Planet Chaos 是 2020 年我和 GeniusGameStudio 的伙伴们一起做的团队游戏：类似《百战天虫》的多人 2D 炮击对战，用 Unity 2019.4 LTS 开发。核心架构和玩法程序是我写的，开发进度也由我来协调。\n\n![Planet Chaos 主菜单](projects/planet-chaos/images/main_menu.png)\n\n![Planet Chaos 游戏画面](projects/planet-chaos/images/gameplay001.jpg)\n\n![Planet Chaos 游戏画面](projects/planet-chaos/images/gameplay003.jpg)\n\n![Planet Chaos 游戏画面](projects/planet-chaos/images/gameplay005.jpg)\n\n续作 [Planet Chaos 2](/projects/planet-chaos-2/) 换成了像素美术和 Unity URP。\n\n安装包在 [GitHub Releases 页面](https://github.com/GeniusGameStudio/PlanetChaos/releases)。\n"
+   }
+  },
+  {
+   "id": "planet-chaos-2",
+   "order": 5,
+   "category": "games",
+   "tags": [
+    "Unity",
+    "URP",
+    "Pixel art"
+   ],
+   "repo": "GeniusGameStudio/PlanetChaos2",
+   "title": {
+    "en": "Planet Chaos 2"
+   },
+   "description": {
+    "en": "The sequel to Planet Chaos, rebuilt with pixel art and Unity URP, with more weapons and gameplay systems.",
+    "zh": "Planet Chaos 的续作：换成了像素美术和 Unity URP，武器和玩法系统也更多了。"
+   },
+   "image": {
+    "src": "projects/planet-chaos-2/images/MainMenu.png",
+    "fit": "contain",
+    "alt": {
+     "en": "Planet Chaos 2 main menu.",
+     "zh": "Planet Chaos 2 主菜单。"
+    }
+   },
+   "links": [
+    {
+     "label": {
+      "en": "Source",
+      "zh": "源码"
+     },
+     "href": "https://github.com/GeniusGameStudio/PlanetChaos2",
+     "icon": "brands:github"
+    },
+    {
+     "label": {
+      "en": "Downloads",
+      "zh": "下载"
+     },
+     "href": "https://github.com/GeniusGameStudio/PlanetChaos2/releases",
+     "icon": "solid:download"
+    }
+   ],
+   "homepage": {
+    "path": "/projects/planet-chaos-2/",
+    "modes": [
+     "casual"
+    ],
+    "home": false,
+    "tag": "fun"
+   },
+   "blog": {
+    "about": true
+   },
+   "body": {
+    "en": "Planet Chaos 2 is the sequel to [Planet Chaos](/projects/planet-chaos/), made with the same friends at GeniusGameStudio. It moved to pixel art and Unity URP, and added more weapons and gameplay systems.\n\n![Planet Chaos 2 main menu](projects/planet-chaos-2/images/MainMenu.png)\n\n![Planet Chaos 2 gameplay](projects/planet-chaos-2/images/GamePlay1.jpg)\n\n![Planet Chaos 2 gameplay](projects/planet-chaos-2/images/GamePlay3.jpg)\n\n![Planet Chaos 2 gameplay](projects/planet-chaos-2/images/GamePlay5.jpg)\n\nBuilds are on the [GitHub releases page](https://github.com/GeniusGameStudio/PlanetChaos2/releases).\n",
+    "zh": "Planet Chaos 2 是 [Planet Chaos](/projects/planet-chaos/) 的续作，还是和 GeniusGameStudio 的伙伴们一起做的。这一作换成了像素美术和 Unity URP，武器和玩法系统也加了不少。\n\n![Planet Chaos 2 主菜单](projects/planet-chaos-2/images/MainMenu.png)\n\n![Planet Chaos 2 游戏画面](projects/planet-chaos-2/images/GamePlay1.jpg)\n\n![Planet Chaos 2 游戏画面](projects/planet-chaos-2/images/GamePlay3.jpg)\n\n![Planet Chaos 2 游戏画面](projects/planet-chaos-2/images/GamePlay5.jpg)\n\n安装包在 [GitHub Releases 页面](https://github.com/GeniusGameStudio/PlanetChaos2/releases)。\n"
+   }
+  },
+  {
    "id": "vri-framework",
    "order": 5,
    "category": "graphics",

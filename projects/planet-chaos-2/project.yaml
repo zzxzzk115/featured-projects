@@ -1,0 +1,35 @@
+# planet-chaos-2: see schema/project.schema.json
+id: planet-chaos-2
+order: 5
+category: games
+tags: [Unity, URP, Pixel art]
+repo: GeniusGameStudio/PlanetChaos2
+title:
+  en: Planet Chaos 2
+description:
+  en: The sequel to Planet Chaos, rebuilt with pixel art and Unity URP, with more weapons and gameplay systems.
+  zh: Planet Chaos 的续作：换成了像素美术和 Unity URP，武器和玩法系统也更多了。
+image:
+  src: images/MainMenu.png
+  fit: contain
+  alt:
+    en: Planet Chaos 2 main menu.
+    zh: Planet Chaos 2 主菜单。
+links:
+- label:
+    en: Source
+    zh: 源码
+  href: https://github.com/GeniusGameStudio/PlanetChaos2
+  icon: brands:github
+- label:
+    en: Downloads
+    zh: 下载
+  href: https://github.com/GeniusGameStudio/PlanetChaos2/releases
+  icon: solid:download
+homepage:
+  path: /projects/planet-chaos-2/
+  modes: [casual]
+  home: false
+  tag: fun
+blog:
+  about: true
