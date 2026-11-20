@@ -13,10 +13,10 @@ status:
   en: Handheld adaptation
   zh: 掌机适配
 image:
-  src: images/wqx-gameshell.webp
+  src: images/wqx-gameshell.png
   alt:
-    en: NC1020 emulator calendar and clock running from this repository in a local browser.
-    zh: 用这个仓库在本地浏览器里跑起来的 NC1020 模拟器，显示日历和时钟。
+    en: The emulator at GameShell's 320 × 240, with the NC1020 calendar on top and the virtual keyboard open below.
+    zh: GameShell 320 × 240 画面里的模拟器：上面是 NC1020 的日历，下面是打开的虚拟键盘。
   fit: contain
 links:
 - label:
